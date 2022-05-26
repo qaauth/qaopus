@@ -1,0 +1,70 @@
+<suite name="Opus" preserve-order="true" thread-count="1"
+	verbose="10">
+	<listeners>
+		<listener class-name="com.opus.utilities.Reporting" />
+	</listeners>
+	
+	<!-- <test name="Opus1">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.opus.testcases.TC_CaseInitiation_01" />
+		</classes>
+	</test> 
+	
+	<test name="Opus2">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.opus.testcases.TC_OpusVendorCaseAllocation_02" />
+		</classes>
+	</test> 
+	
+	<test name="Opus3">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.opus.testcases.TC_OpusVendorCaseSubmission_03" />
+		</classes>
+	</test> -->
+	
+	<test name="Opus4">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.opus.testcases.TC_OpusCheckApproval_04" />
+		</classes>
+	</test>
+	
+	<!-- <test name="Opus5">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.opus.testcases.TC_CaseInitiation_01" />
+		</classes>
+	</test>
+	
+	 <test name="Opus6">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.opus.testcases.TC_OpusVendorCaseAllocation_02" />
+		</classes>
+	</test> -->
+	
+	<!-- <test name="Opus7">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.opus.testcases.TC_RaiseInsufficiency_05" />
+		</classes>
+	</test> -->
+	
+	<!--<test name="Opus8">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.opus.testcases.TC_OpusVendorCaseSubmission_03" />
+		</classes>
+	</test>
+	
+	<test name="Opus9">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.opus.testcases.TC_InsuffCheckReportGeneration_06" />
+		</classes>
+	</test> -->
+	
+</suite>

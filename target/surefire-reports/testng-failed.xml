@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Opus]">
+  <listeners>
+    <listener class-name="com.opus.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="1" verbose="0" name="Opus4(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.opus.testcases.TC_OpusCheckApproval_04">
+        <methods>
+          <include name="verifyAdminApprover"/>
+          <include name="verifyReportsManager"/>
+          <include name="setup"/>
+          <include name="verifyAdminAprovalTl"/>
+          <include name="generateCaseReportPdf"/>
+          <include name="verificationQualityAllocator"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.opus.testcases.TC_OpusCheckApproval_04 -->
+    </classes>
+  </test> <!-- Opus4(failed) -->
+</suite> <!-- Failed suite [Opus] -->
