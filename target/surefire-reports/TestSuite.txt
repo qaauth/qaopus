@@ -1,17 +1,23 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 224.639 sec <<< FAILURE! - in TestSuite
-verifyAdminApprover(com.opus.testcases.TC_OpusCheckApproval_04)  Time elapsed: 30.857 sec  <<< FAILURE!
-org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Please select overseas country.}
-  (Session info: chrome=101.0.4951.64): Please select overseas country.
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 261.525 sec <<< FAILURE! - in TestSuite
+verifyadminApproverRole(com.opus.testcases.TC_InsuffCheckReportGeneration_06)  Time elapsed: 64.655 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html[1]/body[1]/div[1]/div[3]/form[1]/table[1]/tbody[1]/tr[5]/td[7]/a[1]"}
+  (Session info: chrome=101.0.4951.64)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'ARS-NBT-LAP-250', ip: '192.168.43.51', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-41-generic', java.version: '1.8.0_312'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /tmp/.com.google.Chrome.QH5BD3}, goog:chromeOptions: {debuggerAddress: localhost:34897}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 06a157f1db67ddd2bdaba741de62dffb
-*** Element info: {Using=xpath, value=//select[@id='VER_OVERSEAS_DROPDOWN_ID']}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /tmp/.com.google.Chrome.R1MmSP}, goog:chromeOptions: {debuggerAddress: localhost:32851}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 726aeca146dc927134c368066eceb2a8
+*** Element info: {Using=xpath, value=/html[1]/body[1]/div[1]/div[3]/form[1]/table[1]/tbody[1]/tr[5]/td[7]/a[1]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
@@ -33,35 +39,6 @@ Session ID: 06a157f1db67ddd2bdaba741de62dffb
 	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:566)
 	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:480)
 	at com.opus.utilities.JavaScriptManuplator.javaScriptExecutor(JavaScriptManuplator.java:38)
-	at com.opus.pageobject.OpusApproveMapping.adminRoleApprover(OpusApproveMapping.java:723)
-	at com.opus.testcases.TC_OpusCheckApproval_04.verifyAdminApprover(TC_OpusCheckApproval_04.java:51)
-
-verifyReportsManager(com.opus.testcases.TC_OpusCheckApproval_04)  Time elapsed: 28.845 sec  <<< FAILURE!
-org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Report severity can not be empty}
-  (Session info: chrome=101.0.4951.64): Report severity can not be empty
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'ARS-NBT-LAP-250', ip: '192.168.43.51', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-41-generic', java.version: '1.8.0_312'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /tmp/.com.google.Chrome.QH5BD3}, goog:chromeOptions: {debuggerAddress: localhost:34897}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 06a157f1db67ddd2bdaba741de62dffb
-*** Element info: {Using=xpath, value=//*[contains(text(),'Report Successfully Reviewed.')]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-	at com.opus.pageobject.OpusApproveMapping.verifyReportSuccessReviewedMsg(OpusApproveMapping.java:852)
-	at com.opus.testcases.TC_OpusCheckApproval_04.verifyReportsManager(TC_OpusCheckApproval_04.java:99)
+	at com.opus.pageobject.RaiseInsufficiency.adminApproverRole(RaiseInsufficiency.java:776)
+	at com.opus.testcases.TC_InsuffCheckReportGeneration_06.verifyadminApproverRole(TC_InsuffCheckReportGeneration_06.java:52)
 

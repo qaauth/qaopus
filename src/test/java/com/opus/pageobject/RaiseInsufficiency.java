@@ -62,11 +62,11 @@ public class RaiseInsufficiency {
 	@CacheLookup
 	WebElement selectApproverTL;
 
-	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[4]/form[1]/table[2]/tbody[1]/tr[7]/td[10]/a[1]")
+	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[4]/form[1]/table[2]/tbody[1]/tr[7]/td[11]/a[1]")
 	@CacheLookup
 	WebElement getBeforeInsuffRaiseCount;
 
-	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[4]/form[1]/table[2]/tbody[1]/tr[7]/td[10]/a[1]")
+	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[4]/form[1]/table[2]/tbody[1]/tr[7]/td[11]/a[1]")
 	@CacheLookup
 	WebElement clickOnBeforeInsuffRaiseCount;
 
@@ -123,7 +123,7 @@ public class RaiseInsufficiency {
 	WebElement clickOnArsNumber;
 
 	// Disposition
-	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[10]/td[2]/table[1]/tbody[1]/tr[1]/td[1]/input[1]")
+	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[11]/td[2]/table[1]/tbody[1]/tr[1]/td[1]/input[1]")
 	@CacheLookup
 	WebElement clickOnDispositionRadioBtn;
 
@@ -133,81 +133,85 @@ public class RaiseInsufficiency {
 	WebElement selectVerifiedVia;// Email
 
 	// Closure Comments
-	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[14]/td[2]/table[1]/tbody[1]/tr[1]/td[1]/input[1]")
+	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[15]/td[2]/table[1]/tbody[1]/tr[1]/td[1]/input[1]")
 	@CacheLookup
 	WebElement clickOnClosureCommentsRadioBtn;
 
-	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[14]/td[2]/table[1]/tbody[1]/tr[1]/td[1]/input[1]")
+	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[15]/td[2]/table[1]/tbody[1]/tr[1]/td[1]/input[1]")
 	@CacheLookup
 	WebElement checkSubjectIsResidingRadioBtn;
 
 	// Antecedents to Verify
-	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[16]/td[1]/table[1]/tbody[1]/tr[1]/td[3]/label[1]/input[1]")
+	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[17]/td[1]/table[1]/tbody[1]/tr[1]/td[3]/label[1]/input[1]")
 	@CacheLookup
 	WebElement checkCopyStatedCheckBox;
 
-	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[16]/td[1]/table[1]/tbody[1]/tr[2]/td[3]/textarea[1]")
+	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[17]/td[1]/table[1]/tbody[1]/tr[2]/td[3]/textarea[1]")
 	@CacheLookup
 	WebElement txtAnyOtherComment;
 
-	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[16]/td[1]/table[1]/tbody[1]/tr[3]/td[3]/input[1]")
+	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[17]/td[1]/table[1]/tbody[1]/tr[3]/td[3]/input[1]")
 	@CacheLookup
 	WebElement txtGateColorName;
 
-	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[16]/td[1]/table[1]/tbody[1]/tr[4]/td[3]/input[1]")
+	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[17]/td[1]/table[1]/tbody[1]/tr[4]/td[3]/input[1]")
 	@CacheLookup
 	WebElement txtColorOfBulding;
 
-	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[16]/td[1]/table[1]/tbody[1]/tr[5]/td[3]/input[1]")
+	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[17]/td[1]/table[1]/tbody[1]/tr[5]/td[3]/input[1]")
 	@CacheLookup
 	WebElement txtNameOfFieldExecutiveName;
 
-	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[16]/td[1]/table[1]/tbody[1]/tr[6]/td[3]/textarea[1]")
+	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[17]/td[1]/table[1]/tbody[1]/tr[6]/td[3]/textarea[1]")
 	@CacheLookup
 	WebElement txtNewAddressDetailsObtainedName;
 
-	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[16]/td[1]/table[1]/tbody[1]/tr[10]/td[3]/textarea[1]")
+	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[17]/td[1]/table[1]/tbody[1]/tr[10]/td[3]/textarea[1]")
 	@CacheLookup
 	WebElement txtDurationOfStayName;
 
-	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[16]/td[1]/table[1]/tbody[1]/tr[11]/td[3]/select[1]")
+	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[17]/td[1]/table[1]/tbody[1]/tr[11]/td[3]/select[1]")
 	@CacheLookup
 	WebElement selectResidenceTypeName;// Not Applicable
 
-	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[16]/td[1]/table[1]/tbody[1]/tr[12]/td[3]/textarea[1]")
+	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[17]/td[1]/table[1]/tbody[1]/tr[12]/td[3]/textarea[1]")
 	@CacheLookup
 	WebElement txtVerifiedFormName;
 
-	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[16]/td[1]/table[1]/tbody[1]/tr[13]/td[3]/textarea[1]")
+	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[17]/td[1]/table[1]/tbody[1]/tr[13]/td[3]/textarea[1]")
 	@CacheLookup
 	WebElement txtRelationshipWithCandidateName;
 
-	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[16]/td[1]/table[1]/tbody[1]/tr[14]/td[3]/select[1]")
+	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[17]/td[1]/table[1]/tbody[1]/tr[14]/td[3]/select[1]")
 	@CacheLookup
 	WebElement selectVerificationTypeName;// Not Applicable
 
-	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[16]/td[1]/table[1]/tbody[1]/tr[15]/td[3]/input[1]")
+	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[17]/td[1]/table[1]/tbody[1]/tr[15]/td[3]/input[1]")
 	@CacheLookup
 	WebElement txtDateOfVerificationName;// 10/10/2021
 
-	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[16]/td[1]/table[1]/tbody[1]/tr[16]/td[3]/input[1]")
+	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[17]/td[1]/table[1]/tbody[1]/tr[16]/td[3]/input[1]")
 	@CacheLookup
 	WebElement txtTimeOfVerificationName;
 
-	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[18]/td[3]/input[1]")
+	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[18]/td[1]/p[1]/input[1]")
+	@CacheLookup
+	WebElement txtGPSCoordinates;
+	
+	@FindBy(xpath = "//select[@id='VER_OVERSEAS_DROPDOWN_ID']")
+	@CacheLookup
+	WebElement selectOverseasCountry;//India
+	
+	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[20]/td[3]/input[1]")
 	@CacheLookup
 	WebElement clickOnSaveDeatilsBtn;
 
-	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[17]/td[1]/p[1]/input[1]")
-	@CacheLookup
-	WebElement txtGPSCoordinates;
-
 	// Release for Report
-	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[18]/td[1]/select[1]")
+	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[20]/td[1]/select[1]")
 	@CacheLookup
 	WebElement selectActionName;// Raise & accept insuff
 
-	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[18]/td[1]/input[18]")
+	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[20]/td[1]/input[18]")
 	@CacheLookup
 	WebElement clickOnAcceptInsuffGoBtn;
 
@@ -216,7 +220,7 @@ public class RaiseInsufficiency {
 	@CacheLookup
 	WebElement txtDocumentInsuffForVerification;
 
-	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[2]/td[2]/table[1]/tbody[1]/tr[4]/td[1]/input[5]")
+	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[2]/td[2]/table[1]/tbody[1]/tr[4]/td[1]/input[6]")
 	@CacheLookup
 	WebElement clickOnMarkAsInsufficient;
 
@@ -339,7 +343,7 @@ public class RaiseInsufficiency {
 
 	// Documents Received : Address Proof
 	@CacheLookup
-	@FindBy(how = How.XPATH, using = "/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[6]/td[2]/a[1]")
+	@FindBy(how = How.XPATH, using = "/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[7]/td[2]/a[1]")
 	WebElement verifyDocumentsReceivedAddressProof;
 
 	// Before Insuff Fullfil Count Number
@@ -507,7 +511,7 @@ public class RaiseInsufficiency {
 		JavaScriptManuplator.selectOptionFromDropDown(selectVerifiedVia, "Email");
 		Thread.sleep(2000);
 		// Closure Comments
-		JavaScriptManuplator.javaScriptExecutor(clickOnClosureCommentsRadioBtn, "arguments[0].click()", ldriver);
+		//JavaScriptManuplator.javaScriptExecutor(clickOnClosureCommentsRadioBtn, "arguments[0].click()", ldriver);
 		Thread.sleep(2000);
 		JavaScriptManuplator.javaScriptExecutor(checkSubjectIsResidingRadioBtn, "arguments[0].click()", ldriver);
 
@@ -533,11 +537,13 @@ public class RaiseInsufficiency {
 		JavaScriptManuplator.javaScriptExecutor(txtDateOfVerificationName, "arguments[0].value='10/10/2021'", ldriver);
 		JavaScriptManuplator.javaScriptExecutor(txtTimeOfVerificationName, "arguments[0].value='12PM'", ldriver);
 		Thread.sleep(2000);
-		JavaScriptManuplator.javaScriptExecutor(clickOnSaveDeatilsBtn, "arguments[0].click()", ldriver);
-		Thread.sleep(2000);
 		JavaScriptManuplator.javaScriptExecutor(txtGPSCoordinates, "arguments[0].scrollIntoView(true);", ldriver);
 		JavaScriptManuplator.waitForElementPresent(ldriver, txtGPSCoordinates, 120);
 		JavaScriptManuplator.javaScriptExecutor(txtGPSCoordinates, "arguments[0].value='TestGps'", ldriver);
+		JavaScriptManuplator.selectOptionFromDropDown(selectOverseasCountry, "India");
+		Thread.sleep(2000);
+		JavaScriptManuplator.javaScriptExecutor(clickOnSaveDeatilsBtn, "arguments[0].click()", ldriver);
+		Thread.sleep(2000);
 
 		// Accept Insuff -- Insufficient
 		JavaScriptManuplator.selectOptionFromDropDown(selectActionName, "Accept Insuff");

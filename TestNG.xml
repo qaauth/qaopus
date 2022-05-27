@@ -25,12 +25,12 @@
 		</classes>
 	</test> -->
 	
-	<test name="Opus4">
+	<!-- <test name="Opus4">
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.opus.testcases.TC_OpusCheckApproval_04" />
 		</classes>
-	</test>
+	</test> -->
 	
 	<!-- <test name="Opus5">
 		<parameter name="browser" value="chrome" />
@@ -44,27 +44,27 @@
 		<classes>
 			<class name="com.opus.testcases.TC_OpusVendorCaseAllocation_02" />
 		</classes>
-	</test> -->
+	</test>
 	
-	<!-- <test name="Opus7">
+	<test name="Opus7">
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.opus.testcases.TC_RaiseInsufficiency_05" />
 		</classes>
-	</test> -->
+	</test>
 	
-	<!--<test name="Opus8">
+	<test name="Opus8">
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.opus.testcases.TC_OpusVendorCaseSubmission_03" />
 		</classes>
-	</test>
+	</test> -->
 	
 	<test name="Opus9">
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.opus.testcases.TC_InsuffCheckReportGeneration_06" />
 		</classes>
-	</test> -->
+	</test>
 	
 </suite>

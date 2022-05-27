@@ -8840,3 +8840,437 @@
 2022-05-26 16:15:13,640 - Opus -INFO - Verification Quality Allocator details has been filled Successfully!
 2022-05-26 16:15:13,688 - Opus -INFO - The selected checks were successfully released for report.!
 2022-05-26 16:15:42,512 - Opus -INFO - Manager Reports details have been filled Successfully!
+2022-05-26 18:07:31,789 - Opus -INFO - Bridge Url is opened Successfully!
+2022-05-26 18:07:33,214 - Opus -INFO - Bridge Username and password has entered sucessfully!
+2022-05-26 18:08:26,744 - Opus -INFO - Bridge Url is opened Successfully!
+2022-05-26 18:08:28,171 - Opus -INFO - Bridge Username and password has entered sucessfully!
+2022-05-26 18:08:43,007 - Opus -INFO - Bridge Client has logged Successfully!
+2022-05-26 18:08:55,402 - Opus -INFO - User Admin Role DocumentProcessor has selected Successfully!
+2022-05-26 18:08:57,960 - Opus -INFO - Candidate First Name, Middle Name, Last Name and Email address have added successfully!
+2022-05-26 18:09:19,272 - Opus -INFO - Bridge new case Candidate details have added successully!
+2022-05-26 18:09:19,346 - Opus -INFO - Case detail has been saved successfully!
+2022-05-26 18:09:32,212 - Opus -INFO - British Telecom client Case has been Allocated Cases Successfully!
+2022-05-26 18:09:32,243 - Opus -INFO - Case is successfully allocated to highlighter.!
+2022-05-26 18:09:38,245 - Opus -INFO - OPus Url is opened Successfully!
+2022-05-26 18:09:42,765 - Opus -INFO - Opus Admin Username and password has entered sucessfully!
+2022-05-26 18:09:42,827 - Opus -INFO - Opus Admin Account has Logged In successfully.!
+2022-05-26 18:09:45,503 - Opus -INFO - Assign Cases with Ageing and selected Topsheet has successfully!
+2022-05-26 18:09:48,614 - Opus -INFO - Highlighter Add Details have added sucessfully!
+2022-05-26 18:09:49,356 - Opus -INFO - Topsheet is successfully created. You can now proceed with checks creation for the given candidate.!
+2022-05-26 18:09:57,968 - Opus -INFO - Select Company name and clicked on count number Successfully from Documentation Specialist Role!
+2022-05-26 18:10:07,299 - Opus -INFO - OPus Url is opened Successfully!
+2022-05-26 18:10:23,630 - Opus -INFO - Documentation Specialist Pending Cases has been Updated successfully!
+2022-05-26 18:10:31,831 - Opus -INFO - Documentation Specialist Candidate details have been added successfully!
+2022-05-26 18:10:45,832 - Opus -INFO - Documentation Specialist All Checks filled successfully...
+2022-05-26 18:10:45,931 - Opus -INFO - Check details are successfully saved. Case is Completed.!
+2022-05-26 18:11:26,661 - Opus -INFO - Select Docs Qc Allocator has Successfully!
+2022-05-26 18:11:26,700 - Opus -INFO - All selected cases were successfully allocated to QC Team Member.!
+2022-05-26 18:11:38,945 - Opus -INFO - Case QC Review Ars Number has verified successfully!
+2022-05-26 18:11:52,624 - Opus -INFO - The Case was successfully released for Verification.!
+2022-05-26 18:12:05,199 - Opus -INFO - Check id is Released, DueTo, Already released to vendor..!
+2022-05-26 18:12:08,217 - Opus -INFO - OPus Url is opened Successfully!
+2022-05-26 18:12:13,515 - Opus -INFO - Opus Admin Username and password has entered sucessfully!
+2022-05-26 18:12:13,578 - Opus -INFO - Opus Admin Account has Logged In successfully.!
+2022-05-26 18:12:18,685 - Opus -INFO - Approve mapping has done successfully!
+2022-05-26 18:12:18,748 - Opus -INFO - Vendor New Load Count number have verified successfully!
+2022-05-26 18:12:19,025 - Opus -INFO - Opus Admin account has Logout successfully!
+2022-05-26 19:18:25,185 - Opus -INFO - OPus Url is opened Successfully!
+2022-05-26 19:18:30,163 - Opus -INFO - Opus Admin Username and password has entered sucessfully!
+2022-05-26 19:18:30,549 - Opus -INFO - Opus Admin account has Logout successfully!
+2022-05-26 19:18:34,484 - Opus -INFO - Opus vendor Account has Logged Successfully!
+2022-05-26 19:18:34,530 - Opus -INFO - Opus Vendor account has logged successfully.!
+2022-05-26 19:18:41,529 - Opus -INFO - Address check have accepted and assign activity successfully!
+2022-05-27 09:00:19,203 - Opus -INFO - Bridge Url is opened Successfully!
+2022-05-27 09:00:20,583 - Opus -INFO - Bridge Username and password has entered sucessfully!
+2022-05-27 09:00:27,413 - Opus -INFO - Bridge Client has logged Successfully!
+2022-05-27 09:00:37,413 - Opus -INFO - User Admin Role DocumentProcessor has selected Successfully!
+2022-05-27 09:00:39,936 - Opus -INFO - Candidate First Name, Middle Name, Last Name and Email address have added successfully!
+2022-05-27 09:00:57,151 - Opus -INFO - Bridge new case Candidate details have added successully!
+2022-05-27 09:00:57,220 - Opus -INFO - Case detail has been saved successfully!
+2022-05-27 09:01:10,263 - Opus -INFO - British Telecom client Case has been Allocated Cases Successfully!
+2022-05-27 09:01:10,303 - Opus -INFO - Case is successfully allocated to highlighter.!
+2022-05-27 09:01:25,319 - Opus -INFO - Assign Cases with Ageing and selected Topsheet has successfully!
+2022-05-27 09:01:28,408 - Opus -INFO - Highlighter Add Details have added sucessfully!
+2022-05-27 09:01:32,814 - Opus -INFO - Topsheet is successfully created. You can now proceed with checks creation for the given candidate.!
+2022-05-27 09:01:49,575 - Opus -INFO - Select Company name and clicked on count number Successfully from Documentation Specialist Role!
+2022-05-27 09:02:23,156 - Opus -INFO - Documentation Specialist Pending Cases has been Updated successfully!
+2022-05-27 09:02:35,442 - Opus -INFO - Documentation Specialist Candidate details have been added successfully!
+2022-05-27 09:02:49,132 - Opus -INFO - Documentation Specialist All Checks filled successfully...
+2022-05-27 09:02:49,259 - Opus -INFO - Check details are successfully saved. Case is Completed.!
+2022-05-27 09:03:33,216 - Opus -INFO - Select Docs Qc Allocator has Successfully!
+2022-05-27 09:03:33,265 - Opus -INFO - All selected cases were successfully allocated to QC Team Member.!
+2022-05-27 09:03:58,202 - Opus -INFO - Case QC Review Ars Number has verified successfully!
+2022-05-27 09:04:16,803 - Opus -INFO - The Case was successfully released for Verification.!
+2022-05-27 09:04:41,648 - Opus -INFO - Check id is Released, DueTo, Already released to vendor..!
+2022-05-27 09:04:50,226 - Opus -INFO - OPus Url is opened Successfully!
+2022-05-27 09:04:55,817 - Opus -INFO - Opus Admin Username and password has entered sucessfully!
+2022-05-27 09:04:55,873 - Opus -INFO - Opus Admin Account has Logged In successfully.!
+2022-05-27 09:05:01,087 - Opus -INFO - Approve mapping has done successfully!
+2022-05-27 09:05:01,137 - Opus -INFO - Vendor New Load Count number have verified successfully!
+2022-05-27 09:05:01,424 - Opus -INFO - Opus Admin account has Logout successfully!
+2022-05-27 11:15:10,249 - Opus -INFO - Bridge Url is opened Successfully!
+2022-05-27 11:15:11,710 - Opus -INFO - Bridge Username and password has entered sucessfully!
+2022-05-27 11:15:18,441 - Opus -INFO - Bridge Client has logged Successfully!
+2022-05-27 11:15:27,420 - Opus -INFO - User Admin Role DocumentProcessor has selected Successfully!
+2022-05-27 11:15:29,985 - Opus -INFO - Candidate First Name, Middle Name, Last Name and Email address have added successfully!
+2022-05-27 11:15:47,677 - Opus -INFO - Bridge new case Candidate details have added successully!
+2022-05-27 11:15:47,743 - Opus -INFO - Case detail has been saved successfully!
+2022-05-27 11:16:01,097 - Opus -INFO - British Telecom client Case has been Allocated Cases Successfully!
+2022-05-27 11:16:01,131 - Opus -INFO - Case is successfully allocated to highlighter.!
+2022-05-27 11:16:15,055 - Opus -INFO - Assign Cases with Ageing and selected Topsheet has successfully!
+2022-05-27 11:16:18,088 - Opus -INFO - Highlighter Add Details have added sucessfully!
+2022-05-27 11:16:22,679 - Opus -INFO - Topsheet is successfully created. You can now proceed with checks creation for the given candidate.!
+2022-05-27 11:16:32,350 - Opus -INFO - Select Company name and clicked on count number Successfully from Documentation Specialist Role!
+2022-05-27 11:16:56,754 - Opus -INFO - Documentation Specialist Pending Cases has been Updated successfully!
+2022-05-27 11:17:06,269 - Opus -INFO - Documentation Specialist Candidate details have been added successfully!
+2022-05-27 11:17:19,418 - Opus -INFO - Documentation Specialist All Checks filled successfully...
+2022-05-27 11:17:19,549 - Opus -INFO - Check details are successfully saved. Case is Completed.!
+2022-05-27 11:18:02,024 - Opus -INFO - Select Docs Qc Allocator has Successfully!
+2022-05-27 11:18:02,060 - Opus -INFO - All selected cases were successfully allocated to QC Team Member.!
+2022-05-27 11:18:14,258 - Opus -INFO - Case QC Review Ars Number has verified successfully!
+2022-05-27 11:18:28,676 - Opus -INFO - The Case was successfully released for Verification.!
+2022-05-27 11:18:42,120 - Opus -INFO - Check id is Released, DueTo, Already released to vendor..!
+2022-05-27 11:18:45,599 - Opus -INFO - OPus Url is opened Successfully!
+2022-05-27 11:18:51,096 - Opus -INFO - Opus Admin Username and password has entered sucessfully!
+2022-05-27 11:18:51,194 - Opus -INFO - Opus Admin Account has Logged In successfully.!
+2022-05-27 11:18:56,397 - Opus -INFO - Approve mapping has done successfully!
+2022-05-27 11:18:56,457 - Opus -INFO - Vendor New Load Count number have verified successfully!
+2022-05-27 11:18:56,765 - Opus -INFO - Opus Admin account has Logout successfully!
+2022-05-27 11:18:59,655 - Opus -INFO - OPus Url is opened Successfully!
+2022-05-27 11:19:04,198 - Opus -INFO - Opus Admin Username and password has entered sucessfully!
+2022-05-27 11:19:04,543 - Opus -INFO - Opus Admin account has Logout successfully!
+2022-05-27 11:19:08,827 - Opus -INFO - Opus vendor Account has Logged Successfully!
+2022-05-27 11:19:08,880 - Opus -INFO - Opus Vendor account has logged successfully.!
+2022-05-27 11:19:16,062 - Opus -INFO - Address check have accepted and assign activity successfully!
+2022-05-27 11:21:20,481 - Opus -INFO - Vendor Check has updated successfully!
+2022-05-27 11:21:24,360 - Opus -INFO - Vendor has raised insuff Successfully!
+2022-05-27 11:21:26,384 - Opus -INFO - Insuff has raised successfully.
+2022-05-27 11:21:28,775 - Opus -INFO - Vendor Account Has Logout Successfully!
+2022-05-27 11:21:29,020 - Opus -INFO - OPus Url is opened Successfully!
+2022-05-27 11:21:33,185 - Opus -INFO - Opus Admin Username and password has entered sucessfully!
+2022-05-27 11:21:33,186 - Opus -INFO - Total Vendor Insuff Check Count has got successfully!
+2022-05-27 11:21:37,073 - Opus -INFO - Total Vendor Insuff Check has got successfully!
+2022-05-27 11:39:23,883 - Opus -INFO - Bridge Url is opened Successfully!
+2022-05-27 11:39:25,275 - Opus -INFO - Bridge Username and password has entered sucessfully!
+2022-05-27 11:39:32,241 - Opus -INFO - Bridge Client has logged Successfully!
+2022-05-27 11:39:41,624 - Opus -INFO - User Admin Role DocumentProcessor has selected Successfully!
+2022-05-27 11:39:44,174 - Opus -INFO - Candidate First Name, Middle Name, Last Name and Email address have added successfully!
+2022-05-27 11:40:00,369 - Opus -INFO - Bridge new case Candidate details have added successully!
+2022-05-27 11:40:00,444 - Opus -INFO - Case detail has been saved successfully!
+2022-05-27 11:40:13,319 - Opus -INFO - British Telecom client Case has been Allocated Cases Successfully!
+2022-05-27 11:40:13,351 - Opus -INFO - Case is successfully allocated to highlighter.!
+2022-05-27 11:40:27,081 - Opus -INFO - Assign Cases with Ageing and selected Topsheet has successfully!
+2022-05-27 11:40:29,998 - Opus -INFO - Highlighter Add Details have added sucessfully!
+2022-05-27 11:40:31,362 - Opus -INFO - Topsheet is successfully created. You can now proceed with checks creation for the given candidate.!
+2022-05-27 11:40:41,657 - Opus -INFO - Select Company name and clicked on count number Successfully from Documentation Specialist Role!
+2022-05-27 11:41:06,386 - Opus -INFO - Documentation Specialist Pending Cases has been Updated successfully!
+2022-05-27 11:41:15,126 - Opus -INFO - Documentation Specialist Candidate details have been added successfully!
+2022-05-27 11:41:29,823 - Opus -INFO - Documentation Specialist All Checks filled successfully...
+2022-05-27 11:41:29,919 - Opus -INFO - Check details are successfully saved. Case is Completed.!
+2022-05-27 11:42:12,295 - Opus -INFO - Select Docs Qc Allocator has Successfully!
+2022-05-27 11:42:12,342 - Opus -INFO - All selected cases were successfully allocated to QC Team Member.!
+2022-05-27 11:42:24,551 - Opus -INFO - Case QC Review Ars Number has verified successfully!
+2022-05-27 11:42:37,993 - Opus -INFO - The Case was successfully released for Verification.!
+2022-05-27 11:42:51,053 - Opus -INFO - Check id is Released, DueTo, Already released to vendor..!
+2022-05-27 11:42:54,136 - Opus -INFO - OPus Url is opened Successfully!
+2022-05-27 11:42:59,515 - Opus -INFO - Opus Admin Username and password has entered sucessfully!
+2022-05-27 11:42:59,624 - Opus -INFO - Opus Admin Account has Logged In successfully.!
+2022-05-27 11:43:04,666 - Opus -INFO - Approve mapping has done successfully!
+2022-05-27 11:43:04,773 - Opus -INFO - Vendor New Load Count number have verified successfully!
+2022-05-27 11:43:05,163 - Opus -INFO - Opus Admin account has Logout successfully!
+2022-05-27 11:43:07,910 - Opus -INFO - OPus Url is opened Successfully!
+2022-05-27 11:43:12,228 - Opus -INFO - Opus Admin Username and password has entered sucessfully!
+2022-05-27 11:43:12,577 - Opus -INFO - Opus Admin account has Logout successfully!
+2022-05-27 11:43:16,773 - Opus -INFO - Opus vendor Account has Logged Successfully!
+2022-05-27 11:43:16,819 - Opus -INFO - Opus Vendor account has logged successfully.!
+2022-05-27 11:43:23,882 - Opus -INFO - Address check have accepted and assign activity successfully!
+2022-05-27 11:45:27,559 - Opus -INFO - Vendor Check has updated successfully!
+2022-05-27 11:45:31,589 - Opus -INFO - Vendor has raised insuff Successfully!
+2022-05-27 11:45:33,617 - Opus -INFO - Insuff has raised successfully.
+2022-05-27 11:45:36,046 - Opus -INFO - Vendor Account Has Logout Successfully!
+2022-05-27 11:45:36,233 - Opus -INFO - OPus Url is opened Successfully!
+2022-05-27 11:45:40,391 - Opus -INFO - Opus Admin Username and password has entered sucessfully!
+2022-05-27 11:45:40,393 - Opus -INFO - Total Vendor Insuff Check Count has got successfully!
+2022-05-27 11:45:44,230 - Opus -INFO - Total Vendor Insuff Check has got successfully!
+2022-05-27 11:45:50,369 - Opus -INFO - Vendor raise insuff have allocated Successfully!
+2022-05-27 11:45:50,399 - Opus -INFO - After Vendor raise insuff count have got successfully!
+2022-05-27 11:45:50,406 - Opus -INFO - Vendor Raised Insuff Count number have verified successfully!
+2022-05-27 12:29:54,545 - Opus -INFO - Bridge Url is opened Successfully!
+2022-05-27 12:29:55,976 - Opus -INFO - Bridge Username and password has entered sucessfully!
+2022-05-27 12:30:05,139 - Opus -INFO - Bridge Client has logged Successfully!
+2022-05-27 12:30:19,057 - Opus -INFO - User Admin Role DocumentProcessor has selected Successfully!
+2022-05-27 12:30:21,615 - Opus -INFO - Candidate First Name, Middle Name, Last Name and Email address have added successfully!
+2022-05-27 12:30:43,007 - Opus -INFO - Bridge new case Candidate details have added successully!
+2022-05-27 12:30:43,072 - Opus -INFO - Case detail has been saved successfully!
+2022-05-27 12:31:00,551 - Opus -INFO - British Telecom client Case has been Allocated Cases Successfully!
+2022-05-27 12:31:00,777 - Opus -INFO - Case is successfully allocated to highlighter.!
+2022-05-27 12:31:20,338 - Opus -INFO - Assign Cases with Ageing and selected Topsheet has successfully!
+2022-05-27 12:31:23,299 - Opus -INFO - Highlighter Add Details have added sucessfully!
+2022-05-27 12:31:37,617 - Opus -INFO - Topsheet is successfully created. You can now proceed with checks creation for the given candidate.!
+2022-05-27 12:31:48,506 - Opus -INFO - Select Company name and clicked on count number Successfully from Documentation Specialist Role!
+2022-05-27 12:32:13,483 - Opus -INFO - Documentation Specialist Pending Cases has been Updated successfully!
+2022-05-27 12:32:23,144 - Opus -INFO - Documentation Specialist Candidate details have been added successfully!
+2022-05-27 12:32:37,597 - Opus -INFO - Documentation Specialist All Checks filled successfully...
+2022-05-27 12:32:37,697 - Opus -INFO - Check details are successfully saved. Case is Completed.!
+2022-05-27 12:33:22,376 - Opus -INFO - Select Docs Qc Allocator has Successfully!
+2022-05-27 12:33:22,418 - Opus -INFO - All selected cases were successfully allocated to QC Team Member.!
+2022-05-27 12:33:36,530 - Opus -INFO - Case QC Review Ars Number has verified successfully!
+2022-05-27 12:33:51,173 - Opus -INFO - The Case was successfully released for Verification.!
+2022-05-27 12:34:07,243 - Opus -INFO - Check id is Released, DueTo, Already released to vendor..!
+2022-05-27 12:34:11,457 - Opus -INFO - OPus Url is opened Successfully!
+2022-05-27 12:34:17,065 - Opus -INFO - Opus Admin Username and password has entered sucessfully!
+2022-05-27 12:34:17,121 - Opus -INFO - Opus Admin Account has Logged In successfully.!
+2022-05-27 12:34:22,188 - Opus -INFO - Approve mapping has done successfully!
+2022-05-27 12:34:22,248 - Opus -INFO - Vendor New Load Count number have verified successfully!
+2022-05-27 12:34:22,593 - Opus -INFO - Opus Admin account has Logout successfully!
+2022-05-27 12:34:25,742 - Opus -INFO - OPus Url is opened Successfully!
+2022-05-27 12:34:29,992 - Opus -INFO - Opus Admin Username and password has entered sucessfully!
+2022-05-27 12:34:30,373 - Opus -INFO - Opus Admin account has Logout successfully!
+2022-05-27 12:34:34,545 - Opus -INFO - Opus vendor Account has Logged Successfully!
+2022-05-27 12:34:34,596 - Opus -INFO - Opus Vendor account has logged successfully.!
+2022-05-27 12:34:41,932 - Opus -INFO - Address check have accepted and assign activity successfully!
+2022-05-27 12:36:46,013 - Opus -INFO - Vendor Check has updated successfully!
+2022-05-27 12:36:49,869 - Opus -INFO - Vendor has raised insuff Successfully!
+2022-05-27 12:36:51,891 - Opus -INFO - Insuff has raised successfully.
+2022-05-27 12:36:54,304 - Opus -INFO - Vendor Account Has Logout Successfully!
+2022-05-27 12:36:54,567 - Opus -INFO - OPus Url is opened Successfully!
+2022-05-27 12:36:58,919 - Opus -INFO - Opus Admin Username and password has entered sucessfully!
+2022-05-27 12:36:58,921 - Opus -INFO - Total Vendor Insuff Check Count has got successfully!
+2022-05-27 12:37:02,831 - Opus -INFO - Total Vendor Insuff Check has got successfully!
+2022-05-27 12:37:08,783 - Opus -INFO - Vendor raise insuff have allocated Successfully!
+2022-05-27 12:37:08,812 - Opus -INFO - After Vendor raise insuff count have got successfully!
+2022-05-27 12:37:08,818 - Opus -INFO - Vendor Raised Insuff Count number have verified successfully!
+2022-05-27 12:37:43,920 - Opus -INFO - Admin has selected Approver role done successfully!
+2022-05-27 12:37:43,950 - Opus -INFO - Check Status has Verified Insufficient successfully.!
+2022-05-27 12:37:44,621 - Opus -INFO - Opus Admin account has Logout successfully!
+2022-05-27 12:37:45,277 - Opus -INFO - Bridge Url is opened Successfully!
+2022-05-27 12:37:46,606 - Opus -INFO - Bridge Username and password has entered sucessfully!
+2022-05-27 12:38:05,106 - Opus -INFO - Doc Tl has role load and search case have Done Successfully!
+2022-05-27 12:38:05,144 - Opus -INFO - Check Status Summary has verified Insufficient Successfully!!
+2022-05-27 12:38:21,773 - Opus -INFO - Fulfill Check Insufficiency have done successfully!
+2022-05-27 12:38:24,504 - Opus -INFO - Check insufficiency is successfully fulfilled.!
+2022-05-27 12:38:24,698 - Opus -INFO - OPus Url is opened Successfully!
+2022-05-27 12:38:28,823 - Opus -INFO - Opus Admin Username and password has entered sucessfully!
+2022-05-27 12:38:35,328 - Opus -INFO - Documents Received and Check Insufficiency Fulfilled
+2022-05-27 13:13:30,509 - Opus -INFO - Bridge Url is opened Successfully!
+2022-05-27 13:13:31,895 - Opus -INFO - Bridge Username and password has entered sucessfully!
+2022-05-27 13:13:38,780 - Opus -INFO - Bridge Client has logged Successfully!
+2022-05-27 13:13:48,587 - Opus -INFO - User Admin Role DocumentProcessor has selected Successfully!
+2022-05-27 13:13:51,141 - Opus -INFO - Candidate First Name, Middle Name, Last Name and Email address have added successfully!
+2022-05-27 13:14:08,661 - Opus -INFO - Bridge new case Candidate details have added successully!
+2022-05-27 13:14:08,735 - Opus -INFO - Case detail has been saved successfully!
+2022-05-27 13:14:22,095 - Opus -INFO - British Telecom client Case has been Allocated Cases Successfully!
+2022-05-27 13:14:22,160 - Opus -INFO - Case is successfully allocated to highlighter.!
+2022-05-27 13:14:36,448 - Opus -INFO - Assign Cases with Ageing and selected Topsheet has successfully!
+2022-05-27 13:14:39,374 - Opus -INFO - Highlighter Add Details have added sucessfully!
+2022-05-27 13:14:40,625 - Opus -INFO - Topsheet is successfully created. You can now proceed with checks creation for the given candidate.!
+2022-05-27 13:14:49,833 - Opus -INFO - Select Company name and clicked on count number Successfully from Documentation Specialist Role!
+2022-05-27 13:15:14,298 - Opus -INFO - Documentation Specialist Pending Cases has been Updated successfully!
+2022-05-27 13:15:22,861 - Opus -INFO - Documentation Specialist Candidate details have been added successfully!
+2022-05-27 13:15:37,848 - Opus -INFO - Documentation Specialist All Checks filled successfully...
+2022-05-27 13:15:37,943 - Opus -INFO - Check details are successfully saved. Case is Completed.!
+2022-05-27 13:16:19,092 - Opus -INFO - Select Docs Qc Allocator has Successfully!
+2022-05-27 13:16:19,123 - Opus -INFO - All selected cases were successfully allocated to QC Team Member.!
+2022-05-27 13:16:31,906 - Opus -INFO - Case QC Review Ars Number has verified successfully!
+2022-05-27 13:16:46,540 - Opus -INFO - The Case was successfully released for Verification.!
+2022-05-27 13:17:02,584 - Opus -INFO - Check id is Released, DueTo, Already released to vendor..!
+2022-05-27 13:17:06,049 - Opus -INFO - OPus Url is opened Successfully!
+2022-05-27 13:17:11,178 - Opus -INFO - Opus Admin Username and password has entered sucessfully!
+2022-05-27 13:17:11,277 - Opus -INFO - Opus Admin Account has Logged In successfully.!
+2022-05-27 13:17:16,144 - Opus -INFO - Approve mapping has done successfully!
+2022-05-27 13:17:16,203 - Opus -INFO - Vendor New Load Count number have verified successfully!
+2022-05-27 13:17:16,452 - Opus -INFO - Opus Admin account has Logout successfully!
+2022-05-27 13:17:19,351 - Opus -INFO - OPus Url is opened Successfully!
+2022-05-27 13:17:23,677 - Opus -INFO - Opus Admin Username and password has entered sucessfully!
+2022-05-27 13:17:24,012 - Opus -INFO - Opus Admin account has Logout successfully!
+2022-05-27 13:17:28,184 - Opus -INFO - Opus vendor Account has Logged Successfully!
+2022-05-27 13:17:28,233 - Opus -INFO - Opus Vendor account has logged successfully.!
+2022-05-27 13:17:35,329 - Opus -INFO - Address check have accepted and assign activity successfully!
+2022-05-27 13:19:38,923 - Opus -INFO - Vendor Check has updated successfully!
+2022-05-27 13:19:42,852 - Opus -INFO - Vendor has raised insuff Successfully!
+2022-05-27 13:19:44,870 - Opus -INFO - Insuff has raised successfully.
+2022-05-27 13:19:47,249 - Opus -INFO - Vendor Account Has Logout Successfully!
+2022-05-27 13:19:47,480 - Opus -INFO - OPus Url is opened Successfully!
+2022-05-27 13:19:52,171 - Opus -INFO - Opus Admin Username and password has entered sucessfully!
+2022-05-27 13:19:52,173 - Opus -INFO - Total Vendor Insuff Check Count has got successfully!
+2022-05-27 13:19:55,963 - Opus -INFO - Total Vendor Insuff Check has got successfully!
+2022-05-27 13:20:01,898 - Opus -INFO - Vendor raise insuff have allocated Successfully!
+2022-05-27 13:20:01,930 - Opus -INFO - After Vendor raise insuff count have got successfully!
+2022-05-27 13:20:01,937 - Opus -INFO - Vendor Raised Insuff Count number have verified successfully!
+2022-05-27 13:20:36,409 - Opus -INFO - Admin has selected Approver role done successfully!
+2022-05-27 13:20:36,438 - Opus -INFO - Check Status has Verified Insufficient successfully.!
+2022-05-27 13:20:36,692 - Opus -INFO - Opus Admin account has Logout successfully!
+2022-05-27 13:20:37,265 - Opus -INFO - Bridge Url is opened Successfully!
+2022-05-27 13:20:38,601 - Opus -INFO - Bridge Username and password has entered sucessfully!
+2022-05-27 13:20:56,176 - Opus -INFO - Doc Tl has role load and search case have Done Successfully!
+2022-05-27 13:20:56,215 - Opus -INFO - Check Status Summary has verified Insufficient Successfully!!
+2022-05-27 13:21:12,062 - Opus -INFO - Fulfill Check Insufficiency have done successfully!
+2022-05-27 13:21:13,665 - Opus -INFO - Check insufficiency is successfully fulfilled.!
+2022-05-27 13:21:13,837 - Opus -INFO - OPus Url is opened Successfully!
+2022-05-27 13:21:18,657 - Opus -INFO - Opus Admin Username and password has entered sucessfully!
+2022-05-27 13:21:24,936 - Opus -INFO - Documents Received and Check Insufficiency Fulfilled
+2022-05-27 13:21:24,981 - Opus -INFO - Verify Documents Received Address Proof Has Successfully.!
+2022-05-27 13:21:26,012 - Opus -INFO - Insuff Fullfill Bucket Count has verified successfully!
+2022-05-27 13:21:26,056 - Opus -INFO - Vendor Raised Insuff Count number have verified successfully!
+2022-05-27 13:21:29,037 - Opus -INFO - Insuff Fullfill Bucket Count has clicked successfully!
+2022-05-27 13:22:27,959 - Opus -INFO - Insuff Fullfill has approval mapping Successfuly!
+2022-05-27 13:22:33,128 - Opus -INFO - Clicked on Approval Mapping Button has Successfully!
+2022-05-27 13:22:33,985 - Opus -INFO - Clicked on Approval Mapping Module has successfully!
+2022-05-27 13:22:34,042 - Opus -INFO - Admin Raised Insuff Count number have Approval Mapped verified successfully!
+2022-05-27 13:22:34,295 - Opus -INFO - Opus Admin account has Logout successfully!
+2022-05-27 13:25:01,755 - Opus -INFO - OPus Url is opened Successfully!
+2022-05-27 13:25:07,533 - Opus -INFO - Opus vendor Account has Logged Successfully!
+2022-05-27 13:25:07,642 - Opus -INFO - Opus Vendor account has logged successfully.!
+2022-05-27 13:25:18,203 - Opus -INFO - Address check have accepted and assign activity successfully!
+2022-05-27 13:25:21,875 - Opus -INFO - Success -: Check successfully assigned to Normal Vendor!
+2022-05-27 13:27:06,158 - Opus -INFO - Vendor Check has updated successfully!
+2022-05-27 13:27:12,883 - Opus -INFO - Current address verification has done successfully!
+2022-05-27 13:28:36,638 - Opus -INFO - OPus Url is opened Successfully!
+2022-05-27 13:28:41,824 - Opus -INFO - Opus vendor Account has Logged Successfully!
+2022-05-27 13:28:41,920 - Opus -INFO - Opus Vendor account has logged successfully.!
+2022-05-27 13:28:49,012 - Opus -INFO - Address check have accepted and assign activity successfully!
+2022-05-27 13:36:52,087 - Opus -INFO - Bridge Url is opened Successfully!
+2022-05-27 13:36:53,522 - Opus -INFO - Bridge Username and password has entered sucessfully!
+2022-05-27 13:37:04,379 - Opus -INFO - Bridge Client has logged Successfully!
+2022-05-27 13:37:24,375 - Opus -INFO - User Admin Role DocumentProcessor has selected Successfully!
+2022-05-27 13:37:26,911 - Opus -INFO - Candidate First Name, Middle Name, Last Name and Email address have added successfully!
+2022-05-27 13:37:48,961 - Opus -INFO - Bridge new case Candidate details have added successully!
+2022-05-27 13:37:49,024 - Opus -INFO - Case detail has been saved successfully!
+2022-05-27 13:38:06,724 - Opus -INFO - British Telecom client Case has been Allocated Cases Successfully!
+2022-05-27 13:38:06,757 - Opus -INFO - Case is successfully allocated to highlighter.!
+2022-05-27 13:38:19,928 - Opus -INFO - Assign Cases with Ageing and selected Topsheet has successfully!
+2022-05-27 13:38:22,869 - Opus -INFO - Highlighter Add Details have added sucessfully!
+2022-05-27 13:38:24,847 - Opus -INFO - Topsheet is successfully created. You can now proceed with checks creation for the given candidate.!
+2022-05-27 13:38:37,929 - Opus -INFO - Select Company name and clicked on count number Successfully from Documentation Specialist Role!
+2022-05-27 13:39:01,247 - Opus -INFO - Documentation Specialist Pending Cases has been Updated successfully!
+2022-05-27 13:39:10,035 - Opus -INFO - Documentation Specialist Candidate details have been added successfully!
+2022-05-27 13:39:23,122 - Opus -INFO - Documentation Specialist All Checks filled successfully...
+2022-05-27 13:39:23,249 - Opus -INFO - Check details are successfully saved. Case is Completed.!
+2022-05-27 13:40:05,437 - Opus -INFO - Select Docs Qc Allocator has Successfully!
+2022-05-27 13:40:05,469 - Opus -INFO - All selected cases were successfully allocated to QC Team Member.!
+2022-05-27 13:40:19,391 - Opus -INFO - Case QC Review Ars Number has verified successfully!
+2022-05-27 13:40:34,239 - Opus -INFO - The Case was successfully released for Verification.!
+2022-05-27 13:40:48,755 - Opus -INFO - Check id is Released, DueTo, Already released to vendor..!
+2022-05-27 13:40:52,010 - Opus -INFO - OPus Url is opened Successfully!
+2022-05-27 13:40:57,341 - Opus -INFO - Opus Admin Username and password has entered sucessfully!
+2022-05-27 13:40:57,396 - Opus -INFO - Opus Admin Account has Logged In successfully.!
+2022-05-27 13:41:02,629 - Opus -INFO - Approve mapping has done successfully!
+2022-05-27 13:41:02,690 - Opus -INFO - Vendor New Load Count number have Not verified successfully!
+2022-05-27 13:41:05,949 - Opus -INFO - OPus Url is opened Successfully!
+2022-05-27 13:41:10,240 - Opus -INFO - Opus Admin Username and password has entered sucessfully!
+2022-05-27 13:41:10,607 - Opus -INFO - Opus Admin account has Logout successfully!
+2022-05-27 13:41:15,142 - Opus -INFO - Opus vendor Account has Logged Successfully!
+2022-05-27 13:41:15,186 - Opus -INFO - Opus Vendor account has logged successfully.!
+2022-05-27 13:41:22,285 - Opus -INFO - Address check have accepted and assign activity successfully!
+2022-05-27 13:43:26,832 - Opus -INFO - Vendor Check has updated successfully!
+2022-05-27 13:43:30,760 - Opus -INFO - Vendor has raised insuff Successfully!
+2022-05-27 13:43:32,781 - Opus -INFO - Insuff has raised successfully.
+2022-05-27 13:43:35,150 - Opus -INFO - Vendor Account Has Logout Successfully!
+2022-05-27 13:43:35,276 - Opus -INFO - OPus Url is opened Successfully!
+2022-05-27 13:43:39,221 - Opus -INFO - Opus Admin Username and password has entered sucessfully!
+2022-05-27 13:43:39,224 - Opus -INFO - Total Vendor Insuff Check Count has got successfully!
+2022-05-27 13:43:43,029 - Opus -INFO - Total Vendor Insuff Check has got successfully!
+2022-05-27 13:43:49,152 - Opus -INFO - Vendor raise insuff have allocated Successfully!
+2022-05-27 13:43:49,187 - Opus -INFO - After Vendor raise insuff count have got successfully!
+2022-05-27 13:43:49,194 - Opus -INFO - Vendor Raised Insuff Count number have verified successfully!
+2022-05-27 13:44:23,336 - Opus -INFO - Admin has selected Approver role done successfully!
+2022-05-27 13:44:23,369 - Opus -INFO - Check Status has Verified Insufficient successfully.!
+2022-05-27 13:44:23,791 - Opus -INFO - Opus Admin account has Logout successfully!
+2022-05-27 13:44:24,515 - Opus -INFO - Bridge Url is opened Successfully!
+2022-05-27 13:44:26,000 - Opus -INFO - Bridge Username and password has entered sucessfully!
+2022-05-27 13:44:44,589 - Opus -INFO - Doc Tl has role load and search case have Done Successfully!
+2022-05-27 13:44:44,626 - Opus -INFO - Check Status Summary has verified Insufficient Successfully!!
+2022-05-27 13:45:00,686 - Opus -INFO - Fulfill Check Insufficiency have done successfully!
+2022-05-27 13:45:02,694 - Opus -INFO - Check insufficiency is successfully fulfilled.!
+2022-05-27 13:45:02,871 - Opus -INFO - OPus Url is opened Successfully!
+2022-05-27 13:45:07,662 - Opus -INFO - Opus Admin Username and password has entered sucessfully!
+2022-05-27 13:45:14,202 - Opus -INFO - Documents Received and Check Insufficiency Fulfilled
+2022-05-27 13:45:14,247 - Opus -INFO - Verify Documents Received Address Proof Has Successfully.!
+2022-05-27 13:45:15,124 - Opus -INFO - Insuff Fullfill Bucket Count has verified successfully!
+2022-05-27 13:45:15,183 - Opus -INFO - Vendor Raised Insuff Count number have Not verified successfully!
+2022-05-27 13:45:18,353 - Opus -INFO - OPus Url is opened Successfully!
+2022-05-27 13:45:22,739 - Opus -INFO - Opus vendor Account has Logged Successfully!
+2022-05-27 13:45:22,844 - Opus -INFO - Opus Vendor account has logged successfully.!
+2022-05-27 13:45:29,776 - Opus -INFO - Address check have accepted and assign activity successfully!
+2022-05-27 14:28:16,742 - Opus -INFO - Bridge Url is opened Successfully!
+2022-05-27 14:28:18,127 - Opus -INFO - Bridge Username and password has entered sucessfully!
+2022-05-27 14:28:24,630 - Opus -INFO - Bridge Client has logged Successfully!
+2022-05-27 14:28:34,605 - Opus -INFO - User Admin Role DocumentProcessor has selected Successfully!
+2022-05-27 14:28:37,169 - Opus -INFO - Candidate First Name, Middle Name, Last Name and Email address have added successfully!
+2022-05-27 14:28:55,526 - Opus -INFO - Bridge new case Candidate details have added successully!
+2022-05-27 14:28:55,587 - Opus -INFO - Case detail has been saved successfully!
+2022-05-27 14:29:08,685 - Opus -INFO - British Telecom client Case has been Allocated Cases Successfully!
+2022-05-27 14:29:08,717 - Opus -INFO - Case is successfully allocated to highlighter.!
+2022-05-27 14:29:22,738 - Opus -INFO - Assign Cases with Ageing and selected Topsheet has successfully!
+2022-05-27 14:29:25,697 - Opus -INFO - Highlighter Add Details have added sucessfully!
+2022-05-27 14:29:26,634 - Opus -INFO - Topsheet is successfully created. You can now proceed with checks creation for the given candidate.!
+2022-05-27 14:29:36,086 - Opus -INFO - Select Company name and clicked on count number Successfully from Documentation Specialist Role!
+2022-05-27 14:30:00,647 - Opus -INFO - Documentation Specialist Pending Cases has been Updated successfully!
+2022-05-27 14:30:09,215 - Opus -INFO - Documentation Specialist Candidate details have been added successfully!
+2022-05-27 14:30:24,766 - Opus -INFO - Documentation Specialist All Checks filled successfully...
+2022-05-27 14:30:24,872 - Opus -INFO - Check details are successfully saved. Case is Completed.!
+2022-05-27 14:31:09,302 - Opus -INFO - Select Docs Qc Allocator has Successfully!
+2022-05-27 14:31:09,335 - Opus -INFO - All selected cases were successfully allocated to QC Team Member.!
+2022-05-27 14:31:22,402 - Opus -INFO - Case QC Review Ars Number has verified successfully!
+2022-05-27 14:31:36,946 - Opus -INFO - The Case was successfully released for Verification.!
+2022-05-27 14:31:51,368 - Opus -INFO - Check id is Released, DueTo, Already released to vendor..!
+2022-05-27 14:31:55,584 - Opus -INFO - OPus Url is opened Successfully!
+2022-05-27 14:32:01,020 - Opus -INFO - Opus Admin Username and password has entered sucessfully!
+2022-05-27 14:32:01,115 - Opus -INFO - Opus Admin Account has Logged In successfully.!
+2022-05-27 14:32:06,551 - Opus -INFO - Approve mapping has done successfully!
+2022-05-27 14:32:06,606 - Opus -INFO - Vendor New Load Count number have Not verified successfully!
+2022-05-27 14:32:10,590 - Opus -INFO - OPus Url is opened Successfully!
+2022-05-27 14:32:14,818 - Opus -INFO - Opus Admin Username and password has entered sucessfully!
+2022-05-27 14:32:15,212 - Opus -INFO - Opus Admin account has Logout successfully!
+2022-05-27 14:32:19,616 - Opus -INFO - Opus vendor Account has Logged Successfully!
+2022-05-27 14:32:19,661 - Opus -INFO - Opus Vendor account has logged successfully.!
+2022-05-27 14:32:26,683 - Opus -INFO - Address check have accepted and assign activity successfully!
+2022-05-27 14:34:30,428 - Opus -INFO - Vendor Check has updated successfully!
+2022-05-27 14:34:34,328 - Opus -INFO - Vendor has raised insuff Successfully!
+2022-05-27 14:34:36,353 - Opus -INFO - Insuff has raised successfully.
+2022-05-27 14:34:38,727 - Opus -INFO - Vendor Account Has Logout Successfully!
+2022-05-27 14:34:38,922 - Opus -INFO - OPus Url is opened Successfully!
+2022-05-27 14:34:42,767 - Opus -INFO - Opus Admin Username and password has entered sucessfully!
+2022-05-27 14:34:42,768 - Opus -INFO - Total Vendor Insuff Check Count has got successfully!
+2022-05-27 14:34:47,074 - Opus -INFO - Total Vendor Insuff Check has got successfully!
+2022-05-27 14:34:55,987 - Opus -INFO - Vendor raise insuff have allocated Successfully!
+2022-05-27 14:34:56,022 - Opus -INFO - After Vendor raise insuff count have got successfully!
+2022-05-27 14:34:56,029 - Opus -INFO - Vendor Raised Insuff Count number have verified successfully!
+2022-05-27 14:35:32,313 - Opus -INFO - Admin has selected Approver role done successfully!
+2022-05-27 14:35:32,346 - Opus -INFO - Check Status has Verified Insufficient successfully.!
+2022-05-27 14:35:32,610 - Opus -INFO - Opus Admin account has Logout successfully!
+2022-05-27 14:35:33,237 - Opus -INFO - Bridge Url is opened Successfully!
+2022-05-27 14:35:34,544 - Opus -INFO - Bridge Username and password has entered sucessfully!
+2022-05-27 14:35:54,778 - Opus -INFO - Doc Tl has role load and search case have Done Successfully!
+2022-05-27 14:35:54,863 - Opus -INFO - Check Status Summary has verified Insufficient Successfully!!
+2022-05-27 14:36:17,733 - Opus -INFO - Fulfill Check Insufficiency have done successfully!
+2022-05-27 14:36:20,195 - Opus -INFO - Check insufficiency is successfully fulfilled.!
+2022-05-27 14:36:20,462 - Opus -INFO - OPus Url is opened Successfully!
+2022-05-27 14:36:24,764 - Opus -INFO - Opus Admin Username and password has entered sucessfully!
+2022-05-27 14:36:31,437 - Opus -INFO - Documents Received and Check Insufficiency Fulfilled
+2022-05-27 14:36:31,484 - Opus -INFO - Verify Documents Received Address Proof Has Successfully.!
+2022-05-27 14:36:32,456 - Opus -INFO - Insuff Fullfill Bucket Count has verified successfully!
+2022-05-27 14:36:32,505 - Opus -INFO - Vendor Raised Insuff Count number have Not verified successfully!
+2022-05-27 14:36:36,012 - Opus -INFO - OPus Url is opened Successfully!
+2022-05-27 14:36:40,865 - Opus -INFO - Opus vendor Account has Logged Successfully!
+2022-05-27 14:36:40,978 - Opus -INFO - Opus Vendor account has logged successfully.!
+2022-05-27 14:36:47,868 - Opus -INFO - Address check have accepted and assign activity successfully!
+2022-05-27 14:38:46,763 - Opus -INFO - Vendor Check has updated successfully!
+2022-05-27 17:25:21,306 - Opus -INFO - OPus Url is opened Successfully!
+2022-05-27 17:25:26,860 - Opus -INFO - Opus Admin Username and password has entered sucessfully!
+2022-05-27 17:25:29,831 - Opus -INFO - Total Checks Before Count have Got successfully!
+2022-05-27 17:25:32,487 - Opus -INFO - Admin select Approver TL role has done successfully!
+2022-05-27 17:25:34,546 - Opus -INFO - Total Checks After Count have Got successfully!
+2022-05-27 17:25:34,548 - Opus -INFO - Total Checks Count have verified successfully.!
+2022-05-27 17:26:40,052 - Opus -INFO - Bridge Url is opened Successfully!
+2022-05-27 17:26:41,499 - Opus -INFO - Bridge Username and password has entered sucessfully!
+2022-05-27 17:28:44,313 - Opus -INFO - Verification Quality Allocator details has been filled Successfully!
+2022-05-27 17:28:44,411 - Opus -INFO - The selected checks were successfully released for report.!
+2022-05-27 17:29:08,339 - Opus -INFO - Manager Reports details have been filled Successfully!
+2022-05-27 17:29:14,366 - Opus -INFO - The Report has been Reviewed Successfully!
+2022-05-27 17:29:18,756 - Opus -INFO - Chrone URL has been hitted Successfully!
+2022-05-27 17:29:21,027 - Opus -INFO - The Case Report Id has not found Successfully!
+2022-05-27 17:29:25,978 - Opus -INFO - The Report Url has been Launched Successfully!
+2022-05-27 17:29:26,104 - Opus -INFO - The Report Status has been Verified Successfully!
+2022-05-27 17:29:26,105 - Opus -INFO - Report Generated has been Downloaded Successfully!
+2022-05-27 17:29:37,173 - Opus -INFO - Bridge Account Logged Out has Successfully!

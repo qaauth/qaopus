@@ -591,6 +591,9 @@ public class OpusApproveMapping {
 		JavaScriptManuplator.javaScriptExecutor(txtGPSCoordinates, "arguments[0].value='Test'", ldriver);
 		JavaScriptManuplator.javaScriptExecutor(clickOnSaveDetails, "arguments[0].click()", ldriver);
 		Thread.sleep(2000);
+		//Sure! you want to save these details.??
+		ldriver.switchTo().alert().accept();
+		Thread.sleep(2000);
 	}
 
 	// Verify Send Response
@@ -820,14 +823,18 @@ public class OpusApproveMapping {
 		wait = new WebDriverWait(ldriver, 60);
 		wait.until(ExpectedConditions.visibilityOf(clickOnCurrentAddressVerificationSubmitBtn));
 		js = (JavascriptExecutor) ldriver;
+		Thread.sleep(1000);
 		js.executeScript("arguments[0].click()", clickOnCurrentAddressVerificationSubmitBtn);
-
+		Thread.sleep(1000);
 		// Report Review--
 		js = (JavascriptExecutor) ldriver;
 		js.executeScript("arguments[0].scrollIntoView(true);", clickOnReportReviewBtn);
 		wait = new WebDriverWait(ldriver, 60);
+		Thread.sleep(1000);
 		wait.until(ExpectedConditions.visibilityOf(selectReportSeverity));
+		Thread.sleep(1000);
 		JavaScriptManuplator.selectOptionFromDropDown(selectReportSeverity, "Clear");
+		Thread.sleep(1000);
 		JavaScriptManuplator.selectOptionFromDropDown(selectStandardComments, "Verified Comments 1");
 		Thread.sleep(2000);
 		String url = ldriver.getCurrentUrl();

@@ -92,6 +92,7 @@ public class TC_RaiseInsufficiency_05 extends BaseClass {
 		String alertText = driver.switchTo().alert().getText();
 		if (alertText.contains("Insuff raised successfully.")) {
 			Assert.assertTrue(true);
+			Thread.sleep(2000);
 			driver.switchTo().alert().accept();
 			logger.info("Insuff has raised successfully.");
 		} else {

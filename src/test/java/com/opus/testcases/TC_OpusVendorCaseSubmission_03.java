@@ -34,6 +34,7 @@ public class TC_OpusVendorCaseSubmission_03 extends BaseClass {
 		OpusApproveMapping vendorAddressCheck = new OpusApproveMapping(driver);
 		vendorAddressCheck.vendorAddressCheckAcceptAssign();
 		logger.info("Address check have accepted and assign activity successfully!");
+		Thread.sleep(2000);
 		String alertText = driver.switchTo().alert().getText();
 		if (alertText.contains("Success -: Check successfully assigned to Normal Vendor!")) {
 			Assert.assertTrue(true);
@@ -56,6 +57,7 @@ public class TC_OpusVendorCaseSubmission_03 extends BaseClass {
 		logger.info("Vendor Check has updated successfully!");
 		vendorAddressCheck.currentAddressVerification();
 		logger.info("Current address verification has done successfully!");
+		Thread.sleep(2000);
 		String alertText = driver.switchTo().alert().getText();
 		if (alertText.contains("Sure! you want to save these details.??")) {
 			Assert.assertTrue(true);
@@ -76,14 +78,14 @@ public class TC_OpusVendorCaseSubmission_03 extends BaseClass {
 		OpusApproveMapping vendorAddressCheck = new OpusApproveMapping(driver);
 		vendorAddressCheck.verifySendResponse();
 		logger.info("Vendor has sent response successfully!");
-		/*if (vendorAddressCheck.responseSentSuccessfully().contains("Response sent successfully.")) {
+		if (vendorAddressCheck.responseSentSuccessfully().contains("Response sent successfully.")) {
 			Assert.assertTrue(true);
 			logger.info("Response Has sent successfully.!");
 		} else {
 			logger.info("Response Has Not sent successfully.!!");
 			captureScreen(driver, "responseSentSuccessfully");
 			Assert.assertTrue(false);
-		}*/
+		}
 		BridgeLoginPage vendorLogin = new BridgeLoginPage(driver);
 		vendorLogin.verifyVendorOpusLogout();
 		logger.info("Vendor Account Has Logout Successfully!");

@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 2 failed,  1 skipped,  2 passed</span>
+                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -102,29 +102,10 @@
                     <div class="method-list-content failed suite-Opus">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Opus" title="com.opus.testcases.TC_OpusCheckApproval_04" hash-for-method="verifyAdminApprover">verifyAdminApprover</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Opus" title="com.opus.testcases.TC_OpusCheckApproval_04" hash-for-method="verifyReportsManager">verifyReportsManager</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Opus" title="com.opus.testcases.TC_InsuffCheckReportGeneration_06" hash-for-method="verifyadminApproverRole">verifyadminApproverRole</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Opus -->
-                  </li>
-                  <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Opus" class="hide-methods skipped suite-Opus"> (hide)</a> <!-- hide-methods skipped suite-Opus -->
-                      <a href="#" panel-name="suite-Opus" class="show-methods skipped suite-Opus"> (show)</a> <!-- show-methods skipped suite-Opus -->
-                    </span>
-                    <div class="method-list-content skipped suite-Opus">
-                      <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Opus" title="com.opus.testcases.TC_OpusCheckApproval_04" hash-for-method="generateCaseReportPdf">generateCaseReportPdf</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content skipped suite-Opus -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -135,12 +116,22 @@
                     <div class="method-list-content passed suite-Opus">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Opus" title="com.opus.testcases.TC_OpusCheckApproval_04" hash-for-method="verificationQualityAllocator">verificationQualityAllocator</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Opus" title="com.opus.testcases.TC_InsuffCheckReportGeneration_06" hash-for-method="generateCaseReportPdf">generateCaseReportPdf</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Opus" title="com.opus.testcases.TC_OpusCheckApproval_04" hash-for-method="verifyAdminAprovalTl">verifyAdminAprovalTl</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Opus" title="com.opus.testcases.TC_InsuffCheckReportGeneration_06" hash-for-method="verificationQualityAllocator">verificationQualityAllocator</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Opus" title="com.opus.testcases.TC_InsuffCheckReportGeneration_06" hash-for-method="verifyAdminAprovalTl">verifyAdminAprovalTl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Opus" title="com.opus.testcases.TC_InsuffCheckReportGeneration_06" hash-for-method="verifyReportsManager">verifyReportsManager</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Opus -->
@@ -158,23 +149,25 @@
           <div class="suite-Opus-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.opus.testcases.TC_OpusCheckApproval_04</span>
+              <span class="class-name">com.opus.testcases.TC_InsuffCheckReportGeneration_06</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyAdminApprover">
-                  </a> <!-- verifyAdminApprover -->
-                  <span class="method-name">verifyAdminApprover</span>
-                  <div class="stack-trace">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Please select overseas country.}
-  (Session info: chrome=101.0.4951.64): Please select overseas country.
+                  <a name="verifyadminApproverRole">
+                  </a> <!-- verifyadminApproverRole -->
+                  <span class="method-name">verifyadminApproverRole</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html[1]/body[1]/div[1]/div[3]/form[1]/table[1]/tbody[1]/tr[5]/td[7]/a[1]&quot;}
+  (Session info: chrome=101.0.4951.64)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
 System info: host: &apos;ARS-NBT-LAP-250&apos;, ip: &apos;192.168.43.51&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.13.0-41-generic&apos;, java.version: &apos;1.8.0_312&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /tmp/.com.google.Chrome.QH5BD3}, goog:chromeOptions: {debuggerAddress: localhost:34897}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 06a157f1db67ddd2bdaba741de62dffb
-*** Element info: {Using=xpath, value=//select[@id=&apos;VER_OVERSEAS_DROPDOWN_ID&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /tmp/.com.google.Chrome.R1MmSP}, goog:chromeOptions: {debuggerAddress: localhost:32851}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 726aeca146dc927134c368066eceb2a8
+*** Element info: {Using=xpath, value=/html[1]/body[1]/div[1]/div[3]/form[1]/table[1]/tbody[1]/tr[5]/td[7]/a[1]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
@@ -196,54 +189,18 @@ Session ID: 06a157f1db67ddd2bdaba741de62dffb
 	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:566)
 	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:480)
 	at com.opus.utilities.JavaScriptManuplator.javaScriptExecutor(JavaScriptManuplator.java:38)
-	at com.opus.pageobject.OpusApproveMapping.adminRoleApprover(OpusApproveMapping.java:723)
-	at com.opus.testcases.TC_OpusCheckApproval_04.verifyAdminApprover(TC_OpusCheckApproval_04.java:51)
-... Removed 28 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyReportsManager">
-                  </a> <!-- verifyReportsManager -->
-                  <span class="method-name">verifyReportsManager</span>
-                  <div class="stack-trace">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Report severity can not be empty}
-  (Session info: chrome=101.0.4951.64): Report severity can not be empty
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
-System info: host: &apos;ARS-NBT-LAP-250&apos;, ip: &apos;192.168.43.51&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.13.0-41-generic&apos;, java.version: &apos;1.8.0_312&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /tmp/.com.google.Chrome.QH5BD3}, goog:chromeOptions: {debuggerAddress: localhost:34897}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 06a157f1db67ddd2bdaba741de62dffb
-*** Element info: {Using=xpath, value=//*[contains(text(),&apos;Report Successfully Reviewed.&apos;)]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-	at com.opus.pageobject.OpusApproveMapping.verifyReportSuccessReviewedMsg(OpusApproveMapping.java:852)
-	at com.opus.testcases.TC_OpusCheckApproval_04.verifyReportsManager(TC_OpusCheckApproval_04.java:99)
-... Removed 28 stack frames
+	at com.opus.pageobject.RaiseInsufficiency.adminApproverRole(RaiseInsufficiency.java:776)
+	at com.opus.testcases.TC_InsuffCheckReportGeneration_06.verifyadminApproverRole(TC_InsuffCheckReportGeneration_06.java:52)
+... Removed 32 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Opus-class-failed -->
-          <div class="suite-Opus-class-skipped">
+          <div class="suite-Opus-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">com.opus.testcases.TC_OpusCheckApproval_04</span>
+              <img src="passed.png"/>
+              <span class="class-name">com.opus.testcases.TC_InsuffCheckReportGeneration_06</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -251,19 +208,8 @@ Session ID: 06a157f1db67ddd2bdaba741de62dffb
                   <a name="generateCaseReportPdf">
                   </a> <!-- generateCaseReportPdf -->
                   <span class="method-name">generateCaseReportPdf</span>
-                  <div class="stack-trace">java.lang.Throwable: Method TC_OpusCheckApproval_04.generateCaseReportPdf()[pri:6, instance:com.opus.testcases.TC_OpusCheckApproval_04@1324409e] depends on not successfully finished methods
-... Removed 21 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Opus-class-skipped -->
-          <div class="suite-Opus-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.opus.testcases.TC_OpusCheckApproval_04</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
                   <a name="verificationQualityAllocator">
@@ -276,6 +222,13 @@ Session ID: 06a157f1db67ddd2bdaba741de62dffb
                   <a name="verifyAdminAprovalTl">
                   </a> <!-- verifyAdminAprovalTl -->
                   <span class="method-name">verifyAdminAprovalTl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyReportsManager">
+                  </a> <!-- verifyReportsManager -->
+                  <span class="method-name">verifyReportsManager</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -293,12 +246,12 @@ Session ID: 06a157f1db67ddd2bdaba741de62dffb
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.opus.utilities.Reporting&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Opus4&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Opus9&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.opus.testcases.TC_OpusCheckApproval_04&quot;/&gt;
+      &lt;class name=&quot;com.opus.testcases.TC_InsuffCheckReportGeneration_06&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Opus4 --&gt;
+  &lt;/test&gt; &lt;!-- Opus9 --&gt;
 &lt;/suite&gt; &lt;!-- Opus --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -310,7 +263,7 @@ Session ID: 06a157f1db67ddd2bdaba741de62dffb
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Opus4 (1 class)</span>
+                <span class="test-name">Opus9 (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -339,29 +292,29 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verificationQualityAllocator')
-data.setCell(0, 2, 'com.opus.testcases.TC_OpusCheckApproval_04')
-data.setCell(0, 3, 138586);
+data.setCell(0, 2, 'com.opus.testcases.TC_InsuffCheckReportGeneration_06')
+data.setCell(0, 3, 125187);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyAdminApprover')
-data.setCell(1, 2, 'com.opus.testcases.TC_OpusCheckApproval_04')
-data.setCell(1, 3, 30847);
+data.setCell(1, 1, 'verifyadminApproverRole')
+data.setCell(1, 2, 'com.opus.testcases.TC_InsuffCheckReportGeneration_06')
+data.setCell(1, 3, 64645);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'verifyReportsManager')
-data.setCell(2, 2, 'com.opus.testcases.TC_OpusCheckApproval_04')
-data.setCell(2, 3, 28843);
+data.setCell(2, 2, 'com.opus.testcases.TC_InsuffCheckReportGeneration_06')
+data.setCell(2, 3, 29953);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifyAdminAprovalTl')
-data.setCell(3, 2, 'com.opus.testcases.TC_OpusCheckApproval_04')
-data.setCell(3, 3, 18722);
+data.setCell(3, 1, 'generateCaseReportPdf')
+data.setCell(3, 2, 'com.opus.testcases.TC_InsuffCheckReportGeneration_06')
+data.setCell(3, 3, 22807);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'generateCaseReportPdf')
-data.setCell(4, 2, 'com.opus.testcases.TC_OpusCheckApproval_04')
-data.setCell(4, 3, 0);
+data.setCell(4, 1, 'verifyAdminAprovalTl')
+data.setCell(4, 2, 'com.opus.testcases.TC_InsuffCheckReportGeneration_06')
+data.setCell(4, 3, 13532);
 window.suiteTableData['Opus']= { tableData: data, tableDiv: 'times-div-Opus'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
               <div id="times-div-Opus">
               </div> <!-- times-div-Opus -->
             </div> <!-- times-div -->
@@ -387,34 +340,36 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.opus.testcases.TC_OpusCheckApproval_04</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.opus.testcases.TC_InsuffCheckReportGeneration_06</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verifyAdminAprovalTl</span>
-                <span class="method-start">6439 ms</span>
+                <span class="method-start">4339 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">verifyAdminApprover</span>
-                <span class="method-start">25172 ms</span>
+                <span class="method-name">verifyadminApproverRole</span>
+                <span class="method-start">17883 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verificationQualityAllocator</span>
-                <span class="method-start">56031 ms</span>
+                <span class="method-start">82546 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">verifyReportsManager</span>
-                <span class="method-start">194618 ms</span>
+                <span class="method-start">207735 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">generateCaseReportPdf</span>
+                <span class="method-start">237689 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">223465 ms</span>
+                <span class="method-start">260496 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
