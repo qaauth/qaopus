@@ -4,17 +4,19 @@
   <listeners>
     <listener class-name="com.opus.utilities.Reporting"/>
   </listeners>
-  <test thread-count="1" verbose="0" name="Opus9(failed)">
+  <test thread-count="1" verbose="0" name="Opus3(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.opus.testcases.TC_InsuffCheckReportGeneration_06">
+      <class name="com.opus.testcases.TC_OpusVendorCaseSubmission_03">
         <methods>
-          <include name="verifyAdminAprovalTl"/>
+          <include name="verifyMarkCheckAsSent"/>
+          <include name="verifyVendorAccountLogin"/>
+          <include name="VerifyAssigningCheckToFieldExecutive"/>
+          <include name="verifyUpdateCheckDetails"/>
           <include name="setup"/>
-          <include name="verifyadminApproverRole"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.opus.testcases.TC_InsuffCheckReportGeneration_06 -->
+      </class> <!-- com.opus.testcases.TC_OpusVendorCaseSubmission_03 -->
     </classes>
-  </test> <!-- Opus9(failed) -->
+  </test> <!-- Opus3(failed) -->
 </suite> <!-- Failed suite [Opus] -->

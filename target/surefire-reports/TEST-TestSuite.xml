@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="256.147" tests="5" errors="0" skipped="0" failures="1">
+<testsuite name="TestSuite" time="15.404" tests="4" errors="0" skipped="2" failures="1">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
@@ -24,7 +24,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Linux"/>
-    <property name="classworlds.conf" value="/home/raju.yadav/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf7296739389548025900.tmp"/>
+    <property name="classworlds.conf" value="/home/raju.yadav/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf3234696673674973591.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -59,49 +59,31 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="verifyAdminAprovalTl" classname="com.opus.testcases.TC_InsuffCheckReportGeneration_06" time="13.542"/>
-  <testcase name="verifyadminApproverRole" classname="com.opus.testcases.TC_InsuffCheckReportGeneration_06" time="64.655">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html[1]/body[1]/div[1]/div[3]/form[1]/table[1]/tbody[1]/tr[5]/td[7]/a[1]&quot;}&#10;  (Session info: chrome=101.0.4951.64)&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;ARS-NBT-LAP-250&apos;, ip: &apos;192.168.43.51&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.13.0-41-generic&apos;, java.version: &apos;1.8.0_312&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /tmp/.com.google.Chrome.R1MmSP}, goog:chromeOptions: {debuggerAddress: localhost:32851}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 726aeca146dc927134c368066eceb2a8&#10;*** Element info: {Using=xpath, value=/html[1]/body[1]/div[1]/div[3]/form[1]/table[1]/tbody[1]/tr[5]/td[7]/a[1]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html[1]/body[1]/div[1]/div[3]/form[1]/table[1]/tbody[1]/tr[5]/td[7]/a[1]"}
-  (Session info: chrome=101.0.4951.64)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+  <testcase name="verifyVendorAccountLogin" classname="com.opus.testcases.TC_OpusVendorCaseSubmission_03" time="6.134"/>
+  <testcase name="VerifyAssigningCheckToFieldExecutive" classname="com.opus.testcases.TC_OpusVendorCaseSubmission_03" time="9.27">
+    <failure message="unexpected alert open: {Alert text : Success -: Check successfully assigned to Normal Vendor!}&#10;  (Session info: chrome=101.0.4951.64): Success -: Check successfully assigned to Normal Vendor!&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;ARS-NBT-LAP-250&apos;, ip: &apos;192.168.43.51&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.13.0-41-generic&apos;, java.version: &apos;1.8.0_312&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /tmp/.com.google.Chrome.yH0GIO}, goog:chromeOptions: {debuggerAddress: localhost:43909}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0fcc2f49ae8b89d8cbaa6a19b2a807d3" type="org.openqa.selenium.UnhandledAlertException">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Success -: Check successfully assigned to Normal Vendor!}
+  (Session info: chrome=101.0.4951.64): Success -: Check successfully assigned to Normal Vendor!
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'ARS-NBT-LAP-250', ip: '192.168.43.51', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-41-generic', java.version: '1.8.0_312'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /tmp/.com.google.Chrome.R1MmSP}, goog:chromeOptions: {debuggerAddress: localhost:32851}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 726aeca146dc927134c368066eceb2a8
-*** Element info: {Using=xpath, value=/html[1]/body[1]/div[1]/div[3]/form[1]/table[1]/tbody[1]/tr[5]/td[7]/a[1]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /tmp/.com.google.Chrome.yH0GIO}, goog:chromeOptions: {debuggerAddress: localhost:43909}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0fcc2f49ae8b89d8cbaa6a19b2a807d3
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy9.getWrappedElement(Unknown Source)
-	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50)
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
-	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
-	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:566)
-	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:480)
-	at com.opus.utilities.JavaScriptManuplator.javaScriptExecutor(JavaScriptManuplator.java:38)
-	at com.opus.pageobject.RaiseInsufficiency.adminApproverRole(RaiseInsufficiency.java:776)
-	at com.opus.testcases.TC_InsuffCheckReportGeneration_06.verifyadminApproverRole(TC_InsuffCheckReportGeneration_06.java:52)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:928)
+	at com.opus.testcases.TC_OpusVendorCaseSubmission_03.VerifyAssigningCheckToFieldExecutive(TC_OpusVendorCaseSubmission_03.java:38)
 </failure>
+    <system-out><![CDATA[ INFO [main] (TC_OpusVendorCaseSubmission_03.java:36)- Address check have accepted and assign activity successfully!
+]]></system-out>
   </testcase>
-  <testcase name="verificationQualityAllocator" classname="com.opus.testcases.TC_InsuffCheckReportGeneration_06" time="125.193"/>
-  <testcase name="verifyReportsManager" classname="com.opus.testcases.TC_InsuffCheckReportGeneration_06" time="29.95"/>
-  <testcase name="generateCaseReportPdf" classname="com.opus.testcases.TC_InsuffCheckReportGeneration_06" time="22.807"/>
+  <testcase name="verifyUpdateCheckDetails" classname="com.opus.testcases.TC_OpusVendorCaseSubmission_03" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyMarkCheckAsSent" classname="com.opus.testcases.TC_OpusVendorCaseSubmission_03" time="0">
+    <skipped/>
+  </testcase>
 </testsuite>

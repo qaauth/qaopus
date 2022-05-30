@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+<testng-results skipped="2" failed="1" ignored="0" total="4" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Opus" duration-ms="260796" started-at="2022-05-27T11:55:16Z" finished-at="2022-05-27T11:59:37Z">
+  <suite name="Opus" duration-ms="19152" started-at="2022-05-30T04:41:06Z" finished-at="2022-05-30T04:41:25Z">
     <groups>
     </groups>
-    <test name="Opus9" duration-ms="260796" started-at="2022-05-27T11:55:16Z" finished-at="2022-05-27T11:59:37Z">
-      <class name="com.opus.testcases.TC_InsuffCheckReportGeneration_06">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.opus.testcases.TC_InsuffCheckReportGeneration_06@1324409e]" name="setup" is-config="true" duration-ms="4328" started-at="2022-05-27T11:55:16Z" finished-at="2022-05-27T11:55:21Z">
+    <test name="Opus3" duration-ms="19152" started-at="2022-05-30T04:41:06Z" finished-at="2022-05-30T04:41:25Z">
+      <class name="com.opus.testcases.TC_OpusVendorCaseSubmission_03">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.opus.testcases.TC_OpusVendorCaseSubmission_03@1324409e]" name="setup" is-config="true" duration-ms="3337" started-at="2022-05-30T04:41:06Z" finished-at="2022-05-30T04:41:10Z">
           <params>
             <param index="0">
               <value>
@@ -18,62 +18,37 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyAdminAprovalTl()[pri:1, instance:com.opus.testcases.TC_InsuffCheckReportGeneration_06@1324409e]" name="verifyAdminAprovalTl" duration-ms="13532" started-at="2022-05-27T11:55:21Z" finished-at="2022-05-27T11:55:34Z">
+        <test-method status="PASS" signature="verifyVendorAccountLogin()[pri:1, instance:com.opus.testcases.TC_OpusVendorCaseSubmission_03@1324409e]" name="verifyVendorAccountLogin" duration-ms="6126" started-at="2022-05-30T04:41:10Z" finished-at="2022-05-30T04:41:16Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAdminAprovalTl -->
-        <test-method status="FAIL" signature="verifyadminApproverRole()[pri:2, instance:com.opus.testcases.TC_InsuffCheckReportGeneration_06@1324409e]" name="verifyadminApproverRole" duration-ms="64645" started-at="2022-05-27T11:55:34Z" depends-on-methods="com.opus.testcases.TC_InsuffCheckReportGeneration_06.verifyAdminAprovalTl" finished-at="2022-05-27T11:56:39Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        </test-method> <!-- verifyVendorAccountLogin -->
+        <test-method status="FAIL" signature="VerifyAssigningCheckToFieldExecutive()[pri:2, instance:com.opus.testcases.TC_OpusVendorCaseSubmission_03@1324409e]" name="VerifyAssigningCheckToFieldExecutive" duration-ms="9262" started-at="2022-05-30T04:41:16Z" depends-on-methods="com.opus.testcases.TC_OpusVendorCaseSubmission_03.verifyVendorAccountLogin" finished-at="2022-05-30T04:41:25Z">
+          <exception class="org.openqa.selenium.UnhandledAlertException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html[1]/body[1]/div[1]/div[3]/form[1]/table[1]/tbody[1]/tr[5]/td[7]/a[1]"}
-  (Session info: chrome=101.0.4951.64)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[unexpected alert open: {Alert text : Success -: Check successfully assigned to Normal Vendor!}
+  (Session info: chrome=101.0.4951.64): Success -: Check successfully assigned to Normal Vendor!
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'ARS-NBT-LAP-250', ip: '192.168.43.51', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-41-generic', java.version: '1.8.0_312'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /tmp/.com.google.Chrome.R1MmSP}, goog:chromeOptions: {debuggerAddress: localhost:32851}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 726aeca146dc927134c368066eceb2a8
-*** Element info: {Using=xpath, value=/html[1]/body[1]/div[1]/div[3]/form[1]/table[1]/tbody[1]/tr[5]/td[7]/a[1]}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /tmp/.com.google.Chrome.yH0GIO}, goog:chromeOptions: {debuggerAddress: localhost:43909}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0fcc2f49ae8b89d8cbaa6a19b2a807d3]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html[1]/body[1]/div[1]/div[3]/form[1]/table[1]/tbody[1]/tr[5]/td[7]/a[1]"}
-  (Session info: chrome=101.0.4951.64)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Success -: Check successfully assigned to Normal Vendor!}
+  (Session info: chrome=101.0.4951.64): Success -: Check successfully assigned to Normal Vendor!
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'ARS-NBT-LAP-250', ip: '192.168.43.51', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-41-generic', java.version: '1.8.0_312'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /tmp/.com.google.Chrome.R1MmSP}, goog:chromeOptions: {debuggerAddress: localhost:32851}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 726aeca146dc927134c368066eceb2a8
-*** Element info: {Using=xpath, value=/html[1]/body[1]/div[1]/div[3]/form[1]/table[1]/tbody[1]/tr[5]/td[7]/a[1]}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /tmp/.com.google.Chrome.yH0GIO}, goog:chromeOptions: {debuggerAddress: localhost:43909}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0fcc2f49ae8b89d8cbaa6a19b2a807d3
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy9.getWrappedElement(Unknown Source)
-at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50)
-at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
-at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
-at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
-at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
-at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
-at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:566)
-at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:480)
-at com.opus.utilities.JavaScriptManuplator.javaScriptExecutor(JavaScriptManuplator.java:38)
-at com.opus.pageobject.RaiseInsufficiency.adminApproverRole(RaiseInsufficiency.java:776)
-at com.opus.testcases.TC_InsuffCheckReportGeneration_06.verifyadminApproverRole(TC_InsuffCheckReportGeneration_06.java:52)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:928)
+at com.opus.testcases.TC_OpusVendorCaseSubmission_03.VerifyAssigningCheckToFieldExecutive(TC_OpusVendorCaseSubmission_03.java:38)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -104,27 +79,83 @@ at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyadminApproverRole -->
-        <test-method status="PASS" signature="verificationQualityAllocator()[pri:4, instance:com.opus.testcases.TC_InsuffCheckReportGeneration_06@1324409e]" name="verificationQualityAllocator" duration-ms="125187" started-at="2022-05-27T11:56:39Z" depends-on-methods="com.opus.testcases.TC_InsuffCheckReportGeneration_06.verifyAdminAprovalTl" finished-at="2022-05-27T11:58:44Z">
+        </test-method> <!-- VerifyAssigningCheckToFieldExecutive -->
+        <test-method status="SKIP" signature="verifyUpdateCheckDetails()[pri:3, instance:com.opus.testcases.TC_OpusVendorCaseSubmission_03@1324409e]" name="verifyUpdateCheckDetails" duration-ms="0" started-at="2022-05-30T04:41:25Z" depends-on-methods="com.opus.testcases.TC_OpusVendorCaseSubmission_03.VerifyAssigningCheckToFieldExecutive" finished-at="2022-05-30T04:41:25Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TC_OpusVendorCaseSubmission_03.verifyUpdateCheckDetails()[pri:3, instance:com.opus.testcases.TC_OpusVendorCaseSubmission_03@1324409e] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TC_OpusVendorCaseSubmission_03.verifyUpdateCheckDetails()[pri:3, instance:com.opus.testcases.TC_OpusVendorCaseSubmission_03@1324409e] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verificationQualityAllocator -->
-        <test-method status="PASS" signature="verifyReportsManager()[pri:5, instance:com.opus.testcases.TC_InsuffCheckReportGeneration_06@1324409e]" name="verifyReportsManager" duration-ms="29953" started-at="2022-05-27T11:58:44Z" depends-on-methods="com.opus.testcases.TC_InsuffCheckReportGeneration_06.verificationQualityAllocator" finished-at="2022-05-27T11:59:14Z">
+        </test-method> <!-- verifyUpdateCheckDetails -->
+        <test-method status="SKIP" signature="verifyMarkCheckAsSent()[pri:4, instance:com.opus.testcases.TC_OpusVendorCaseSubmission_03@1324409e]" name="verifyMarkCheckAsSent" duration-ms="0" started-at="2022-05-30T04:41:25Z" depends-on-methods="com.opus.testcases.TC_OpusVendorCaseSubmission_03.verifyUpdateCheckDetails" finished-at="2022-05-30T04:41:25Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TC_OpusVendorCaseSubmission_03.verifyMarkCheckAsSent()[pri:4, instance:com.opus.testcases.TC_OpusVendorCaseSubmission_03@1324409e] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TC_OpusVendorCaseSubmission_03.verifyMarkCheckAsSent()[pri:4, instance:com.opus.testcases.TC_OpusVendorCaseSubmission_03@1324409e] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyReportsManager -->
-        <test-method status="PASS" signature="generateCaseReportPdf()[pri:6, instance:com.opus.testcases.TC_InsuffCheckReportGeneration_06@1324409e]" name="generateCaseReportPdf" duration-ms="22807" started-at="2022-05-27T11:59:14Z" depends-on-methods="com.opus.testcases.TC_InsuffCheckReportGeneration_06.verifyReportsManager" finished-at="2022-05-27T11:59:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- generateCaseReportPdf -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.opus.testcases.TC_InsuffCheckReportGeneration_06@1324409e]" name="tearDown" is-config="true" duration-ms="103" started-at="2022-05-27T11:59:37Z" finished-at="2022-05-27T11:59:37Z">
+        </test-method> <!-- verifyMarkCheckAsSent -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.opus.testcases.TC_OpusVendorCaseSubmission_03@1324409e]" name="tearDown" is-config="true" duration-ms="82" started-at="2022-05-30T04:41:25Z" finished-at="2022-05-30T04:41:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.opus.testcases.TC_InsuffCheckReportGeneration_06 -->
-    </test> <!-- Opus9 -->
+      </class> <!-- com.opus.testcases.TC_OpusVendorCaseSubmission_03 -->
+    </test> <!-- Opus3 -->
   </suite> <!-- Opus -->
 </testng-results>

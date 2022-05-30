@@ -9,21 +9,21 @@
 		<classes>
 			<class name="com.opus.testcases.TC_CaseInitiation_01" />
 		</classes>
-	</test> 
+	</test>  -->
 	
-	<test name="Opus2">
+	<!-- <test name="Opus2">
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.opus.testcases.TC_OpusVendorCaseAllocation_02" />
 		</classes>
-	</test> 
+	</test>  -->
 	
 	<test name="Opus3">
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.opus.testcases.TC_OpusVendorCaseSubmission_03" />
 		</classes>
-	</test> -->
+	</test>
 	
 	<!-- <test name="Opus4">
 		<parameter name="browser" value="chrome" />
@@ -60,11 +60,11 @@
 		</classes>
 	</test> -->
 	
-	<test name="Opus9">
+	<!-- <test name="Opus9">
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.opus.testcases.TC_InsuffCheckReportGeneration_06" />
 		</classes>
-	</test>
+	</test> -->
 	
 </suite>

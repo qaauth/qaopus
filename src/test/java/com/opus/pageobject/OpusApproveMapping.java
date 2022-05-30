@@ -446,7 +446,7 @@ public class OpusApproveMapping {
 	WebElement clickOnDashboardModule;
 
 	// Get New Load Count
-	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[6]/td[3]/a[1]")
+	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[7]/td[3]/a[1]")
 	@CacheLookup
 	WebElement getNewLoadCountNo;
 
