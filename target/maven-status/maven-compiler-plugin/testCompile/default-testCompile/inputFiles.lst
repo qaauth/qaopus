@@ -3,9 +3,11 @@
 /home/raju.yadav/eclipse-workspace/Opus/src/test/java/com/opus/pageobject/BridgeCaseDetails.java
 /home/raju.yadav/eclipse-workspace/Opus/src/test/java/com/opus/pageobject/RaiseInsufficiency.java
 /home/raju.yadav/eclipse-workspace/Opus/src/test/java/com/opus/testcases/TC_OpusCheckApproval_04.java
+/home/raju.yadav/eclipse-workspace/Opus/src/test/java/com/opus/pageobject/OpusCityMapping.java
 /home/raju.yadav/eclipse-workspace/Opus/src/test/java/com/opus/testcases/TC_InsuffCheckReportGeneration_06.java
 /home/raju.yadav/eclipse-workspace/Opus/src/test/java/com/opus/testcases/TC_RaiseInsufficiency_05.java
 /home/raju.yadav/eclipse-workspace/Opus/src/test/java/com/opus/utilities/XLUtils.java
+/home/raju.yadav/eclipse-workspace/Opus/src/test/java/com/opus/testcases/TC_OpusCityMapping_07.java
 /home/raju.yadav/eclipse-workspace/Opus/src/test/java/com/opus/pageobject/OpusApproveMapping.java
 /home/raju.yadav/eclipse-workspace/Opus/src/test/java/com/opus/testcases/TC_OpusVendorCaseAllocation_02.java
 /home/raju.yadav/eclipse-workspace/Opus/src/test/java/com/opus/pageobject/BridgeLoginPage.java

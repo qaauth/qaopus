@@ -18,12 +18,12 @@
 		</classes>
 	</test>  -->
 	
-	<test name="Opus3">
+	<!-- <test name="Opus3">
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.opus.testcases.TC_OpusVendorCaseSubmission_03" />
 		</classes>
-	</test>
+	</test> -->
 	
 	<!-- <test name="Opus4">
 		<parameter name="browser" value="chrome" />
@@ -66,5 +66,12 @@
 			<class name="com.opus.testcases.TC_InsuffCheckReportGeneration_06" />
 		</classes>
 	</test> -->
+	
+	<test name="Opus10">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.opus.testcases.TC_OpusCityMapping_07" />
+		</classes>
+	</test> 
 	
 </suite>
