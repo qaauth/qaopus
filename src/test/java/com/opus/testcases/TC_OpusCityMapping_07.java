@@ -19,7 +19,7 @@ public class TC_OpusCityMapping_07 extends BaseClass {
 	// Verify Vendor/Admin Account Login Details
 	@Test(enabled = true, testName = "Verify Vendor/Admin Account Login Details", priority = 1)
 	public void verifyVendorAccountLogin() throws InterruptedException, IOException {
-		/*driver.get(OPUSUrl);
+		driver.get(OPUSUrl);
 		logger.info("OPus Url is opened Successfully!");
 		BridgeLoginPage vendorLogin = new BridgeLoginPage(driver);
 		vendorLogin.opusAdminAcoountLogin(adminUsername, adminPassword);
@@ -31,14 +31,14 @@ public class TC_OpusCityMapping_07 extends BaseClass {
 			logger.info("Opus Vendor account has Not logged successfully.!");
 			captureScreen(driver, "verifyOpusVendorLogoutPage");
 			Assert.assertTrue(false);
-		}*/
+		}
 	}
 
 	// Verify City Mapping by selecting admin role
 	@Test(enabled = true, testName = "Verify City Mapping by selecting admin role", priority = 2, dependsOnMethods = {
 			"verifyVendorAccountLogin" })
 	public void verifyAdminByCityMapping() throws InterruptedException, IOException {
-		/*OpusCityMapping cityMapping = new OpusCityMapping(driver);
+		OpusCityMapping cityMapping = new OpusCityMapping(driver);
 		cityMapping.adminByCityMapping();
 		logger.info("City mapping has completed successfuly!");
 		if (cityMapping.verifyLogoutVendorAdminAccount().contains("New Delhi")) {
@@ -48,7 +48,7 @@ public class TC_OpusCityMapping_07 extends BaseClass {
 			logger.info("City Mapping has Not verified successfully.!");
 			captureScreen(driver, "verifyLogoutVendorAdminAccount");
 			Assert.assertTrue(false);
-		}*/
+		}
 	}
 
 	// Verify Bridge Login Test
@@ -246,8 +246,8 @@ public class TC_OpusCityMapping_07 extends BaseClass {
 	public void verifySwitchToRoleAllocator() throws IOException, InterruptedException {
 		driver.get(OPUSUrl);
 		logger.info("OPus Url is opened Successfully!");
-		BridgeLoginPage vendorLogin = new BridgeLoginPage(driver);
-		vendorLogin.opusAdminAcoountLogin(adminUsername, adminPassword);
+		//BridgeLoginPage vendorLogin = new BridgeLoginPage(driver);
+		//vendorLogin.opusAdminAcoountLogin(adminUsername, adminPassword);
 		logger.info("Opus Admin Username and password has entered sucessfully!");
 		OpusCityMapping cityMapAllocator = new OpusCityMapping(driver);
 		cityMapAllocator.switchToRoleAllocator();

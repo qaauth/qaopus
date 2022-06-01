@@ -15,4 +15,6 @@
 /home/raju.yadav/eclipse-workspace/Opus/src/test/java/com/opus/testcases/TC_CaseInitiation_01.java
 /home/raju.yadav/eclipse-workspace/Opus/src/test/java/com/opus/testcases/BaseClass.java
 /home/raju.yadav/eclipse-workspace/Opus/src/test/java/com/opus/utilities/ReadConfig.java
+/home/raju.yadav/eclipse-workspace/Opus/src/test/java/com/opus/testcases/TC_OpusUniversityMapping_08.java
 /home/raju.yadav/eclipse-workspace/Opus/src/test/java/com/opus/utilities/RandomStrings.java
+/home/raju.yadav/eclipse-workspace/Opus/src/test/java/com/opus/pageobject/OpusUniversityMapping.java

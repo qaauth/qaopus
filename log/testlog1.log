@@ -9506,3 +9506,85 @@
 2022-05-31 18:30:13,864 [main] INFO Opus - OPus Url is opened Successfully!
 2022-05-31 18:30:19,734 [main] INFO Opus - Opus Admin Username and password has entered sucessfully!
 2022-05-31 18:30:47,362 [main] INFO Opus - Internal Vendor has verified in Vendor action dropdown List!
+2022-06-01 15:40:07,373 [main] INFO Opus - OPus Url is opened Successfully!
+2022-06-01 15:40:13,728 [main] INFO Opus - Opus Admin Username and password has entered sucessfully!
+2022-06-01 15:40:13,840 [main] INFO Opus - Opus Vendor account has logged successfully.!
+2022-06-01 15:40:34,836 [main] INFO Opus - City mapping has completed successfuly!
+2022-06-01 15:40:34,882 [main] INFO Opus - City Mapping has verified successfully.!
+2022-06-01 15:40:35,544 [main] INFO Opus - Bridge Url is opened Successfully!
+2022-06-01 15:40:36,820 [main] INFO Opus - Bridge Username and password has entered sucessfully!
+2022-06-01 15:40:43,870 [main] INFO Opus - Bridge Client has logged Successfully!
+2022-06-01 15:40:54,747 [main] INFO Opus - User Admin Role DocumentProcessor has selected Successfully!
+2022-06-01 15:40:57,342 [main] INFO Opus - Candidate First Name, Middle Name, Last Name and Email address have added successfully!
+2022-06-01 15:41:15,961 [main] INFO Opus - Bridge new case Candidate details have added successully!
+2022-06-01 15:41:16,031 [main] INFO Opus - Case detail has been saved successfully!
+2022-06-01 15:43:16,447 [main] INFO Opus - OPus Url is opened Successfully!
+2022-06-01 15:43:22,468 [main] INFO Opus - Opus Admin Username and password has entered sucessfully!
+2022-06-01 15:43:22,573 [main] INFO Opus - Opus Vendor account has logged successfully.!
+2022-06-01 15:44:32,499 [main] INFO Opus - OPus Url is opened Successfully!
+2022-06-01 15:44:38,944 [main] INFO Opus - Opus Admin Username and password has entered sucessfully!
+2022-06-01 15:44:39,054 [main] INFO Opus - Opus Vendor account has logged successfully.!
+2022-06-01 15:47:05,690 [main] INFO Opus - OPus Url is opened Successfully!
+2022-06-01 15:47:11,523 [main] INFO Opus - Opus Admin Username and password has entered sucessfully!
+2022-06-01 15:47:11,631 [main] INFO Opus - Opus Vendor account has logged successfully.!
+2022-06-01 16:02:10,503 [main] INFO Opus - OPus Url is opened Successfully!
+2022-06-01 16:02:15,995 [main] INFO Opus - Opus Admin Username and password has entered sucessfully!
+2022-06-01 16:02:16,105 [main] INFO Opus - Opus Vendor account has logged successfully.!
+2022-06-01 16:05:02,949 [main] INFO Opus - OPus Url is opened Successfully!
+2022-06-01 16:05:08,562 [main] INFO Opus - Opus Admin Username and password has entered sucessfully!
+2022-06-01 16:05:08,686 [main] INFO Opus - Opus Vendor account has logged successfully.!
+2022-06-01 16:05:52,404 [main] INFO Opus - City mapping has completed successfuly!
+2022-06-01 16:05:52,486 [main] INFO Opus - University Mapping has verified successfully.!
+2022-06-01 16:05:53,317 [main] INFO Opus - Bridge Url is opened Successfully!
+2022-06-01 16:05:54,697 [main] INFO Opus - Bridge Username and password has entered sucessfully!
+2022-06-01 16:06:01,582 [main] INFO Opus - Bridge Client has logged Successfully!
+2022-06-01 16:06:12,900 [main] INFO Opus - User Admin Role DocumentProcessor has selected Successfully!
+2022-06-01 16:06:15,428 [main] INFO Opus - Candidate First Name, Middle Name, Last Name and Email address have added successfully!
+2022-06-01 16:06:33,254 [main] INFO Opus - Bridge new case Candidate details have added successully!
+2022-06-01 16:06:33,324 [main] INFO Opus - Case detail has been saved successfully!
+2022-06-01 16:06:47,327 [main] INFO Opus - British Telecom client Case has been Allocated Cases Successfully!
+2022-06-01 16:06:47,360 [main] INFO Opus - Case is successfully allocated to highlighter.!
+2022-06-01 16:07:01,336 [main] INFO Opus - Assign Cases with Ageing and selected Topsheet has successfully!
+2022-06-01 16:07:04,297 [main] INFO Opus - Highlighter Add Details have added sucessfully!
+2022-06-01 16:07:05,377 [main] INFO Opus - Topsheet is successfully created. You can now proceed with checks creation for the given candidate.!
+2022-06-01 16:07:15,605 [main] INFO Opus - Select Company name and clicked on count number Successfully from Documentation Specialist Role!
+2022-06-01 16:07:40,331 [main] INFO Opus - Documentation Specialist Pending Cases has been Updated successfully!
+2022-06-01 16:07:49,525 [main] INFO Opus - Documentation Specialist Candidate details have been added successfully!
+2022-06-01 16:08:01,731 [main] INFO Opus - Documentation Specialist All Checks filled successfully...
+2022-06-01 16:08:01,828 [main] INFO Opus - Check details are successfully saved. Case is Completed.!
+2022-06-01 16:08:45,165 [main] INFO Opus - Select Docs Qc Allocator has Successfully!
+2022-06-01 16:08:45,200 [main] INFO Opus - All selected cases were successfully allocated to QC Team Member.!
+2022-06-01 16:08:59,291 [main] INFO Opus - Case QC Review Ars Number has verified successfully!
+2022-06-01 16:09:17,980 [main] INFO Opus - The Case was successfully released for Verification.!
+2022-06-01 16:09:31,789 [main] INFO Opus - Check id is Released, DueTo, Already released to vendor..!
+2022-06-01 16:09:34,554 [main] INFO Opus - OPus Url is opened Successfully!
+2022-06-01 16:09:34,555 [main] INFO Opus - Opus Admin Username and password has entered sucessfully!
+2022-06-01 16:15:31,733 [main] INFO Opus - OPus Url is opened Successfully!
+2022-06-01 16:15:37,508 [main] INFO Opus - Opus Admin Username and password has entered sucessfully!
+2022-06-01 16:15:37,616 [main] INFO Opus - Opus Vendor account has logged successfully.!
+2022-06-01 16:16:23,036 [main] INFO Opus - City mapping has completed successfuly!
+2022-06-01 16:16:23,085 [main] INFO Opus - University Mapping has verified successfully.!
+2022-06-01 16:16:24,102 [main] INFO Opus - Bridge Url is opened Successfully!
+2022-06-01 16:16:25,397 [main] INFO Opus - Bridge Username and password has entered sucessfully!
+2022-06-01 16:16:38,640 [main] INFO Opus - Bridge Client has logged Successfully!
+2022-06-01 16:16:49,484 [main] INFO Opus - User Admin Role DocumentProcessor has selected Successfully!
+2022-06-01 16:16:51,996 [main] INFO Opus - Candidate First Name, Middle Name, Last Name and Email address have added successfully!
+2022-06-01 16:17:09,776 [main] INFO Opus - Bridge new case Candidate details have added successully!
+2022-06-01 16:17:09,842 [main] INFO Opus - Case detail has been saved successfully!
+2022-06-01 16:17:23,155 [main] INFO Opus - British Telecom client Case has been Allocated Cases Successfully!
+2022-06-01 16:17:23,191 [main] INFO Opus - Case is successfully allocated to highlighter.!
+2022-06-01 16:17:37,994 [main] INFO Opus - Assign Cases with Ageing and selected Topsheet has successfully!
+2022-06-01 16:17:40,984 [main] INFO Opus - Highlighter Add Details have added sucessfully!
+2022-06-01 16:17:46,353 [main] INFO Opus - Topsheet is successfully created. You can now proceed with checks creation for the given candidate.!
+2022-06-01 16:17:55,851 [main] INFO Opus - Select Company name and clicked on count number Successfully from Documentation Specialist Role!
+2022-06-01 16:18:21,373 [main] INFO Opus - Documentation Specialist Pending Cases has been Updated successfully!
+2022-06-01 16:18:31,404 [main] INFO Opus - Documentation Specialist Candidate details have been added successfully!
+2022-06-01 16:18:47,317 [main] INFO Opus - Documentation Specialist All Checks filled successfully...
+2022-06-01 16:18:47,464 [main] INFO Opus - Check details are successfully saved. Case is Completed.!
+2022-06-01 16:19:32,129 [main] INFO Opus - Select Docs Qc Allocator has Successfully!
+2022-06-01 16:19:32,161 [main] INFO Opus - All selected cases were successfully allocated to QC Team Member.!
+2022-06-01 16:19:45,720 [main] INFO Opus - Case QC Review Ars Number has verified successfully!
+2022-06-01 16:20:06,443 [main] INFO Opus - The Case was successfully released for Verification.!
+2022-06-01 16:20:24,246 [main] INFO Opus - Check id is Released, DueTo, Already released to vendor..!
+2022-06-01 16:20:27,148 [main] INFO Opus - OPus Url is opened Successfully!
+2022-06-01 16:20:27,149 [main] INFO Opus - Opus Admin Username and password has entered sucessfully!
