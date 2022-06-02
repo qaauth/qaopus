@@ -1,1 +1,1 @@
-Check id=9611544 is Released to Vendor.
+Check id=9611573 is Not Released, DueTo, Already released to vendor..

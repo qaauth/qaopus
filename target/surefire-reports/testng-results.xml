@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="11" passed="10">
+<testng-results skipped="1" failed="1" ignored="0" total="4" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Opus" duration-ms="372338" started-at="2022-06-01T10:45:27Z" finished-at="2022-06-01T10:51:39Z">
+  <suite name="Opus" duration-ms="330145" started-at="2022-06-02T12:43:10Z" finished-at="2022-06-02T12:48:41Z">
     <groups>
     </groups>
-    <test name="Opus11" duration-ms="372338" started-at="2022-06-01T10:45:27Z" finished-at="2022-06-01T10:51:39Z">
+    <test name="Opus11" duration-ms="330145" started-at="2022-06-02T12:43:10Z" finished-at="2022-06-02T12:48:41Z">
       <class name="com.opus.testcases.TC_OpusUniversityMapping_08">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.opus.testcases.TC_OpusUniversityMapping_08@246ae04d]" name="setup" is-config="true" duration-ms="3922" started-at="2022-06-01T10:45:27Z" finished-at="2022-06-01T10:45:31Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.opus.testcases.TC_OpusUniversityMapping_08@1324409e]" name="setup" is-config="true" duration-ms="16126" started-at="2022-06-02T12:43:11Z" finished-at="2022-06-02T12:43:27Z">
           <params>
             <param index="0">
               <value>
@@ -18,69 +18,37 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyVendorAccountLogin()[pri:1, instance:com.opus.testcases.TC_OpusUniversityMapping_08@246ae04d]" name="verifyVendorAccountLogin" duration-ms="6288" started-at="2022-06-01T10:45:31Z" finished-at="2022-06-01T10:45:37Z">
+        <test-method status="PASS" signature="verifyVendorAccountLogin()[pri:1, instance:com.opus.testcases.TC_OpusUniversityMapping_08@1324409e]" name="verifyVendorAccountLogin" duration-ms="6876" started-at="2022-06-02T12:43:27Z" finished-at="2022-06-02T12:43:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyVendorAccountLogin -->
-        <test-method status="PASS" signature="verifyAdminByCityMapping()[pri:2, instance:com.opus.testcases.TC_OpusUniversityMapping_08@246ae04d]" name="verifyAdminByCityMapping" duration-ms="45450" started-at="2022-06-01T10:45:37Z" depends-on-methods="com.opus.testcases.TC_OpusUniversityMapping_08.verifyVendorAccountLogin" finished-at="2022-06-01T10:46:23Z">
+        <test-method status="PASS" signature="verifyAdminByCityMapping()[pri:2, instance:com.opus.testcases.TC_OpusUniversityMapping_08@1324409e]" name="verifyAdminByCityMapping" duration-ms="43709" started-at="2022-06-02T12:43:34Z" depends-on-methods="com.opus.testcases.TC_OpusUniversityMapping_08.verifyVendorAccountLogin" finished-at="2022-06-02T12:44:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAdminByCityMapping -->
-        <test-method status="PASS" signature="bridgeLoginTest()[pri:3, instance:com.opus.testcases.TC_OpusUniversityMapping_08@246ae04d]" name="bridgeLoginTest" duration-ms="15554" started-at="2022-06-01T10:46:23Z" depends-on-methods="com.opus.testcases.TC_OpusUniversityMapping_08.verifyAdminByCityMapping" finished-at="2022-06-01T10:46:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bridgeLoginTest -->
-        <test-method status="PASS" signature="bridgeCaseAddDetails()[pri:4, instance:com.opus.testcases.TC_OpusUniversityMapping_08@246ae04d]" name="bridgeCaseAddDetails" duration-ms="31202" started-at="2022-06-01T10:46:38Z" depends-on-methods="com.opus.testcases.TC_OpusUniversityMapping_08.bridgeLoginTest" finished-at="2022-06-01T10:47:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bridgeCaseAddDetails -->
-        <test-method status="PASS" signature="verifyAdminUserRoleHighlighterAllocator()[pri:5, instance:com.opus.testcases.TC_OpusUniversityMapping_08@246ae04d]" name="verifyAdminUserRoleHighlighterAllocator" duration-ms="13347" started-at="2022-06-01T10:47:09Z" depends-on-methods="com.opus.testcases.TC_OpusUniversityMapping_08.bridgeCaseAddDetails" finished-at="2022-06-01T10:47:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAdminUserRoleHighlighterAllocator -->
-        <test-method status="PASS" signature="verifyUserAdminRoleHighlighter()[pri:6, instance:com.opus.testcases.TC_OpusUniversityMapping_08@246ae04d]" name="verifyUserAdminRoleHighlighter" duration-ms="23161" started-at="2022-06-01T10:47:23Z" depends-on-methods="com.opus.testcases.TC_OpusUniversityMapping_08.verifyAdminUserRoleHighlighterAllocator" finished-at="2022-06-01T10:47:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUserAdminRoleHighlighter -->
-        <test-method status="PASS" signature="verifyUserAdminRoleDocumentationSpecialist()[pri:7, instance:com.opus.testcases.TC_OpusUniversityMapping_08@246ae04d]" name="verifyUserAdminRoleDocumentationSpecialist" duration-ms="61110" started-at="2022-06-01T10:47:46Z" depends-on-methods="com.opus.testcases.TC_OpusUniversityMapping_08.verifyUserAdminRoleHighlighter" finished-at="2022-06-01T10:48:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUserAdminRoleDocumentationSpecialist -->
-        <test-method status="PASS" signature="verifyInsufficientDocsQcAllocator()[pri:8, instance:com.opus.testcases.TC_OpusUniversityMapping_08@246ae04d]" name="verifyInsufficientDocsQcAllocator" duration-ms="44696" started-at="2022-06-01T10:48:47Z" depends-on-methods="com.opus.testcases.TC_OpusUniversityMapping_08.verifyUserAdminRoleDocumentationSpecialist" finished-at="2022-06-01T10:49:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyInsufficientDocsQcAllocator -->
-        <test-method status="PASS" signature="verifyInsufficientDocsQuality()[pri:9, instance:com.opus.testcases.TC_OpusUniversityMapping_08@246ae04d]" name="verifyInsufficientDocsQuality" duration-ms="34282" started-at="2022-06-01T10:49:32Z" depends-on-methods="com.opus.testcases.TC_OpusUniversityMapping_08.verifyInsufficientDocsQcAllocator" finished-at="2022-06-01T10:50:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyInsufficientDocsQuality -->
-        <test-method status="PASS" signature="verifyInsufficientAllocator()[pri:10, instance:com.opus.testcases.TC_OpusUniversityMapping_08@246ae04d]" name="verifyInsufficientAllocator" duration-ms="17803" started-at="2022-06-01T10:50:06Z" depends-on-methods="com.opus.testcases.TC_OpusUniversityMapping_08.verifyInsufficientDocsQuality" finished-at="2022-06-01T10:50:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyInsufficientAllocator -->
-        <test-method status="FAIL" signature="verifySwitchToRoleAllocator()[pri:11, instance:com.opus.testcases.TC_OpusUniversityMapping_08@246ae04d]" name="verifySwitchToRoleAllocator" duration-ms="75186" started-at="2022-06-01T10:50:24Z" depends-on-methods="com.opus.testcases.TC_OpusUniversityMapping_08.verifyInsufficientAllocator" finished-at="2022-06-01T10:51:39Z">
+        <test-method status="FAIL" signature="verifyBridgeCaseInitiation()[pri:3, instance:com.opus.testcases.TC_OpusUniversityMapping_08@1324409e]" name="verifyBridgeCaseInitiation" duration-ms="263099" started-at="2022-06-02T12:44:17Z" depends-on-methods="com.opus.testcases.TC_OpusUniversityMapping_08.verifyAdminByCityMapping" finished-at="2022-06-02T12:48:40Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html[1]/body[1]/div[1]/div[3]/form[1]/table[1]/tbody[1]/tr[109]/td[3]"}
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/form[1]/div[7]/div[1]/input[1]"}
   (Session info: chrome=101.0.4951.64)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'ARS-NBT-LAP-250', ip: '192.168.43.51', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-41-generic', java.version: '1.8.0_312'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /tmp/.com.google.Chrome.egOVLB}, goog:chromeOptions: {debuggerAddress: localhost:40983}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 066591e27ac1dbdd29d70f6488c366c6
-*** Element info: {Using=xpath, value=/html[1]/body[1]/div[1]/div[3]/form[1]/table[1]/tbody[1]/tr[109]/td[3]}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /tmp/.com.google.Chrome.Rv8cM5}, goog:chromeOptions: {debuggerAddress: localhost:33355}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cc299026cd34ddd108721c9db4dc336d
+*** Element info: {Using=xpath, value=/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/form[1]/div[7]/div[1]/input[1]}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html[1]/body[1]/div[1]/div[3]/form[1]/table[1]/tbody[1]/tr[109]/td[3]"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/form[1]/div[7]/div[1]/input[1]"}
   (Session info: chrome=101.0.4951.64)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'ARS-NBT-LAP-250', ip: '192.168.43.51', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-41-generic', java.version: '1.8.0_312'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /tmp/.com.google.Chrome.egOVLB}, goog:chromeOptions: {debuggerAddress: localhost:40983}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 066591e27ac1dbdd29d70f6488c366c6
-*** Element info: {Using=xpath, value=/html[1]/body[1]/div[1]/div[3]/form[1]/table[1]/tbody[1]/tr[109]/td[3]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /tmp/.com.google.Chrome.Rv8cM5}, goog:chromeOptions: {debuggerAddress: localhost:33355}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cc299026cd34ddd108721c9db4dc336d
+*** Element info: {Using=xpath, value=/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/form[1]/div[7]/div[1]/input[1]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -95,8 +63,21 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
 at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-at com.opus.pageobject.OpusUniversityMapping.switchToRoleAllocator(OpusUniversityMapping.java:339)
-at com.opus.testcases.TC_OpusUniversityMapping_08.verifySwitchToRoleAllocator(TC_OpusUniversityMapping_08.java:254)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy9.getWrappedElement(Unknown Source)
+at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50)
+at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:566)
+at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:480)
+at com.opus.utilities.JavaScriptManuplator.javaScriptExecutor(JavaScriptManuplator.java:38)
+at com.opus.pageobject.OpusUniversityMapping.educationVerificationWCheck(OpusUniversityMapping.java:475)
+at com.opus.testcases.TC_OpusUniversityMapping_08.verifyBridgeCaseInitiation(TC_OpusUniversityMapping_08.java:87)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -130,8 +111,42 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
+        </test-method> <!-- verifyBridgeCaseInitiation -->
+        <test-method status="SKIP" signature="verifySwitchToRoleAllocator()[pri:4, instance:com.opus.testcases.TC_OpusUniversityMapping_08@1324409e]" name="verifySwitchToRoleAllocator" duration-ms="0" started-at="2022-06-02T12:48:40Z" depends-on-methods="com.opus.testcases.TC_OpusUniversityMapping_08.verifyBridgeCaseInitiation" finished-at="2022-06-02T12:48:40Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TC_OpusUniversityMapping_08.verifySwitchToRoleAllocator()[pri:4, instance:com.opus.testcases.TC_OpusUniversityMapping_08@1324409e] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TC_OpusUniversityMapping_08.verifySwitchToRoleAllocator()[pri:4, instance:com.opus.testcases.TC_OpusUniversityMapping_08@1324409e] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
         </test-method> <!-- verifySwitchToRoleAllocator -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.opus.testcases.TC_OpusUniversityMapping_08@246ae04d]" name="tearDown" is-config="true" duration-ms="102" started-at="2022-06-01T10:51:39Z" finished-at="2022-06-01T10:51:39Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.opus.testcases.TC_OpusUniversityMapping_08@1324409e]" name="tearDown" is-config="true" duration-ms="99" started-at="2022-06-02T12:48:40Z" finished-at="2022-06-02T12:48:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

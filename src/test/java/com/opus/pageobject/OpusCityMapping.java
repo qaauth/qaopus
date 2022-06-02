@@ -150,6 +150,10 @@ public class OpusCityMapping {
 	WebElement clickOnCurrentAddressSaveCheckBtn;
 	
 	// Switch to role: Allocator
+	@FindBy(xpath = "/html[1]/body[1]/div[1]/table[1]/tbody[1]/tr[1]/td[3]/table[1]/tbody[1]/tr[2]/td[1]/select[1]")
+	@CacheLookup
+	WebElement selectAllocatorRole;
+	
 	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/ul[1]/li[2]/a[1]/span[1]")
 	@CacheLookup
 	WebElement clickOnUnmappedCheckedModule;
@@ -275,6 +279,10 @@ public class OpusCityMapping {
 	
 	// Switch to role: Allocator
 	public void switchToRoleAllocator() throws InterruptedException, IOException {
+		wait = new WebDriverWait(ldriver, 60);
+		wait.until(ExpectedConditions.visibilityOf(selectAllocatorRole));
+		JavaScriptManuplator.selectOptionFromDropDown(selectAllocatorRole, "Allocator");
+		Thread.sleep(1000);
 		wait = new WebDriverWait(ldriver, 60);
 		wait.until(ExpectedConditions.visibilityOf(clickOnUnmappedCheckedModule));
 		JavaScriptManuplator.javaScriptExecutor(clickOnUnmappedCheckedModule, "arguments[0].click()", ldriver);

@@ -51,7 +51,7 @@ public class OpusUniversityMapping {
 	@FindBy(xpath = "//select[@id='UNIVERSITY_ID']")
 	@CacheLookup
 	WebElement selectUniversityName;// University of Delhi
-	
+
 	@FindBy(xpath = "//select[@id='CITY_ID']")
 	@CacheLookup
 	WebElement selectCityName;// New Delhi
@@ -64,7 +64,7 @@ public class OpusUniversityMapping {
 	@FindBy(xpath = "//a[contains(text(),'A G DAV Centenary Public School(New Delhi)')]")
 	@CacheLookup
 	WebElement verifyAGDavSchool;
-	
+
 	@FindBy(css = "#master_tat_1_1")
 	@CacheLookup
 	WebElement txtTatEducationVerification;
@@ -92,12 +92,12 @@ public class OpusUniversityMapping {
 
 	@FindBy(xpath = "//input[@name='instituteName']")
 	@CacheLookup
-	WebElement txtSearchUniversityName; //University of Delhi
-	
+	WebElement txtSearchUniversityName; // University of Delhi
+
 	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[3]/form[1]/table[1]/tbody[1]/tr[1]/td[1]/select[1]")
 	@CacheLookup
 	WebElement selectUniversityMapStateName;// Delhi
-	
+
 	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[3]/form[1]/table[1]/tbody[1]/tr[1]/td[2]/select[1]")
 	@CacheLookup
 	WebElement selectUniversityMapCityName;// New Delhi
@@ -128,6 +128,95 @@ public class OpusUniversityMapping {
 	@FindBy(xpath = "/html[1]/body[1]/center[1]/fieldset[1]/form[1]/table[1]/tbody[1]/tr[4]/td[2]/input[1]")
 	@CacheLookup
 	WebElement clickOnLoginBtn;
+
+	@FindBy(xpath = "//td[contains(text(),'British Telecom')]")
+	@CacheLookup
+	WebElement verifyCaseClientName;
+
+	// Highlighter-- Add Details
+	@FindBy(xpath = "//select[@id='location_id']")
+	@CacheLookup
+	WebElement selectClientLocation;
+
+	@FindBy(xpath = "//select[@id='process_id']")
+	@CacheLookup
+	WebElement selectSelectProcess;
+
+	// Check(s) -- Add Details
+	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[2]/div[2]/form[1]/table[1]/tbody[1]/tr[2]/td[1]/div[1]/fieldset[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[3]/td[2]/div[1]/input[1]")
+	@CacheLookup
+	WebElement clickOnEducationVerificationWCheck;
+
+	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[2]/div[2]/form[1]/table[1]/tbody[1]/tr[2]/td[1]/div[1]/fieldset[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[2]/td[1]/div[1]/input[1]")
+	@CacheLookup
+	WebElement currentAddressComments;
+
+	// Upload Documents
+	@FindBy(xpath = "//input[@id='masterdocumentFile']")
+	@CacheLookup
+	WebElement uploadDocument;
+
+	@FindBy(xpath = "//input[@id='CaseDocumentDocument']")
+	@CacheLookup
+	WebElement uploadClientEmailDoc;
+
+	@FindBy(xpath = "//textarea[@id='clarificationTxtID']")
+	@CacheLookup
+	WebElement txtEscalationComment;
+
+	@FindBy(xpath = "//textarea[@id='CommentsTxtID']")
+	@CacheLookup
+	WebElement txtCaseLevelComments;
+
+	@FindBy(xpath = "//input[@id='caseAddId']")
+	@CacheLookup
+	WebElement clickOnAddCaseBtn;
+	
+	// Documentation Specialist-- Add Check Details
+		// Education Verification W Check
+		@FindBy(xpath = "//strong[contains(text(),'Education Verification W')]")
+		@CacheLookup
+		WebElement clickOnEducationVerificationW;
+
+		@FindBy(xpath = "//input[@id='unique_city']")//New Delhi, Delhi, India
+		@CacheLookup
+		WebElement txtEduCheckCityName;
+
+		@FindBy(css = "#institute_vrfy_src")
+		@CacheLookup
+		WebElement txtVerificationSourceName;//University of Delhi, New Delhi
+
+		@FindBy(css = "#dynamic_1")
+		@CacheLookup
+		WebElement selectModeOfQualification;//Full time
+
+		@FindBy(css = "#dynamic_2")
+		@CacheLookup
+		WebElement selectAICTEApproved;//Not Applicable
+
+		@FindBy(css = "#dynamic_3")
+		@CacheLookup
+		WebElement selectUGCApproved;//Not Applicable
+
+		@FindBy(css = "#dynamic_5")
+		@CacheLookup
+		WebElement txtEnrollmentNo;//32547689
+
+		@FindBy(css = "#dynamic_6")
+		@CacheLookup
+		WebElement txtCourseName;//B.Tech--Bachelor of Technology/Bachelor of Engineering(B.Tech/BE)
+		
+		@FindBy(css = "#dynamic_7")
+		@CacheLookup
+		WebElement txtYearOfPassing;//2014
+		
+		@FindBy(xpath = "//textarea[@id='check_comment']")
+		@CacheLookup
+		WebElement txtEducationCommentsCheck;//Education Check are good
+		
+		@FindBy(xpath = "/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/form[1]/div[7]/div[1]/input[1]")
+		@CacheLookup
+		WebElement clickOnEducationSaveCheckBtn;
 
 	// Documentation Specialist-- Add Check Details
 	// Current Address Verification
@@ -167,7 +256,7 @@ public class OpusUniversityMapping {
 	@FindBy(xpath = "/html[1]/body[1]/div[1]/table[1]/tbody[1]/tr[1]/td[3]/table[1]/tbody[1]/tr[2]/td[1]/select[1]")
 	@CacheLookup
 	WebElement selectAllocatorRole;
-	
+
 	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/ul[1]/li[2]/a[1]/span[1]")
 	@CacheLookup
 	WebElement clickOnUnmappedCheckedModule;
@@ -210,18 +299,20 @@ public class OpusUniversityMapping {
 		JavaScriptManuplator.selectOptionFromDropDown(selectStateName, "Delhi");
 		JavaScriptManuplator.selectOptionFromDropDown(selectUniversityName, "University of Delhi");
 		JavaScriptManuplator.selectOptionFromDropDown(selectCityName, "New Delhi");
-		//JavaScriptManuplator.javaScriptExecutor(checkOnCheckBox, "arguments[0].click()", ldriver);
-		Thread.sleep(1000);
+		// JavaScriptManuplator.javaScriptExecutor(checkOnCheckBox,
+		// "arguments[0].click()", ldriver);
+		Thread.sleep(6000);
 		// Education Verification-- A G DAV Centenary Public School(New Delhi)
-		wait = new WebDriverWait(ldriver, 60);
-		wait.until(ExpectedConditions.visibilityOf(verifyAGDavSchool));
+		//wait = new WebDriverWait(ldriver, 60);
+		//wait.until(ExpectedConditions.visibilityOf(verifyAGDavSchool));
 		JavaScriptManuplator.javaScriptExecutor(txtTatEducationVerification, "arguments[0].value='5'", ldriver);
 		JavaScriptManuplator.javaScriptExecutor(txtCostEducationVerification, "arguments[0].value='245'", ldriver);
 		JavaScriptManuplator.javaScriptExecutor(txtServiceChargeEducationVerification, "arguments[0].value='249'",
 				ldriver);
-		JavaScriptManuplator.javaScriptExecutor(txtDateEducationVerification, "arguments[0].removeAttribute('readonly')",
+		JavaScriptManuplator.javaScriptExecutor(txtDateEducationVerification,
+				"arguments[0].removeAttribute('readonly')", ldriver);
+		JavaScriptManuplator.javaScriptExecutor(txtDateEducationVerification, "arguments[0].value='03-06-2022'",
 				ldriver);
-		JavaScriptManuplator.javaScriptExecutor(txtDateEducationVerification, "arguments[0].value='03-06-2022'", ldriver);
 		JavaScriptManuplator.javaScriptExecutor(clickOnUpdateBtn, "arguments[0].scrollIntoView(true);", ldriver);
 		wait = new WebDriverWait(ldriver, 60);
 		wait.until(ExpectedConditions.visibilityOf(clickOnUpdateBtn));
@@ -235,7 +326,8 @@ public class OpusUniversityMapping {
 		Thread.sleep(1000);
 		wait = new WebDriverWait(ldriver, 60);
 		wait.until(ExpectedConditions.visibilityOf(txtSearchUniversityName));
-		JavaScriptManuplator.javaScriptExecutor(txtSearchUniversityName, "arguments[0].value='University of Delhi'", ldriver);
+		JavaScriptManuplator.javaScriptExecutor(txtSearchUniversityName, "arguments[0].value='University of Delhi'",
+				ldriver);
 		Thread.sleep(1000);
 		JavaScriptManuplator.selectOptionFromDropDown(selectUniversityMapStateName, "Delhi");
 		Thread.sleep(1000);
@@ -251,13 +343,141 @@ public class OpusUniversityMapping {
 	public String verifyUniversityMappingName() {
 		wait = new WebDriverWait(ldriver, 60);
 		wait.until(ExpectedConditions.visibilityOf(verifyUniversityNameText));
-		return verifyUniversityNameText.getText();//University of Delhi
+		return verifyUniversityNameText.getText();// University of Delhi
 		/*
 		 * // Logout Opus Admin Vendor account
 		 * JavaScriptManuplator.javaScriptExecutor(clickOnLogoutBtn,
 		 * "arguments[0].click()", ldriver); Thread.sleep(1000);
 		 */
 	}
+
+	// Highlighter-- Add Details
+	public void highlighterAddDetails(String creditDefault, String indianDatabaseCheck, String previousEmpCheck,
+			String criminalRecordsCheck, String educationWCheck, String indiaCourtCheck, String nationalCheck,
+			String professionalCheck, String uploadDoc, String clientEmailDoc, String escalationComment,
+			String caseLevelComments) throws InterruptedException {
+		JavaScriptManuplator.waitForElementPresent(ldriver, verifyCaseClientName, 60);
+		JavaScriptManuplator.selectOptionFromDropDown(selectClientLocation, "Gurgaon");
+		JavaScriptManuplator.selectOptionFromDropDown(selectSelectProcess, "Check Wise");
+		// Check(s) -- Add Details
+		wait = new WebDriverWait(ldriver, 60);
+		wait.until(ExpectedConditions.visibilityOf(clickOnEducationVerificationWCheck));
+		JavaScriptManuplator.javaScriptExecutor(clickOnEducationVerificationWCheck, "arguments[0].value='1'",
+				ldriver);
+		// wait = new WebDriverWait(ldriver, 120);
+		// wait.until(ExpectedConditions.visibilityOf(currentAddressComments));
+		// JavaScriptManuplator.javaScriptExecutor(currentAddressComments,
+		// "arguments[0].value='Comments are good'", ldriver);
+		// Upload Documents
+		uploadDocument.sendKeys(uploadDoc);
+		uploadClientEmailDoc.sendKeys(clientEmailDoc);
+		JavaScriptManuplator.javaScriptExecutor(clickOnAddCaseBtn, "arguments[0].scrollIntoView(true);", ldriver);
+		JavaScriptManuplator.waitForElementPresent(ldriver, clickOnAddCaseBtn, 60);
+		txtEscalationComment.sendKeys(escalationComment);
+		txtCaseLevelComments.sendKeys(caseLevelComments);
+		clickOnAddCaseBtn.click();
+		Thread.sleep(2000);
+	}
+	
+	// Documentation Specialist-- Add Check Details
+	// Education Verification W Check
+		public void educationVerificationWCheck() throws InterruptedException {
+			//New Delhi, Delhi, India
+			JavaScriptManuplator.waitForElementPresent(ldriver, clickOnEducationVerificationW, 60);
+			JavaScriptManuplator.javaScriptExecutor(clickOnEducationVerificationW, "arguments[0].click()", ldriver);
+			WebElement educationCheckName = ldriver.findElement(By.xpath("//input[@id='unique_city']"));
+			try {
+				educationCheckName.clear();
+				Thread.sleep(2000);
+			} catch (StaleElementReferenceException e) {
+				Thread.sleep(2000);
+				educationCheckName.sendKeys("New Delhi");
+			}
+			educationCheckName.sendKeys("New Delhi");
+			Thread.sleep(2000);
+			String educationCheck;
+			do {
+				educationCheckName.sendKeys(Keys.ARROW_DOWN);
+				educationCheck = educationCheckName.getAttribute("value");
+				if (educationCheck.equals("New Delhi, Delhi, India")) {
+					educationCheckName.sendKeys(Keys.ENTER);
+					break;
+				}
+				Thread.sleep(2000);
+			} while (!educationCheck.isEmpty());
+			Thread.sleep(3000);
+			
+			//University of Delhi, New Delhi
+			JavaScriptManuplator.waitForElementPresent(ldriver, txtVerificationSourceName, 60);
+			Thread.sleep(1000);
+			WebElement universityName = ldriver.findElement(By.xpath("//textarea[@id='institute_vrfy_src']"));
+			try {
+				universityName.clear();
+				Thread.sleep(2000);
+			} catch (StaleElementReferenceException e) {
+				Thread.sleep(2000);
+				universityName.sendKeys("University of Delhi");
+			}
+			universityName.sendKeys("University of Delhi");
+			Thread.sleep(2000);
+			String university;
+			do {
+				universityName.sendKeys(Keys.ARROW_DOWN);
+				university = universityName.getAttribute("value");
+				if (university.equals("University of Delhi, New Delhi")) {
+					universityName.sendKeys(Keys.ENTER);
+					break;
+				}
+				Thread.sleep(2000);
+			} while (!university.isEmpty());
+			Thread.sleep(2000);
+			wait = new WebDriverWait(ldriver, 60);
+			wait.until(ExpectedConditions.visibilityOf(selectModeOfQualification));
+			JavaScriptManuplator.selectOptionFromDropDown(selectModeOfQualification, "Full time");
+			Thread.sleep(1000);
+			JavaScriptManuplator.selectOptionFromDropDown(selectAICTEApproved, "Not Applicable");
+			Thread.sleep(1000);
+			JavaScriptManuplator.selectOptionFromDropDown(selectUGCApproved, "Not Applicable");
+			Thread.sleep(1000);
+			JavaScriptManuplator.javaScriptExecutor(txtEnrollmentNo, "arguments[0].value='32547689'", ldriver);
+			Thread.sleep(3000);
+			//Bachelor of Technology/Bachelor of Engineering(B.Tech/BE)
+			Thread.sleep(2000);
+			WebElement courseName = ldriver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div/div/div/div[2]/div/div/div[3]/div/div/div/div/form/div[4]/div[6]/input"));
+			try {
+				courseName.clear();
+				Thread.sleep(2000);
+			} catch (StaleElementReferenceException e) {
+				Thread.sleep(2000);
+				courseName.sendKeys("B.Tech");
+			}
+			courseName.sendKeys("B.Tech");
+			Thread.sleep(2000);
+			String course;
+			do {
+				courseName.sendKeys(Keys.ARROW_DOWN);
+				course = courseName.getAttribute("value");
+				if (course.equals("Bachelor of Technology/Bachelor of Engineering(B.Tech/BE)")) {
+					courseName.sendKeys(Keys.ENTER);
+					break;
+				}
+				Thread.sleep(2000);
+			} while (!course.isEmpty());
+			Thread.sleep(3000);
+			JavaScriptManuplator.javaScriptExecutor(txtYearOfPassing, "arguments[0].value='2014'", ldriver);
+			Thread.sleep(1000);
+			JavaScriptManuplator.javaScriptExecutor(txtEducationCommentsCheck, "arguments[0].scrollIntoView(true);",
+					ldriver);
+			wait = new WebDriverWait(ldriver, 60);
+			wait.until(ExpectedConditions.visibilityOf(txtEducationCommentsCheck));
+			JavaScriptManuplator.javaScriptExecutor(txtEducationCommentsCheck, "arguments[0].value='Education Check are good'", ldriver);
+			Thread.sleep(1000);
+			JavaScriptManuplator.javaScriptExecutor(clickOnEducationSaveCheckBtn, "arguments[0].click()", ldriver);
+			Thread.sleep(2000);
+			ldriver.navigate().refresh();
+			Thread.sleep(2000);
+		}
+
 
 	// Documentation Specialist-- Add Check Details
 	// Current Address Verification

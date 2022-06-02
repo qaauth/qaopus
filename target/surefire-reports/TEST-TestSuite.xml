@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="368.102" tests="11" errors="0" skipped="0" failures="1">
+<testsuite name="TestSuite" time="313.699" tests="4" errors="0" skipped="1" failures="1">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
@@ -24,7 +24,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Linux"/>
-    <property name="classworlds.conf" value="/home/raju.yadav/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf1916418305880813149.tmp"/>
+    <property name="classworlds.conf" value="/home/raju.yadav/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf2399344323127251172.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -59,26 +59,18 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="verifyVendorAccountLogin" classname="com.opus.testcases.TC_OpusUniversityMapping_08" time="6.304"/>
-  <testcase name="verifyAdminByCityMapping" classname="com.opus.testcases.TC_OpusUniversityMapping_08" time="45.451"/>
-  <testcase name="bridgeLoginTest" classname="com.opus.testcases.TC_OpusUniversityMapping_08" time="15.556"/>
-  <testcase name="bridgeCaseAddDetails" classname="com.opus.testcases.TC_OpusUniversityMapping_08" time="31.198"/>
-  <testcase name="verifyAdminUserRoleHighlighterAllocator" classname="com.opus.testcases.TC_OpusUniversityMapping_08" time="13.348"/>
-  <testcase name="verifyUserAdminRoleHighlighter" classname="com.opus.testcases.TC_OpusUniversityMapping_08" time="23.161"/>
-  <testcase name="verifyUserAdminRoleDocumentationSpecialist" classname="com.opus.testcases.TC_OpusUniversityMapping_08" time="61.111"/>
-  <testcase name="verifyInsufficientDocsQcAllocator" classname="com.opus.testcases.TC_OpusUniversityMapping_08" time="44.696"/>
-  <testcase name="verifyInsufficientDocsQuality" classname="com.opus.testcases.TC_OpusUniversityMapping_08" time="34.282"/>
-  <testcase name="verifyInsufficientAllocator" classname="com.opus.testcases.TC_OpusUniversityMapping_08" time="17.803"/>
-  <testcase name="verifySwitchToRoleAllocator" classname="com.opus.testcases.TC_OpusUniversityMapping_08" time="75.192">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html[1]/body[1]/div[1]/div[3]/form[1]/table[1]/tbody[1]/tr[109]/td[3]&quot;}&#10;  (Session info: chrome=101.0.4951.64)&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;ARS-NBT-LAP-250&apos;, ip: &apos;192.168.43.51&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.13.0-41-generic&apos;, java.version: &apos;1.8.0_312&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /tmp/.com.google.Chrome.egOVLB}, goog:chromeOptions: {debuggerAddress: localhost:40983}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 066591e27ac1dbdd29d70f6488c366c6&#10;*** Element info: {Using=xpath, value=/html[1]/body[1]/div[1]/div[3]/form[1]/table[1]/tbody[1]/tr[109]/td[3]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html[1]/body[1]/div[1]/div[3]/form[1]/table[1]/tbody[1]/tr[109]/td[3]"}
+  <testcase name="verifyVendorAccountLogin" classname="com.opus.testcases.TC_OpusUniversityMapping_08" time="6.886"/>
+  <testcase name="verifyAdminByCityMapping" classname="com.opus.testcases.TC_OpusUniversityMapping_08" time="43.708"/>
+  <testcase name="verifyBridgeCaseInitiation" classname="com.opus.testcases.TC_OpusUniversityMapping_08" time="263.105">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/form[1]/div[7]/div[1]/input[1]&quot;}&#10;  (Session info: chrome=101.0.4951.64)&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;ARS-NBT-LAP-250&apos;, ip: &apos;192.168.43.51&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.13.0-41-generic&apos;, java.version: &apos;1.8.0_312&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /tmp/.com.google.Chrome.Rv8cM5}, goog:chromeOptions: {debuggerAddress: localhost:33355}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: cc299026cd34ddd108721c9db4dc336d&#10;*** Element info: {Using=xpath, value=/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/form[1]/div[7]/div[1]/input[1]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/form[1]/div[7]/div[1]/input[1]"}
   (Session info: chrome=101.0.4951.64)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'ARS-NBT-LAP-250', ip: '192.168.43.51', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-41-generic', java.version: '1.8.0_312'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /tmp/.com.google.Chrome.egOVLB}, goog:chromeOptions: {debuggerAddress: localhost:40983}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 066591e27ac1dbdd29d70f6488c366c6
-*** Element info: {Using=xpath, value=/html[1]/body[1]/div[1]/div[3]/form[1]/table[1]/tbody[1]/tr[109]/td[3]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /tmp/.com.google.Chrome.Rv8cM5}, goog:chromeOptions: {debuggerAddress: localhost:33355}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cc299026cd34ddd108721c9db4dc336d
+*** Element info: {Using=xpath, value=/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/form[1]/div[7]/div[1]/input[1]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -93,11 +85,42 @@ Session ID: 066591e27ac1dbdd29d70f6488c366c6
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-	at com.opus.pageobject.OpusUniversityMapping.switchToRoleAllocator(OpusUniversityMapping.java:339)
-	at com.opus.testcases.TC_OpusUniversityMapping_08.verifySwitchToRoleAllocator(TC_OpusUniversityMapping_08.java:254)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:566)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:480)
+	at com.opus.utilities.JavaScriptManuplator.javaScriptExecutor(JavaScriptManuplator.java:38)
+	at com.opus.pageobject.OpusUniversityMapping.educationVerificationWCheck(OpusUniversityMapping.java:475)
+	at com.opus.testcases.TC_OpusUniversityMapping_08.verifyBridgeCaseInitiation(TC_OpusUniversityMapping_08.java:87)
 </failure>
-    <system-out><![CDATA[ INFO [main] (TC_OpusUniversityMapping_08.java:249)- OPus Url is opened Successfully!
- INFO [main] (TC_OpusUniversityMapping_08.java:252)- Opus Admin Username and password has entered sucessfully!
+    <system-out><![CDATA[ INFO [main] (TC_CaseInitiation_01.java:21)- Bridge Url is opened Successfully!
+ INFO [main] (TC_CaseInitiation_01.java:24)- Bridge Username and password has entered sucessfully!
+ INFO [main] (TC_CaseInitiation_01.java:28)- Bridge Client has logged Successfully!
+ INFO [main] (TC_OpusUniversityMapping_08.java:61)- Bridge Username and password has entered sucessfully!
+ INFO [main] (TC_CaseInitiation_01.java:42)- User Admin Role DocumentProcessor has selected Successfully!
+ INFO [main] (TC_CaseInitiation_01.java:53)- Candidate First Name, Middle Name, Last Name and Email address have added successfully!
+ INFO [main] (TC_CaseInitiation_01.java:59)- Bridge new case Candidate details have added successully!
+ INFO [main] (TC_CaseInitiation_01.java:63)- Case detail has been saved successfully!
+ INFO [main] (TC_OpusUniversityMapping_08.java:64)- Bridge new case Candidate details have added successully!
+ INFO [main] (TC_CaseInitiation_01.java:77)- British Telecom client Case has been Allocated Cases Successfully!
+ INFO [main] (TC_CaseInitiation_01.java:81)- Case is successfully allocated to highlighter.!
+ INFO [main] (TC_OpusUniversityMapping_08.java:67)- British Telecom client Case has been Allocated Cases Successfully!
+ INFO [main] (TC_OpusUniversityMapping_08.java:71)- Assign Cases with Ageing and selected Topsheet has successfully!
+ INFO [main] (TC_OpusUniversityMapping_08.java:77)- Highlighter Add Details have added sucessfully!
+ INFO [main] (TC_OpusUniversityMapping_08.java:81)- Select Company name and clicked on count number Successfully from Documentation Specialist Role!
+ INFO [main] (TC_OpusUniversityMapping_08.java:83)- Documentation Specialist Pending Cases has been Updated successfully!
+ INFO [main] (TC_OpusUniversityMapping_08.java:85)- Documentation Specialist Candidate details have been added successfully!
 ]]></system-out>
+  </testcase>
+  <testcase name="verifySwitchToRoleAllocator" classname="com.opus.testcases.TC_OpusUniversityMapping_08" time="0">
+    <skipped/>
   </testcase>
 </testsuite>

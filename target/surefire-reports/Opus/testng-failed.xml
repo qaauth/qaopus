@@ -10,18 +10,11 @@
       <class name="com.opus.testcases.TC_OpusUniversityMapping_08">
         <methods>
           <include name="verifyVendorAccountLogin"/>
-          <include name="verifyInsufficientDocsQuality"/>
-          <include name="bridgeCaseAddDetails"/>
-          <include name="verifyUserAdminRoleDocumentationSpecialist"/>
-          <include name="verifyInsufficientAllocator"/>
-          <include name="verifyUserAdminRoleHighlighter"/>
-          <include name="verifyInsufficientDocsQcAllocator"/>
-          <include name="tearDown"/>
-          <include name="verifyAdminUserRoleHighlighterAllocator"/>
+          <include name="verifyBridgeCaseInitiation"/>
           <include name="verifyAdminByCityMapping"/>
-          <include name="bridgeLoginTest"/>
           <include name="setup"/>
           <include name="verifySwitchToRoleAllocator"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- com.opus.testcases.TC_OpusUniversityMapping_08 -->
     </classes>
