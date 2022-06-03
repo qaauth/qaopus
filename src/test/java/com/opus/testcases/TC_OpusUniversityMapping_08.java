@@ -10,7 +10,6 @@ import org.testng.annotations.Test;
 import com.opus.pageobject.BridgeCaseDetails;
 import com.opus.pageobject.BridgeLoginPage;
 import com.opus.pageobject.OpusUniversityMapping;
-import com.opus.utilities.RandomStrings;
 
 public class TC_OpusUniversityMapping_08 extends BaseClass {
 	String firstName;
@@ -85,9 +84,6 @@ public class TC_OpusUniversityMapping_08 extends BaseClass {
 		logger.info("Documentation Specialist Candidate details have been added successfully!");
 		OpusUniversityMapping eductionCheckMap = new OpusUniversityMapping(driver);
 		eductionCheckMap.educationVerificationWCheck();
-		logger.info("Documentation Specialist All Checks filled successfully...");
-		//documentationSpecialist.currentAddressVerification();
-		// documentationSpecialist.permanentAddressVerificationCheck();
 		logger.info("Documentation Specialist All Checks filled successfully...");
 		// Verify Docs Qc Allocator-- Bridge Portal
 		bridgeCaseInition.verifyInsufficientDocsQcAllocator();

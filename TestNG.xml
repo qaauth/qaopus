@@ -67,7 +67,7 @@
 		</classes>
 	</test> -->
 	
-<!-- 	<test name="Opus10">
+	<!-- <test name="Opus10">
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.opus.testcases.TC_OpusCityMapping_07" />

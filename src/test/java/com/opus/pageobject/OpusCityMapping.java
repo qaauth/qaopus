@@ -148,20 +148,20 @@ public class OpusCityMapping {
 	@FindBy(css = "#ProcessCheckFieldForm > div:nth-child(16) > div:nth-child(2) > input")
 	@CacheLookup
 	WebElement clickOnCurrentAddressSaveCheckBtn;
-	
+
 	// Switch to role: Allocator
 	@FindBy(xpath = "/html[1]/body[1]/div[1]/table[1]/tbody[1]/tr[1]/td[3]/table[1]/tbody[1]/tr[2]/td[1]/select[1]")
 	@CacheLookup
 	WebElement selectAllocatorRole;
-	
+
 	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/ul[1]/li[2]/a[1]/span[1]")
 	@CacheLookup
 	WebElement clickOnUnmappedCheckedModule;
-	
+
 	// Case ARS No.
 	@FindBy(xpath = "//td[contains(text(),'Case ARS No.')]")
 	@CacheLookup
-	WebElement verifyCaseArsNoText;//Case ARS No.
+	WebElement verifyCaseArsNoText;// Case ARS No.
 
 	// City Mapping By selecting Admin Role
 	public void adminByCityMapping() throws InterruptedException {
@@ -183,7 +183,7 @@ public class OpusCityMapping {
 			if (vendorName.equals("Internal Vendor")) {
 
 				WebElement element = ldriver.findElement(
-						By.xpath("/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr["+r+"]/td[11]/a[3]"));
+						By.xpath("/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[" + r + "]/td[11]/a[3]"));
 				Thread.sleep(2000);
 				element.click();
 				break;
@@ -233,7 +233,6 @@ public class OpusCityMapping {
 		 * "arguments[0].click()", ldriver); Thread.sleep(1000);
 		 */
 	}
-		
 
 	// Documentation Specialist-- Add Check Details
 	// Current Address Verification
@@ -276,7 +275,7 @@ public class OpusCityMapping {
 		ldriver.navigate().refresh();
 		Thread.sleep(2000);
 	}
-	
+
 	// Switch to role: Allocator
 	public void switchToRoleAllocator() throws InterruptedException, IOException {
 		wait = new WebDriverWait(ldriver, 60);
@@ -288,87 +287,45 @@ public class OpusCityMapping {
 		JavaScriptManuplator.javaScriptExecutor(clickOnUnmappedCheckedModule, "arguments[0].click()", ldriver);
 		Thread.sleep(1000);
 		// How many rows in table
-				int rows = ldriver.findElements(By.xpath("/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr")).size();
-				// Get Vendor name,
-				for (int r = 2; r <= rows; r++) {
-					String familyName = ldriver
-							.findElement(By.xpath("/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[" + r + "]/td[1]"))
-							.getText();
-					if (familyName.equals("Address Family")) {
+		int rows = ldriver.findElements(By.xpath("/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr")).size();
+		// Get Vendor name,
+		for (int r = 2; r <= rows; r++) {
+			String familyName = ldriver
+					.findElement(By.xpath("/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[" + r + "]/td[1]"))
+					.getText();
+			if (familyName.equals("Address Family")) {
 
-						WebElement element = ldriver.findElement(
-								By.xpath("/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[" + r + "]/td[2]/a[1]"));
-						Thread.sleep(2000);
-						element.click();
-						break;
-					}
-				}
-				wait = new WebDriverWait(ldriver, 120);
-				wait.until(ExpectedConditions.visibilityOf(verifyCaseArsNoText));
-				String data = new String(Files.readAllBytes(Paths.get("BridgeCaseArsNo.txt")));
-				String arsNumber[] = data.split(" ");
-				// How many rows in table
-				int row = ldriver.findElements(By.xpath("/html[1]/body[1]/div[1]/div[3]/form[1]/table[1]/tbody[1]/tr")).size();
-				// Get Vendor name,
-				for (int r = 2; r <= row; r++) {
-					String caseArsNo	 = ldriver
-							.findElement(By.xpath("/html[1]/body[1]/div[1]/div[3]/form[1]/table[1]/tbody[1]/tr[" + r + "]/td[3]"))
-							.getText();
-					if (caseArsNo.equals(arsNumber[6])) {
+				WebElement element = ldriver.findElement(
+						By.xpath("/html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[" + r + "]/td[2]/a[1]"));
+				Thread.sleep(2000);
+				element.click();
+				break;
+			}
+		}
+		wait = new WebDriverWait(ldriver, 120);
+		wait.until(ExpectedConditions.visibilityOf(verifyCaseArsNoText));
+		String data = new String(Files.readAllBytes(Paths.get("BridgeCaseArsNo.txt")));
+		String arsNumber[] = data.split(" ");
+		// How many rows in table
+		int row = ldriver.findElements(By.xpath("/html[1]/body[1]/div[1]/div[3]/form[1]/table[1]/tbody[1]/tr")).size();
+		// Get Vendor name,
+		for (int r = 2; r <= row; r++) {
+			String caseArsNo = ldriver
+					.findElement(
+							By.xpath("/html[1]/body[1]/div[1]/div[3]/form[1]/table[1]/tbody[1]/tr[" + r + "]/td[3]"))
+					.getText();
+			if (caseArsNo.equals(arsNumber[6])) {
 
-						WebElement element = ldriver.findElement(
-								By.xpath("/html[1]/body[1]/div[1]/div[3]/form[1]/table[1]/tbody[1]/tr[" + r + "]/td[9]/select[1]"));
-						Thread.sleep(2000);
-						wait = new WebDriverWait(ldriver, 60);
-						wait.until(ExpectedConditions.visibilityOf(element));
-						
-						//
-						 /*String[] exp = {"--Title--","Mr","Mrs","Miss","Ms","Dr","Prof"};
-						 WebElement dropdown = ldriver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[3]/form[1]/table[1]/tbody[1]/tr[" + r + "]/td[9]/select[1]"));  
-						 Select select = new Select(dropdown);  
-						 List<WebElement> options = select.getOptions();  
-						 for(WebElement we:options)  
-						 {  
-						  boolean match = false;
-						  for (int i=0; i<exp.size(); i++){
-						      if (we.getText().equals(exp[i]){
-						        match = true;
-						      }
-						    }
-						  Assert.assertTrue(match);
-						 } */
-						JavaScriptManuplator.selectOptionFromDropDown(element, "Internal Vendor");
-						break;
-						
-						/*///
-						public void verifyPassportNidInDropdownList() {
-							String arr[] = { "--Select--", "VOTER ID", "DRIVING LICENSE", "PASSPORT" };
-							Select select = new Select(selectDocumentType);
-							List<WebElement> allOptions = select.getOptions();
-							// System.out.println(allOptions.size());
-							for (int i = 0; i < allOptions.size(); i++) {
-								Assert.assertEquals(arr[i], allOptions.get(i).getText());
-							}
-							System.out.println("The Dropdown Nid List has verified Successfully!");
-						}
+				WebElement element = ldriver.findElement(By.xpath(
+						"/html[1]/body[1]/div[1]/div[3]/form[1]/table[1]/tbody[1]/tr[" + r + "]/td[9]/select[1]"));
+				Thread.sleep(2000);
+				wait = new WebDriverWait(ldriver, 60);
+				wait.until(ExpectedConditions.visibilityOf(element));
+				JavaScriptManuplator.selectOptionFromDropDown(element, "Internal Vendor");
+				break;
+			}
+		}
 
-						public void voterIdAndDrivingLicenseNidInDropdownList() {
-							String arr[] = { "--Select--", "VOTER ID", "DRIVING LICENSE" };
-							Select select = new Select(selectDocumentType);
-							List<WebElement> allOptions = select.getOptions();
-							System.out.println("Dropdown List=="+allOptions.size());
-							for (int i = 0; i < allOptions.size(); i++) {
-								Assert.assertEquals(arr[i], allOptions.get(i).getText());
-							}
-							System.out.println("The Dropdown Nid List has verified Successfully!");
-						}
-						///
-*/						
-					}
-				}
-				
-				
-		
 	}
 
 }
