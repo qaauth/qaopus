@@ -61,9 +61,9 @@ public class OpusUniversityMapping {
 	WebElement checkOnCheckBox;
 
 	// Education Verification-- A G DAV Centenary Public School(New Delhi)
-	@FindBy(xpath = "//a[contains(text(),'A G DAV Centenary Public School(New Delhi)')]")
+	@FindBy(xpath = "//a[normalize-space()='A G DAV Centenary Public School(New Delhi)']")
 	@CacheLookup
-	WebElement verifyAGDavSchool;
+	WebElement verifyAGDavCentenarySchool;
 
 	@FindBy(css = "#master_tat_1_1")
 	@CacheLookup
@@ -299,10 +299,21 @@ public class OpusUniversityMapping {
 		JavaScriptManuplator.selectOptionFromDropDown(selectStateName, "Delhi");
 		JavaScriptManuplator.selectOptionFromDropDown(selectUniversityName, "University of Delhi");
 		JavaScriptManuplator.selectOptionFromDropDown(selectCityName, "New Delhi");
+		//Thread.sleep(10000);
+		//Education Verification-- A G DAV Centenary Public School(New Delhi)
+		/*Boolean staleElement = true; 
+		while(staleElement){
+		  try{
+			  wait = new WebDriverWait(ldriver, 120);
+				wait.until(ExpectedConditions.visibilityOf(verifyAGDavCentenarySchool));
+		     staleElement = false;
+		  } catch(StaleElementReferenceException e){
+		    staleElement = true;
+		  }
+		}*/
+		//wait = new WebDriverWait(ldriver, 60);
+		//wait.until(ExpectedConditions.visibilityOf(verifyAGDavCentenarySchool));
 		Thread.sleep(6000);
-		// Education Verification-- A G DAV Centenary Public School(New Delhi)
-		// wait = new WebDriverWait(ldriver, 60);
-		// wait.until(ExpectedConditions.visibilityOf(verifyAGDavSchool));
 		JavaScriptManuplator.javaScriptExecutor(txtTatEducationVerification, "arguments[0].value='5'", ldriver);
 		JavaScriptManuplator.javaScriptExecutor(txtCostEducationVerification, "arguments[0].value='245'", ldriver);
 		JavaScriptManuplator.javaScriptExecutor(txtServiceChargeEducationVerification, "arguments[0].value='249'",

@@ -36,7 +36,7 @@ public class TC_OpusUniversityMapping_08 extends BaseClass {
 	// Verify University Mapping by selecting admin role
 	@Test(enabled = true, testName = "Verify City Mapping by selecting admin role", priority = 2, dependsOnMethods = {
 			"verifyVendorAccountLogin" })
-	public void verifyAdminByCityMapping() throws InterruptedException, IOException {
+	public void verifyAdminByUniversityMapping() throws InterruptedException, IOException {
 		OpusUniversityMapping universityMapping = new OpusUniversityMapping(driver);
 		universityMapping.adminByCityMapping();
 		logger.info("City mapping has completed successfuly!");

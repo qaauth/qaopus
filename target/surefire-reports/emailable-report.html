@@ -9,32 +9,17 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Opus</th></tr>
-<tr><td><a href="#t0">Opus10</a></td><td class="num">0</td><td class="num attn">3</td><td class="num attn">1</td><td class="num">18,855</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Opus1</a></td><td class="num">8</td><td class="num">0</td><td class="num">0</td><td class="num">219,324</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Opus</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Opus10 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.opus.testcases.TC_OpusCityMapping_07</td><td><a href="#m0">verifyVendorAccountLogin</a></td><td rowspan="1">1654252115316</td><td rowspan="1">34</td></tr><tr><th colspan="4">Opus10 &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="3">com.opus.testcases.TC_OpusCityMapping_07</td><td><a href="#m1">verifyAdminByCityMapping</a></td><td rowspan="1">1654252115370</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m2">verifyBridgeCaseInitiation</a></td><td rowspan="1">1654252115372</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m3">verifySwitchToRoleAllocator</a></td><td rowspan="1">1654252115373</td><td rowspan="1">0</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Opus</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Opus1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="8">com.opus.testcases.TC_CaseInitiation_01</td><td><a href="#m0">bridgeCaseAddDetails</a></td><td rowspan="1">1654514909620</td><td rowspan="1">29722</td></tr><tr class="passedeven"><td><a href="#m1">bridgeLoginTest</a></td><td rowspan="1">1654514900241</td><td rowspan="1">9366</td></tr><tr class="passedeven"><td><a href="#m2">verifyAdminUserRoleHighlighterAllocator</a></td><td rowspan="1">1654514939343</td><td rowspan="1">13036</td></tr><tr class="passedeven"><td><a href="#m3">verifyInsufficientAllocator</a></td><td rowspan="1">1654515101727</td><td rowspan="1">13675</td></tr><tr class="passedeven"><td><a href="#m4">verifyInsufficientDocsQcAllocator</a></td><td rowspan="1">1654515032916</td><td rowspan="1">43060</td></tr><tr class="passedeven"><td><a href="#m5">verifyInsufficientDocsQuality</a></td><td rowspan="1">1654515075977</td><td rowspan="1">25749</td></tr><tr class="passedeven"><td><a href="#m6">verifyUserAdminRoleDocumentationSpecialist</a></td><td rowspan="1">1654514970928</td><td rowspan="1">61987</td></tr><tr class="passedeven"><td><a href="#m7">verifyUserAdminRoleHighlighter</a></td><td rowspan="1">1654514952380</td><td rowspan="1">18547</td></tr></tbody>
 </table>
-<h2>Opus10</h2><h3 id="m0">com.opus.testcases.TC_OpusCityMapping_07#verifyVendorAccountLogin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=101.0.4951.64)
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
-System info: host: &apos;ARS-NBT-LAP-250&apos;, ip: &apos;192.168.43.51&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.13.0-41-generic&apos;, java.version: &apos;1.8.0_312&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /tmp/.com.google.Chrome.FWxgKR}, goog:chromeOptions: {debuggerAddress: localhost:40831}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7d83da6fbdceeb97607736e0745454e1
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
-	at com.opus.testcases.TC_OpusCityMapping_07.verifyVendorAccountLogin(TC_OpusCityMapping_07.java:21)
-... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.opus.testcases.TC_OpusCityMapping_07#verifyAdminByCityMapping</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method TC_OpusCityMapping_07.verifyAdminByCityMapping()[pri:2, instance:com.opus.testcases.TC_OpusCityMapping_07@1324409e] depends on not successfully finished methods
-... Removed 21 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.opus.testcases.TC_OpusCityMapping_07#verifyBridgeCaseInitiation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method TC_OpusCityMapping_07.verifyBridgeCaseInitiation()[pri:3, instance:com.opus.testcases.TC_OpusCityMapping_07@1324409e] depends on not successfully finished methods
-... Removed 21 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.opus.testcases.TC_OpusCityMapping_07#verifySwitchToRoleAllocator</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method TC_OpusCityMapping_07.verifySwitchToRoleAllocator()[pri:4, instance:com.opus.testcases.TC_OpusCityMapping_07@1324409e] depends on not successfully finished methods
-... Removed 21 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Opus1</h2><h3 id="m0">com.opus.testcases.TC_CaseInitiation_01#bridgeCaseAddDetails</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.opus.testcases.TC_CaseInitiation_01#bridgeLoginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.opus.testcases.TC_CaseInitiation_01#verifyAdminUserRoleHighlighterAllocator</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.opus.testcases.TC_CaseInitiation_01#verifyInsufficientAllocator</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.opus.testcases.TC_CaseInitiation_01#verifyInsufficientDocsQcAllocator</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.opus.testcases.TC_CaseInitiation_01#verifyInsufficientDocsQuality</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.opus.testcases.TC_CaseInitiation_01#verifyUserAdminRoleDocumentationSpecialist</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.opus.testcases.TC_CaseInitiation_01#verifyUserAdminRoleHighlighter</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

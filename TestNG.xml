@@ -4,12 +4,12 @@
 		<listener class-name="com.opus.utilities.Reporting" />
 	</listeners>
 	
-	<!-- <test name="Opus1">
+	<test name="Opus1">
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.opus.testcases.TC_CaseInitiation_01" />
 		</classes>
-	</test>  -->
+	</test> 
 	
 	<!-- <test name="Opus2">
 		<parameter name="browser" value="chrome" />
@@ -74,11 +74,11 @@
 		</classes>
 	</test>  -->
 	
-	<test name="Opus11">
+	<!-- <test name="Opus11">
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.opus.testcases.TC_OpusUniversityMapping_08" />
 		</classes>
-	</test>
+	</test> -->
 	
 </suite>
