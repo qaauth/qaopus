@@ -10175,3 +10175,276 @@
 2022-06-06 17:01:28,056 [main] INFO Opus - Case QC Review Ars Number has verified successfully!
 2022-06-06 17:01:41,726 [main] INFO Opus - The Case was successfully released for Verification.!
 2022-06-06 17:01:55,402 [main] INFO Opus - Check id is Released, DueTo, Already released to vendor..!
+2022-06-07 13:15:30,821 [main] INFO Opus - Bridge Url is opened Successfully!
+2022-06-07 13:15:32,229 [main] INFO Opus - Bridge Username and password has entered sucessfully!
+2022-06-07 13:15:40,244 [main] INFO Opus - Bridge Client has logged Successfully!
+2022-06-07 13:15:50,441 [main] INFO Opus - User Admin Role DocumentProcessor has selected Successfully!
+2022-06-07 13:15:53,015 [main] INFO Opus - Candidate First Name, Middle Name, Last Name and Email address have added successfully!
+2022-06-07 13:16:11,491 [main] INFO Opus - Bridge new case Candidate details have added successully!
+2022-06-07 13:16:11,557 [main] INFO Opus - Case detail has been saved successfully!
+2022-06-07 13:16:27,008 [main] INFO Opus - British Telecom client Case has been Allocated Cases Successfully!
+2022-06-07 13:16:27,043 [main] INFO Opus - Case is successfully allocated to highlighter.!
+2022-06-07 13:16:42,509 [main] INFO Opus - Assign Cases with Ageing and selected Topsheet has successfully!
+2022-06-07 13:16:45,453 [main] INFO Opus - Highlighter Add Details have added sucessfully!
+2022-06-07 13:17:00,474 [main] INFO Opus - Topsheet is successfully created. You can now proceed with checks creation for the given candidate.!
+2022-06-07 13:17:11,052 [main] INFO Opus - Select Company name and clicked on count number Successfully from Documentation Specialist Role!
+2022-06-07 13:17:37,224 [main] INFO Opus - Documentation Specialist Pending Cases has been Updated successfully!
+2022-06-07 13:17:45,906 [main] INFO Opus - Documentation Specialist Candidate details have been added successfully!
+2022-06-07 13:18:00,607 [main] INFO Opus - Documentation Specialist All Checks filled successfully...
+2022-06-07 13:18:00,712 [main] INFO Opus - Check details are successfully saved. Case is Completed.!
+2022-06-07 13:18:44,722 [main] INFO Opus - Select Docs Qc Allocator has Successfully!
+2022-06-07 13:18:44,753 [main] INFO Opus - All selected cases were successfully allocated to QC Team Member.!
+2022-06-07 13:18:57,200 [main] INFO Opus - Case QC Review Ars Number has verified successfully!
+2022-06-07 13:19:13,503 [main] INFO Opus - The Case was successfully released for Verification.!
+2022-06-07 13:19:28,123 [main] INFO Opus - Check id is Released, DueTo, Already released to vendor..!
+2022-06-07 13:19:32,233 [main] INFO Opus - Bridge Url is opened Successfully!
+2022-06-07 13:19:33,528 [main] INFO Opus - Bridge Username and password has entered sucessfully!
+2022-06-07 13:19:40,838 [main] INFO Opus - Bridge Client has logged Successfully!
+2022-06-07 13:19:42,097 [main] INFO Opus - Bridge Url is opened Successfully!
+2022-06-07 13:24:38,124 [main] INFO Opus - Bridge Url is opened Successfully!
+2022-06-07 13:24:39,514 [main] INFO Opus - Bridge Username and password has entered sucessfully!
+2022-06-07 13:24:46,562 [main] INFO Opus - Bridge Client has logged Successfully!
+2022-06-07 13:24:55,642 [main] INFO Opus - User Admin Role DocumentProcessor has selected Successfully!
+2022-06-07 13:24:58,215 [main] INFO Opus - Candidate First Name, Middle Name, Last Name and Email address have added successfully!
+2022-06-07 13:25:15,792 [main] INFO Opus - Bridge new case Candidate details have added successully!
+2022-06-07 13:25:15,859 [main] INFO Opus - Case detail has been saved successfully!
+2022-06-07 13:25:29,322 [main] INFO Opus - British Telecom client Case has been Allocated Cases Successfully!
+2022-06-07 13:25:29,361 [main] INFO Opus - Case is successfully allocated to highlighter.!
+2022-06-07 13:25:43,337 [main] INFO Opus - Assign Cases with Ageing and selected Topsheet has successfully!
+2022-06-07 13:25:46,241 [main] INFO Opus - Highlighter Add Details have added sucessfully!
+2022-06-07 13:25:49,708 [main] INFO Opus - Topsheet is successfully created. You can now proceed with checks creation for the given candidate.!
+2022-06-07 13:25:59,093 [main] INFO Opus - Select Company name and clicked on count number Successfully from Documentation Specialist Role!
+2022-06-07 13:26:26,057 [main] INFO Opus - Documentation Specialist Pending Cases has been Updated successfully!
+2022-06-07 13:26:34,867 [main] INFO Opus - Documentation Specialist Candidate details have been added successfully!
+2022-06-07 13:26:48,734 [main] INFO Opus - Documentation Specialist All Checks filled successfully...
+2022-06-07 13:26:48,831 [main] INFO Opus - Check details are successfully saved. Case is Completed.!
+2022-06-07 13:27:32,278 [main] INFO Opus - Select Docs Qc Allocator has Successfully!
+2022-06-07 13:27:32,323 [main] INFO Opus - All selected cases were successfully allocated to QC Team Member.!
+2022-06-07 13:27:44,905 [main] INFO Opus - Case QC Review Ars Number has verified successfully!
+2022-06-07 13:27:59,716 [main] INFO Opus - The Case was successfully released for Verification.!
+2022-06-07 13:28:14,546 [main] INFO Opus - Check id is Released, DueTo, Already released to vendor..!
+2022-06-07 13:28:17,953 [main] INFO Opus - OPus Url is opened Successfully!
+2022-06-07 13:28:23,492 [main] INFO Opus - Opus Admin Username and password has entered sucessfully!
+2022-06-07 13:28:23,596 [main] INFO Opus - Opus Vendor account has logged successfully.!
+2022-06-07 13:28:28,699 [main] INFO Opus - Approve mapping has done successfully!
+2022-06-07 13:28:28,752 [main] INFO Opus - Vendor New Load Count number have verified successfully!
+2022-06-07 13:28:29,036 [main] INFO Opus - Opus Admin account has Logout successfully!
+2022-06-07 13:28:29,170 [main] INFO Opus - OPus Url is opened Successfully!
+2022-06-07 13:28:33,271 [main] INFO Opus - Opus vendor Account has Logged Successfully!
+2022-06-07 13:28:33,318 [main] INFO Opus - Opus Vendor account has logged successfully.!
+2022-06-07 13:28:40,424 [main] INFO Opus - Address check have accepted and assign activity successfully!
+2022-06-07 13:28:46,074 [main] INFO Opus - Success -: Check successfully assigned to Normal Vendor!
+2022-06-07 13:45:12,979 [main] INFO Opus - Bridge Url is opened Successfully!
+2022-06-07 13:45:14,401 [main] INFO Opus - Bridge Username and password has entered sucessfully!
+2022-06-07 13:45:21,857 [main] INFO Opus - Bridge Client has logged Successfully!
+2022-06-07 13:45:31,919 [main] INFO Opus - User Admin Role DocumentProcessor has selected Successfully!
+2022-06-07 13:45:34,498 [main] INFO Opus - Candidate First Name, Middle Name, Last Name and Email address have added successfully!
+2022-06-07 13:45:52,408 [main] INFO Opus - Bridge new case Candidate details have added successully!
+2022-06-07 13:45:52,476 [main] INFO Opus - Case detail has been saved successfully!
+2022-06-07 13:46:05,902 [main] INFO Opus - British Telecom client Case has been Allocated Cases Successfully!
+2022-06-07 13:46:05,931 [main] INFO Opus - Case is successfully allocated to highlighter.!
+2022-06-07 13:46:20,204 [main] INFO Opus - Assign Cases with Ageing and selected Topsheet has successfully!
+2022-06-07 13:46:23,161 [main] INFO Opus - Highlighter Add Details have added sucessfully!
+2022-06-07 13:46:25,275 [main] INFO Opus - Topsheet is successfully created. You can now proceed with checks creation for the given candidate.!
+2022-06-07 13:46:36,172 [main] INFO Opus - Select Company name and clicked on count number Successfully from Documentation Specialist Role!
+2022-06-07 13:47:02,201 [main] INFO Opus - Documentation Specialist Pending Cases has been Updated successfully!
+2022-06-07 13:47:12,011 [main] INFO Opus - Documentation Specialist Candidate details have been added successfully!
+2022-06-07 13:47:26,721 [main] INFO Opus - Documentation Specialist All Checks filled successfully...
+2022-06-07 13:47:26,822 [main] INFO Opus - Check details are successfully saved. Case is Completed.!
+2022-06-07 13:48:09,205 [main] INFO Opus - Select Docs Qc Allocator has Successfully!
+2022-06-07 13:48:09,239 [main] INFO Opus - All selected cases were successfully allocated to QC Team Member.!
+2022-06-07 13:48:21,791 [main] INFO Opus - Case QC Review Ars Number has verified successfully!
+2022-06-07 13:48:36,927 [main] INFO Opus - The Case was successfully released for Verification.!
+2022-06-07 13:48:51,953 [main] INFO Opus - Check id is Released, DueTo, Already released to vendor..!
+2022-06-07 13:48:55,869 [main] INFO Opus - Bridge Url is opened Successfully!
+2022-06-07 13:48:57,168 [main] INFO Opus - Bridge Username and password has entered sucessfully!
+2022-06-07 13:49:04,517 [main] INFO Opus - Bridge Client has logged Successfully!
+2022-06-07 13:49:04,517 [main] INFO Opus - Bridge Username and password has entered sucessfully!
+2022-06-07 13:49:13,873 [main] INFO Opus - User Admin Role DocumentProcessor has selected Successfully!
+2022-06-07 13:49:16,382 [main] INFO Opus - Candidate First Name, Middle Name, Last Name and Email address have added successfully!
+2022-06-07 13:51:19,856 [main] INFO Opus - OPus Url is opened Successfully!
+2022-06-07 13:51:25,453 [main] INFO Opus - Opus Admin Username and password has entered sucessfully!
+2022-06-07 13:51:25,557 [main] INFO Opus - Opus Vendor account has logged successfully.!
+2022-06-07 13:51:30,478 [main] INFO Opus - Approve mapping has done successfully!
+2022-06-07 13:51:30,552 [main] INFO Opus - Vendor New Load Count number have verified successfully!
+2022-06-07 13:51:30,948 [main] INFO Opus - Opus Admin account has Logout successfully!
+2022-06-07 13:51:31,090 [main] INFO Opus - OPus Url is opened Successfully!
+2022-06-07 13:51:35,424 [main] INFO Opus - Opus vendor Account has Logged Successfully!
+2022-06-07 13:51:35,515 [main] INFO Opus - Opus Vendor account has logged successfully.!
+2022-06-07 13:51:42,694 [main] INFO Opus - Address check have accepted and assign activity successfully!
+2022-06-07 16:41:30,279 [main] INFO Opus - OPus Url is opened Successfully!
+2022-06-07 16:41:35,904 [main] INFO Opus - Opus Admin Username and password has entered sucessfully!
+2022-06-07 16:41:35,964 [main] INFO Opus - Opus Vendor account has logged successfully.!
+2022-06-07 16:42:33,423 [main] INFO Opus - Bridge Url is opened Successfully!
+2022-06-07 16:42:34,901 [main] INFO Opus - Bridge Username and password has entered sucessfully!
+2022-06-07 16:42:42,487 [main] INFO Opus - Bridge Client has logged Successfully!
+2022-06-07 16:42:42,488 [main] INFO Opus - Bridge Username and password has entered sucessfully!
+2022-06-07 16:42:53,777 [main] INFO Opus - User Admin Role DocumentProcessor has selected Successfully!
+2022-06-07 16:42:56,361 [main] INFO Opus - Candidate First Name, Middle Name, Last Name and Email address have added successfully!
+2022-06-07 16:43:16,133 [main] INFO Opus - Bridge new case Candidate details have added successully!
+2022-06-07 16:43:16,197 [main] INFO Opus - Case detail has been saved successfully!
+2022-06-07 16:43:16,198 [main] INFO Opus - Bridge new case Candidate details have added successully!
+2022-06-07 16:43:29,796 [main] INFO Opus - British Telecom client Case has been Allocated Cases Successfully!
+2022-06-07 16:43:29,822 [main] INFO Opus - Case is successfully allocated to highlighter.!
+2022-06-07 16:43:29,823 [main] INFO Opus - British Telecom client Case has been Allocated Cases Successfully!
+2022-06-07 16:43:43,753 [main] INFO Opus - Assign Cases with Ageing and selected Topsheet has successfully!
+2022-06-07 16:43:46,703 [main] INFO Opus - Highlighter Add Details have added sucessfully!
+2022-06-07 16:43:48,607 [main] INFO Opus - Topsheet is successfully created. You can now proceed with checks creation for the given candidate.!
+2022-06-07 16:43:48,608 [main] INFO Opus - Highlighter Add Details have added sucessfully!
+2022-06-07 16:43:58,238 [main] INFO Opus - Select Company name and clicked on count number Successfully from Documentation Specialist Role!
+2022-06-07 16:44:25,600 [main] INFO Opus - Documentation Specialist Pending Cases has been Updated successfully!
+2022-06-07 16:44:34,542 [main] INFO Opus - Documentation Specialist Candidate details have been added successfully!
+2022-06-07 16:44:49,174 [main] INFO Opus - Documentation Specialist All Checks filled successfully...
+2022-06-07 16:44:49,276 [main] INFO Opus - Check details are successfully saved. Case is Completed.!
+2022-06-07 16:44:49,277 [main] INFO Opus - Documentation Specialist All Checks filled successfully...
+2022-06-07 16:45:34,607 [main] INFO Opus - Select Docs Qc Allocator has Successfully!
+2022-06-07 16:45:34,639 [main] INFO Opus - All selected cases were successfully allocated to QC Team Member.!
+2022-06-07 16:45:34,640 [main] INFO Opus - Select Docs Qc Allocator has Successfully!
+2022-06-07 16:45:47,990 [main] INFO Opus - Case QC Review Ars Number has verified successfully!
+2022-06-07 16:46:05,162 [main] INFO Opus - The Case was successfully released for Verification.!
+2022-06-07 16:46:05,162 [main] INFO Opus - Case QC Review Ars Number has verified successfully!
+2022-06-07 16:46:21,747 [main] INFO Opus - Check id is Released, DueTo, Already released to vendor..!
+2022-06-07 16:46:22,223 [main] INFO Opus - OPus Url is opened Successfully!
+2022-06-07 16:46:28,298 [main] INFO Opus - Opus Admin Username and password has entered sucessfully!
+2022-06-07 16:46:28,352 [main] INFO Opus - Opus Vendor account has logged successfully.!
+2022-06-07 16:46:35,033 [main] INFO Opus - Approve mapping has done successfully!
+2022-06-07 16:46:35,090 [main] INFO Opus - Vendor New Load Count number have verified successfully!
+2022-06-07 16:46:35,383 [main] INFO Opus - Opus Admin account has Logout successfully!
+2022-06-07 16:46:35,500 [main] INFO Opus - OPus Url is opened Successfully!
+2022-06-07 16:46:39,852 [main] INFO Opus - Opus vendor Account has Logged Successfully!
+2022-06-07 16:46:39,893 [main] INFO Opus - Opus Vendor account has logged successfully.!
+2022-06-07 16:46:47,219 [main] INFO Opus - Address check have accepted and assign activity successfully!
+2022-06-07 16:51:53,919 [main] INFO Opus - Bridge Url is opened Successfully!
+2022-06-07 16:51:55,360 [main] INFO Opus - Bridge Username and password has entered sucessfully!
+2022-06-07 16:52:02,369 [main] INFO Opus - Bridge Client has logged Successfully!
+2022-06-07 16:52:02,370 [main] INFO Opus - Bridge Username and password has entered sucessfully!
+2022-06-07 16:52:11,572 [main] INFO Opus - User Admin Role DocumentProcessor has selected Successfully!
+2022-06-07 16:52:14,103 [main] INFO Opus - Candidate First Name, Middle Name, Last Name and Email address have added successfully!
+2022-06-07 16:52:32,427 [main] INFO Opus - Bridge new case Candidate details have added successully!
+2022-06-07 16:52:32,495 [main] INFO Opus - Case detail has been saved successfully!
+2022-06-07 16:52:32,495 [main] INFO Opus - Bridge new case Candidate details have added successully!
+2022-06-07 16:52:45,082 [main] INFO Opus - British Telecom client Case has been Allocated Cases Successfully!
+2022-06-07 16:52:45,117 [main] INFO Opus - Case is successfully allocated to highlighter.!
+2022-06-07 16:52:45,117 [main] INFO Opus - British Telecom client Case has been Allocated Cases Successfully!
+2022-06-07 16:52:58,617 [main] INFO Opus - Assign Cases with Ageing and selected Topsheet has successfully!
+2022-06-07 16:53:01,552 [main] INFO Opus - Highlighter Add Details have added sucessfully!
+2022-06-07 16:53:02,326 [main] INFO Opus - Topsheet is successfully created. You can now proceed with checks creation for the given candidate.!
+2022-06-07 16:53:02,327 [main] INFO Opus - Highlighter Add Details have added sucessfully!
+2022-06-07 16:53:11,637 [main] INFO Opus - Select Company name and clicked on count number Successfully from Documentation Specialist Role!
+2022-06-07 16:53:37,769 [main] INFO Opus - Documentation Specialist Pending Cases has been Updated successfully!
+2022-06-07 16:53:46,553 [main] INFO Opus - Documentation Specialist Candidate details have been added successfully!
+2022-06-07 16:54:01,098 [main] INFO Opus - Documentation Specialist All Checks filled successfully...
+2022-06-07 16:54:01,196 [main] INFO Opus - Check details are successfully saved. Case is Completed.!
+2022-06-07 16:54:01,197 [main] INFO Opus - Documentation Specialist All Checks filled successfully...
+2022-06-07 16:54:45,228 [main] INFO Opus - Select Docs Qc Allocator has Successfully!
+2022-06-07 16:54:45,263 [main] INFO Opus - All selected cases were successfully allocated to QC Team Member.!
+2022-06-07 16:54:45,264 [main] INFO Opus - Select Docs Qc Allocator has Successfully!
+2022-06-07 16:54:57,844 [main] INFO Opus - Case QC Review Ars Number has verified successfully!
+2022-06-07 16:55:14,501 [main] INFO Opus - The Case was successfully released for Verification.!
+2022-06-07 16:55:14,501 [main] INFO Opus - Case QC Review Ars Number has verified successfully!
+2022-06-07 16:55:29,325 [main] INFO Opus - Check id is Released, DueTo, Already released to vendor..!
+2022-06-07 16:55:29,716 [main] INFO Opus - OPus Url is opened Successfully!
+2022-06-07 16:55:35,555 [main] INFO Opus - Opus Admin Username and password has entered sucessfully!
+2022-06-07 16:55:35,607 [main] INFO Opus - Opus Vendor account has logged successfully.!
+2022-06-07 16:55:42,253 [main] INFO Opus - Approve mapping has done successfully!
+2022-06-07 16:55:42,305 [main] INFO Opus - Vendor New Load Count number have verified successfully!
+2022-06-07 16:55:42,773 [main] INFO Opus - Opus Admin account has Logout successfully!
+2022-06-07 16:55:42,915 [main] INFO Opus - OPus Url is opened Successfully!
+2022-06-07 16:55:47,683 [main] INFO Opus - Opus vendor Account has Logged Successfully!
+2022-06-07 16:55:47,732 [main] INFO Opus - Opus Vendor account has logged successfully.!
+2022-06-07 16:55:55,064 [main] INFO Opus - Address check have accepted and assign activity successfully!
+2022-06-07 17:05:00,997 [main] INFO Opus - Bridge Url is opened Successfully!
+2022-06-07 17:05:02,434 [main] INFO Opus - Bridge Username and password has entered sucessfully!
+2022-06-07 17:05:13,016 [main] INFO Opus - Bridge Client has logged Successfully!
+2022-06-07 17:05:13,016 [main] INFO Opus - Bridge Username and password has entered sucessfully!
+2022-06-07 17:05:38,495 [main] INFO Opus - User Admin Role DocumentProcessor has selected Successfully!
+2022-06-07 17:05:41,045 [main] INFO Opus - Candidate First Name, Middle Name, Last Name and Email address have added successfully!
+2022-06-07 17:06:01,339 [main] INFO Opus - Bridge new case Candidate details have added successully!
+2022-06-07 17:06:01,398 [main] INFO Opus - Case detail has been saved successfully!
+2022-06-07 17:06:01,398 [main] INFO Opus - Bridge new case Candidate details have added successully!
+2022-06-07 17:06:24,903 [main] INFO Opus - British Telecom client Case has been Allocated Cases Successfully!
+2022-06-07 17:06:24,934 [main] INFO Opus - Case is successfully allocated to highlighter.!
+2022-06-07 17:06:24,934 [main] INFO Opus - British Telecom client Case has been Allocated Cases Successfully!
+2022-06-07 17:06:48,752 [main] INFO Opus - Assign Cases with Ageing and selected Topsheet has successfully!
+2022-06-07 17:06:51,712 [main] INFO Opus - Highlighter Add Details have added sucessfully!
+2022-06-07 17:06:53,506 [main] INFO Opus - Topsheet is successfully created. You can now proceed with checks creation for the given candidate.!
+2022-06-07 17:06:53,507 [main] INFO Opus - Highlighter Add Details have added sucessfully!
+2022-06-07 17:07:18,932 [main] INFO Opus - Select Company name and clicked on count number Successfully from Documentation Specialist Role!
+2022-06-07 17:08:11,523 [main] INFO Opus - Documentation Specialist Pending Cases has been Updated successfully!
+2022-06-07 17:08:30,514 [main] INFO Opus - Documentation Specialist Candidate details have been added successfully!
+2022-06-07 17:08:51,982 [main] INFO Opus - Documentation Specialist All Checks filled successfully...
+2022-06-07 17:08:52,078 [main] INFO Opus - Check details are successfully saved. Case is Completed.!
+2022-06-07 17:08:52,079 [main] INFO Opus - Documentation Specialist All Checks filled successfully...
+2022-06-07 17:10:02,865 [main] INFO Opus - Select Docs Qc Allocator has Successfully!
+2022-06-07 17:10:02,898 [main] INFO Opus - All selected cases were successfully allocated to QC Team Member.!
+2022-06-07 17:10:02,899 [main] INFO Opus - Select Docs Qc Allocator has Successfully!
+2022-06-07 17:18:56,735 [main] INFO Opus - Bridge Url is opened Successfully!
+2022-06-07 17:18:58,128 [main] INFO Opus - Bridge Username and password has entered sucessfully!
+2022-06-07 17:19:05,542 [main] INFO Opus - Bridge Client has logged Successfully!
+2022-06-07 17:19:05,542 [main] INFO Opus - Bridge Username and password has entered sucessfully!
+2022-06-07 17:19:17,732 [main] INFO Opus - User Admin Role DocumentProcessor has selected Successfully!
+2022-06-07 17:19:20,269 [main] INFO Opus - Candidate First Name, Middle Name, Last Name and Email address have added successfully!
+2022-06-07 17:19:38,322 [main] INFO Opus - Bridge new case Candidate details have added successully!
+2022-06-07 17:19:38,390 [main] INFO Opus - Case detail has been saved successfully!
+2022-06-07 17:19:38,391 [main] INFO Opus - Bridge new case Candidate details have added successully!
+2022-06-07 17:19:51,681 [main] INFO Opus - British Telecom client Case has been Allocated Cases Successfully!
+2022-06-07 17:19:51,715 [main] INFO Opus - Case is successfully allocated to highlighter.!
+2022-06-07 17:19:51,715 [main] INFO Opus - British Telecom client Case has been Allocated Cases Successfully!
+2022-06-07 17:20:06,085 [main] INFO Opus - Assign Cases with Ageing and selected Topsheet has successfully!
+2022-06-07 17:20:09,186 [main] INFO Opus - Highlighter Add Details have added sucessfully!
+2022-06-07 17:20:13,851 [main] INFO Opus - Topsheet is successfully created. You can now proceed with checks creation for the given candidate.!
+2022-06-07 17:20:13,852 [main] INFO Opus - Highlighter Add Details have added sucessfully!
+2022-06-07 17:20:24,023 [main] INFO Opus - Select Company name and clicked on count number Successfully from Documentation Specialist Role!
+2022-06-07 17:20:50,885 [main] INFO Opus - Documentation Specialist Pending Cases has been Updated successfully!
+2022-06-07 17:20:58,914 [main] INFO Opus - Documentation Specialist Candidate details have been added successfully!
+2022-06-07 17:21:13,333 [main] INFO Opus - Documentation Specialist All Checks filled successfully...
+2022-06-07 17:21:13,436 [main] INFO Opus - Check details are successfully saved. Case is Completed.!
+2022-06-07 17:21:13,436 [main] INFO Opus - Documentation Specialist All Checks filled successfully...
+2022-06-07 17:21:59,811 [main] INFO Opus - Select Docs Qc Allocator has Successfully!
+2022-06-07 17:21:59,849 [main] INFO Opus - All selected cases were successfully allocated to QC Team Member.!
+2022-06-07 17:21:59,849 [main] INFO Opus - Select Docs Qc Allocator has Successfully!
+2022-06-07 17:22:13,675 [main] INFO Opus - Case QC Review Ars Number has verified successfully!
+2022-06-07 17:22:29,145 [main] INFO Opus - The Case was successfully released for Verification.!
+2022-06-07 17:22:29,145 [main] INFO Opus - Case QC Review Ars Number has verified successfully!
+2022-06-07 17:22:45,902 [main] INFO Opus - Check id is Released, DueTo, Already released to vendor..!
+2022-06-07 17:22:46,212 [main] INFO Opus - OPus Url is opened Successfully!
+2022-06-07 17:22:52,110 [main] INFO Opus - Opus Admin Username and password has entered sucessfully!
+2022-06-07 17:22:52,165 [main] INFO Opus - Opus Vendor account has logged successfully.!
+2022-06-07 17:22:57,344 [main] INFO Opus - Approve mapping has done successfully!
+2022-06-07 17:22:57,391 [main] INFO Opus - Vendor New Load Count number have verified successfully!
+2022-06-07 17:22:57,716 [main] INFO Opus - Opus Admin account has Logout successfully!
+2022-06-07 17:22:57,853 [main] INFO Opus - OPus Url is opened Successfully!
+2022-06-07 17:23:01,859 [main] INFO Opus - Opus vendor Account has Logged Successfully!
+2022-06-07 17:23:01,905 [main] INFO Opus - Opus Vendor account has logged successfully.!
+2022-06-07 17:23:08,937 [main] INFO Opus - Address check have accepted and assign activity successfully!
+2022-06-07 17:24:08,602 [main] INFO Opus - Vendor Check has updated successfully!
+2022-06-07 17:24:30,985 [main] INFO Opus - Verify Fe name has successfully!
+2022-06-07 17:34:31,716 [main] INFO Opus - Bridge Url is opened Successfully!
+2022-06-07 17:34:33,162 [main] INFO Opus - Bridge Username and password has entered sucessfully!
+2022-06-07 17:34:40,810 [main] INFO Opus - Bridge Client has logged Successfully!
+2022-06-07 17:34:40,810 [main] INFO Opus - Bridge Username and password has entered sucessfully!
+2022-06-07 17:34:50,877 [main] INFO Opus - User Admin Role DocumentProcessor has selected Successfully!
+2022-06-07 17:34:53,436 [main] INFO Opus - Candidate First Name, Middle Name, Last Name and Email address have added successfully!
+2022-06-07 17:35:11,614 [main] INFO Opus - Bridge new case Candidate details have added successully!
+2022-06-07 17:35:11,688 [main] INFO Opus - Case detail has been saved successfully!
+2022-06-07 17:35:11,691 [main] INFO Opus - Bridge new case Candidate details have added successully!
+2022-06-07 17:35:25,281 [main] INFO Opus - British Telecom client Case has been Allocated Cases Successfully!
+2022-06-07 17:35:25,313 [main] INFO Opus - Case is successfully allocated to highlighter.!
+2022-06-07 17:35:25,313 [main] INFO Opus - British Telecom client Case has been Allocated Cases Successfully!
+2022-06-07 17:35:41,475 [main] INFO Opus - Assign Cases with Ageing and selected Topsheet has successfully!
+2022-06-07 17:35:44,444 [main] INFO Opus - Highlighter Add Details have added sucessfully!
+2022-06-07 17:35:47,329 [main] INFO Opus - Topsheet is successfully created. You can now proceed with checks creation for the given candidate.!
+2022-06-07 17:35:47,329 [main] INFO Opus - Highlighter Add Details have added sucessfully!
+2022-06-07 17:36:04,268 [main] INFO Opus - Select Company name and clicked on count number Successfully from Documentation Specialist Role!
+2022-06-07 17:36:32,617 [main] INFO Opus - Documentation Specialist Pending Cases has been Updated successfully!
+2022-06-07 17:36:40,982 [main] INFO Opus - Documentation Specialist Candidate details have been added successfully!
+2022-06-07 17:36:58,048 [main] INFO Opus - Documentation Specialist All Checks filled successfully...
+2022-06-07 17:36:58,145 [main] INFO Opus - Check details are successfully saved. Case is Completed.!
+2022-06-07 17:36:58,145 [main] INFO Opus - Documentation Specialist All Checks filled successfully...
+2022-06-07 17:37:46,198 [main] INFO Opus - Select Docs Qc Allocator has Successfully!
+2022-06-07 17:37:46,230 [main] INFO Opus - All selected cases were successfully allocated to QC Team Member.!
+2022-06-07 17:37:46,231 [main] INFO Opus - Select Docs Qc Allocator has Successfully!
+2022-06-07 17:38:01,977 [main] INFO Opus - Case QC Review Ars Number has verified successfully!
+2022-06-07 17:38:20,840 [main] INFO Opus - The Case was successfully released for Verification.!
+2022-06-07 17:38:20,840 [main] INFO Opus - Case QC Review Ars Number has verified successfully!
+2022-06-07 17:38:36,314 [main] INFO Opus - Check id is Released, DueTo, Already released to vendor..!

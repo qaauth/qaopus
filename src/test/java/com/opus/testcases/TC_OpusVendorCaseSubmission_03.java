@@ -1,12 +1,15 @@
 package com.opus.testcases;
 
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.opus.pageobject.BridgeLoginPage;
 import com.opus.pageobject.OpusApproveMapping;
+import com.opus.pageobject.Re_AssignCheck;
 
 public class TC_OpusVendorCaseSubmission_03 extends BaseClass {
 	// Verify Vendor Account Login Details
@@ -47,7 +50,25 @@ public class TC_OpusVendorCaseSubmission_03 extends BaseClass {
 			Assert.assertTrue(false);
 		}
 	}
+	
+	// FE i.e vishakha Rana which has been assigned to the check , now some other field executive would be assigned on the check
+	// Verify Update Check Details
+			/*@Test(enabled = true, testName = "Verify Update Check Details", priority = 6, dependsOnMethods = {
+					"VerifyAssigningCheckToFieldExecutive" })
+			public void verifyUpdateCheckDetails() throws InterruptedException, IOException {
+				Re_AssignCheck vendorAddressCheck = new Re_AssignCheck(driver);
+				vendorAddressCheck.vendorAddressCheckUpdate();
+				logger.info("Vendor Check has updated successfully!");
+				vendorAddressCheck.verifyCheckIdAndFeName();
+				logger.info("Verify Fe name has successfully!");
+				String ActualFeName = new String(Files.readAllBytes(Paths.get("CheckFeName.txt")));
+				String ExpectedFeName = "Testing User";
+				Assert.assertEquals(ExpectedFeName, ActualFeName);
+			}*/
 
+	
+	
+	
 	// Verify Update Check Details
 	@Test(enabled = true, testName = "Verify Update Check Details", priority = 3, dependsOnMethods = {
 			"VerifyAssigningCheckToFieldExecutive" })

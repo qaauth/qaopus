@@ -78,4 +78,15 @@ public class ReadConfig {
 		String vendorPassword = pro.getProperty("vendorPassword");
 		return vendorPassword;
 	}
+	
+	// To read each and every value from Cat role for bridge Login--Raju Yadav
+		public String getSuperUserCatUsername() {
+			String catRoleUsername = pro.getProperty("catRoleUsername");
+			return catRoleUsername;
+		}
+
+		public String getSuperUserCatPassword() {
+			String catRolePassword = pro.getProperty("catRolePassword");
+			return catRolePassword;
+		}
 }

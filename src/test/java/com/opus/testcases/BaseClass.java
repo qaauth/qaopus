@@ -36,6 +36,10 @@ public class BaseClass {
 	public String vendorUsername = readconfig.getVendorUsername();
 	public String vendorPassword = readconfig.getVendorPassword();
 
+	// iBridge Cat Login Details
+	public String catRoleUsername = readconfig.getSuperUserCatUsername();
+	public String catRolePassword = readconfig.getSuperUserCatPassword();
+	
 	public static WebDriver driver;
 	public static Logger logger;
 	

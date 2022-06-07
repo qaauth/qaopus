@@ -514,7 +514,6 @@ public class OpusApproveMapping {
 		JavaScriptManuplator.javaScriptExecutor(checkAllCheckboxOfCheckId, "arguments[0].click()", ldriver);
 		Thread.sleep(1000);
 		JavaScriptManuplator.javaScriptExecutor(clickOnAcceptAssignBtn, "arguments[0].click()", ldriver);
-		;
 		Thread.sleep(2000);
 		// Sure! You want to allocate these checks to `Vishakha Rana` .??
 		ldriver.switchTo().alert().accept();

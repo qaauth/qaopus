@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Opus" duration-ms="219324" started-at="2022-06-06T11:28:16Z" finished-at="2022-06-06T11:31:55Z">
+  <suite name="Opus" duration-ms="248966" started-at="2022-06-07T12:04:27Z" finished-at="2022-06-07T12:08:36Z">
     <groups>
     </groups>
-    <test name="Opus1" duration-ms="219324" started-at="2022-06-06T11:28:16Z" finished-at="2022-06-06T11:31:55Z">
-      <class name="com.opus.testcases.TC_CaseInitiation_01">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.opus.testcases.TC_CaseInitiation_01@246ae04d]" name="setup" is-config="true" duration-ms="3840" started-at="2022-06-06T11:28:16Z" finished-at="2022-06-06T11:28:20Z">
+    <test name="Opus13" duration-ms="248966" started-at="2022-06-07T12:04:27Z" finished-at="2022-06-07T12:08:36Z">
+      <class name="com.opus.testcases.TC_OpusOnHoldCheck_11">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.opus.testcases.TC_OpusOnHoldCheck_11@1324409e]" name="setup" is-config="true" duration-ms="3668" started-at="2022-06-07T12:04:27Z" finished-at="2022-06-07T12:04:31Z">
           <params>
             <param index="0">
               <value>
@@ -18,43 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="bridgeLoginTest()[pri:1, instance:com.opus.testcases.TC_CaseInitiation_01@246ae04d]" name="bridgeLoginTest" duration-ms="9366" started-at="2022-06-06T11:28:20Z" finished-at="2022-06-06T11:28:29Z">
+        <test-method status="PASS" signature="verifyBridgeCaseInitiation()[pri:1, instance:com.opus.testcases.TC_OpusOnHoldCheck_11@1324409e]" name="verifyBridgeCaseInitiation" duration-ms="244996" started-at="2022-06-07T12:04:31Z" finished-at="2022-06-07T12:08:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- bridgeLoginTest -->
-        <test-method status="PASS" signature="bridgeCaseAddDetails()[pri:2, instance:com.opus.testcases.TC_CaseInitiation_01@246ae04d]" name="bridgeCaseAddDetails" duration-ms="29722" started-at="2022-06-06T11:28:29Z" depends-on-methods="com.opus.testcases.TC_CaseInitiation_01.bridgeLoginTest" finished-at="2022-06-06T11:28:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bridgeCaseAddDetails -->
-        <test-method status="PASS" signature="verifyAdminUserRoleHighlighterAllocator()[pri:3, instance:com.opus.testcases.TC_CaseInitiation_01@246ae04d]" name="verifyAdminUserRoleHighlighterAllocator" duration-ms="13036" started-at="2022-06-06T11:28:59Z" depends-on-methods="com.opus.testcases.TC_CaseInitiation_01.bridgeCaseAddDetails" finished-at="2022-06-06T11:29:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAdminUserRoleHighlighterAllocator -->
-        <test-method status="PASS" signature="verifyUserAdminRoleHighlighter()[pri:4, instance:com.opus.testcases.TC_CaseInitiation_01@246ae04d]" name="verifyUserAdminRoleHighlighter" duration-ms="18547" started-at="2022-06-06T11:29:12Z" depends-on-methods="com.opus.testcases.TC_CaseInitiation_01.verifyAdminUserRoleHighlighterAllocator" finished-at="2022-06-06T11:29:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUserAdminRoleHighlighter -->
-        <test-method status="PASS" signature="verifyUserAdminRoleDocumentationSpecialist()[pri:5, instance:com.opus.testcases.TC_CaseInitiation_01@246ae04d]" name="verifyUserAdminRoleDocumentationSpecialist" duration-ms="61987" started-at="2022-06-06T11:29:30Z" depends-on-methods="com.opus.testcases.TC_CaseInitiation_01.verifyUserAdminRoleHighlighter" finished-at="2022-06-06T11:30:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUserAdminRoleDocumentationSpecialist -->
-        <test-method status="PASS" signature="verifyInsufficientDocsQcAllocator()[pri:6, instance:com.opus.testcases.TC_CaseInitiation_01@246ae04d]" name="verifyInsufficientDocsQcAllocator" duration-ms="43060" started-at="2022-06-06T11:30:32Z" depends-on-methods="com.opus.testcases.TC_CaseInitiation_01.verifyUserAdminRoleDocumentationSpecialist" finished-at="2022-06-06T11:31:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyInsufficientDocsQcAllocator -->
-        <test-method status="PASS" signature="verifyInsufficientDocsQuality()[pri:7, instance:com.opus.testcases.TC_CaseInitiation_01@246ae04d]" name="verifyInsufficientDocsQuality" duration-ms="25749" started-at="2022-06-06T11:31:15Z" depends-on-methods="com.opus.testcases.TC_CaseInitiation_01.verifyInsufficientDocsQcAllocator" finished-at="2022-06-06T11:31:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyInsufficientDocsQuality -->
-        <test-method status="PASS" signature="verifyInsufficientAllocator()[pri:8, instance:com.opus.testcases.TC_CaseInitiation_01@246ae04d]" name="verifyInsufficientAllocator" duration-ms="13675" started-at="2022-06-06T11:31:41Z" depends-on-methods="com.opus.testcases.TC_CaseInitiation_01.verifyInsufficientDocsQuality" finished-at="2022-06-06T11:31:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyInsufficientAllocator -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.opus.testcases.TC_CaseInitiation_01@246ae04d]" name="tearDown" is-config="true" duration-ms="114" started-at="2022-06-06T11:31:55Z" finished-at="2022-06-06T11:31:55Z">
+        </test-method> <!-- verifyBridgeCaseInitiation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.opus.testcases.TC_OpusOnHoldCheck_11@1324409e]" name="tearDown" is-config="true" duration-ms="98" started-at="2022-06-07T12:08:36Z" finished-at="2022-06-07T12:08:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.opus.testcases.TC_CaseInitiation_01 -->
-    </test> <!-- Opus1 -->
+      </class> <!-- com.opus.testcases.TC_OpusOnHoldCheck_11 -->
+    </test> <!-- Opus13 -->
   </suite> <!-- Opus -->
 </testng-results>

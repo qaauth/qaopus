@@ -1,13 +1,17 @@
 /home/raju.yadav/eclipse-workspace/Opus/src/test/java/com/opus/utilities/JavaScriptManuplator.java
 /home/raju.yadav/eclipse-workspace/Opus/src/test/java/com/opus/utilities/Reporting.java
+/home/raju.yadav/eclipse-workspace/Opus/src/test/java/com/opus/pageobject/OpusOnHoldCheck.java
 /home/raju.yadav/eclipse-workspace/Opus/src/test/java/com/opus/pageobject/BridgeCaseDetails.java
 /home/raju.yadav/eclipse-workspace/Opus/src/test/java/com/opus/pageobject/RaiseInsufficiency.java
 /home/raju.yadav/eclipse-workspace/Opus/src/test/java/com/opus/testcases/TC_OpusCheckApproval_04.java
 /home/raju.yadav/eclipse-workspace/Opus/src/test/java/com/opus/pageobject/OpusCityMapping.java
+/home/raju.yadav/eclipse-workspace/Opus/src/test/java/com/opus/testcases/TC_OpusOnHoldCheck_11.java
 /home/raju.yadav/eclipse-workspace/Opus/src/test/java/com/opus/testcases/TC_InsuffCheckReportGeneration_06.java
+/home/raju.yadav/eclipse-workspace/Opus/src/test/java/com/opus/pageobject/Re_AssignCheck.java
 /home/raju.yadav/eclipse-workspace/Opus/src/test/java/com/opus/testcases/TC_RaiseInsufficiency_05.java
 /home/raju.yadav/eclipse-workspace/Opus/src/test/java/com/opus/utilities/XLUtils.java
 /home/raju.yadav/eclipse-workspace/Opus/src/test/java/com/opus/testcases/TC_OpusCityMapping_07.java
+/home/raju.yadav/eclipse-workspace/Opus/src/test/java/com/opus/testcases/TC_Re_AssignCheck_10.java
 /home/raju.yadav/eclipse-workspace/Opus/src/test/java/com/opus/pageobject/OpusApproveMapping.java
 /home/raju.yadav/eclipse-workspace/Opus/src/test/java/com/opus/testcases/TC_OpusVendorCaseAllocation_02.java
 /home/raju.yadav/eclipse-workspace/Opus/src/test/java/com/opus/pageobject/BridgeLoginPage.java
