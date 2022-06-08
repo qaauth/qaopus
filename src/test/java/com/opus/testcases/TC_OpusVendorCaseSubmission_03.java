@@ -37,7 +37,7 @@ public class TC_OpusVendorCaseSubmission_03 extends BaseClass {
 		OpusApproveMapping vendorAddressCheck = new OpusApproveMapping(driver);
 		vendorAddressCheck.vendorAddressCheckAcceptAssign();
 		logger.info("Address check have accepted and assign activity successfully!");
-		Thread.sleep(2000);
+		Thread.sleep(20000);
 		String alertText = driver.switchTo().alert().getText();
 		if (alertText.contains("Success -: Check successfully assigned to Normal Vendor!")) {
 			Assert.assertTrue(true);
@@ -52,10 +52,10 @@ public class TC_OpusVendorCaseSubmission_03 extends BaseClass {
 	}
 	
 	// FE i.e vishakha Rana which has been assigned to the check , now some other field executive would be assigned on the check
-	// Verify Update Check Details
-			/*@Test(enabled = true, testName = "Verify Update Check Details", priority = 6, dependsOnMethods = {
+	/*// Verify Update Check Details
+		@Test(enabled = true, testName = "Verify Update Check Details", priority = 3, dependsOnMethods = {
 					"VerifyAssigningCheckToFieldExecutive" })
-			public void verifyUpdateCheckDetails() throws InterruptedException, IOException {
+			public void verifyReAssignFeName() throws InterruptedException, IOException {
 				Re_AssignCheck vendorAddressCheck = new Re_AssignCheck(driver);
 				vendorAddressCheck.vendorAddressCheckUpdate();
 				logger.info("Vendor Check has updated successfully!");
@@ -65,9 +65,6 @@ public class TC_OpusVendorCaseSubmission_03 extends BaseClass {
 				String ExpectedFeName = "Testing User";
 				Assert.assertEquals(ExpectedFeName, ActualFeName);
 			}*/
-
-	
-	
 	
 	// Verify Update Check Details
 	@Test(enabled = true, testName = "Verify Update Check Details", priority = 3, dependsOnMethods = {

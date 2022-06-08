@@ -4,19 +4,20 @@
   <listeners>
     <listener class-name="com.opus.utilities.Reporting"/>
   </listeners>
-  <test thread-count="1" verbose="0" name="Opus11(failed)">
+  <test thread-count="1" verbose="0" name="Opus3(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.opus.testcases.TC_OpusUniversityMapping_08">
+      <class name="com.opus.testcases.TC_OpusVendorCaseSubmission_03">
         <methods>
+          <include name="verifyMarkCheckAsSent"/>
           <include name="verifyVendorAccountLogin"/>
-          <include name="verifyBridgeCaseInitiation"/>
-          <include name="verifyAdminByCityMapping"/>
+          <include name="VerifyAssigningCheckToFieldExecutive"/>
+          <include name="verifyUpdateCheckDetails"/>
           <include name="setup"/>
-          <include name="verifySwitchToRoleAllocator"/>
+          <include name="verifyReAssignFeName"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.opus.testcases.TC_OpusUniversityMapping_08 -->
+      </class> <!-- com.opus.testcases.TC_OpusVendorCaseSubmission_03 -->
     </classes>
-  </test> <!-- Opus11(failed) -->
+  </test> <!-- Opus3(failed) -->
 </suite> <!-- Failed suite [Opus] -->
